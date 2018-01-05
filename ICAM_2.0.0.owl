@@ -1,0 +1,2066 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0</Import>
+    <Import>http://www.semanticweb.org/tom/ontologies/2017/7/AM_machines2</Import>
+    <Import>http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate</Import>
+    <Import>http://www.semanticweb.org/tom/ontologies/2017/5/design</Import>
+    <Import>http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL</Import>
+    <Declaration>
+        <Class IRI="#sacrificial_thermal_dissipation_feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#polymer_form_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#electronic_component_printing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#macro-scale_manufacturing_capabiliyt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hierarchical_complexity_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#control_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hollow_cavity_without_escape_hole_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#metal_form_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#computer_controlled_manufacturing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#single_material_form_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pocket_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#desktop_manufacturing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#un-stacked_three_dimensional_closed_cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#three_dimensional_open__cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#counterbore_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#atomic_diffusion_additive_manufacturing_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#low_tooling_cost_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sacrificial_feature_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bi-stable_structure_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#artifact_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#through_hole_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#low_skilll_manufacturing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#functional_complexity_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#complex_curved_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#overhang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#closed_cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eos_p770_machine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#basic_feature_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#countersink_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#convex_curve"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#manufacturing_support_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#biomimetic_form_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#non-interwoven_three_dimensional_closed_cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unstructured_three_dimensional_closed_cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Functional_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#channel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#concave_curved_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#multiple_material_form_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#magnet-polymer_form_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#micro-scale_manufacturing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tissue_printing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chamfer_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#closed_lattice_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#feature_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unstructured_two_dimensional_closed_cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unstructured_two_dimensional_open__cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#embedded_mechanism_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#eosp396Machine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scale_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#layer_by_layer_building_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#three_dimensional_closed_cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hollow_cavity_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eos_p110_machine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#internal_channel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#form_size_scale_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#surface_channel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ceramic_form_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hybrid_manufacturing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#angled_overhang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#overhang_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pre-assembled_form_manufacturing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#working_volume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#entity_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#structured_two_dimensional_open__cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_performed_by"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#contextual_process_realization_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quality_control_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#optomec_LENS_oa_hybrid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eos_p800_machine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alloying_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sacrificial_feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hollow_cavity_with_escape_hole_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#assembly_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#additive_form_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#structured_three_dimensional_closed_cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fabrication_method_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#open_cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hole_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#process_accessibility_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#distributed_manufacturing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#open_lattice_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#electronics_printing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#step_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#&apos;hybrid_manufacturing_machine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#two_dimensional_open__cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sacrificial_support"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stacked_three_dimensional_closed_cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#structured_three_dimensional_open__cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#slot_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unstructured_three_dimensional_open__cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shape-complexity_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#design_for_additive_manufacturing_process"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_capability_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tooling_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Additive_manufacturing_scale_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fabricate_from_imaging_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mass_customization_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#functional_grading_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cylindrical_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#meso-scale_manufacturing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#channel_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#low_cost_complexity_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#structured_two_dimensional_closed_cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nano-scale_manufacturing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#internal_channel_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cell_printing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#open_foam_open__cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_related_service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#electrical_trace_printing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rapid_prototyping_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shape_memory_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#blind_hole_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#product_development_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#composite_printing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interwoven_three_dimensional_closed_cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hermetic_sealing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#optomec_lens_850R"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#biological_form_manufacturing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#two_dimensional_closed_cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rounded_overhang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lattice_structure_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Functional_model"/>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#descriptive_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#flow"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalShape"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#product_development_process"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Additive_manufacturing_scale_capability"/>
+        <Class IRI="#fabrication_method_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#additive_form_creation_capability"/>
+        <Class IRI="#entity_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alloying_capability"/>
+        <Class IRI="#multiple_material_form_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#angled_overhang"/>
+        <Class IRI="#overhang"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#artifact_fabrication_capability"/>
+        <Class IRI="#entity_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#assembly_process"/>
+        <Class IRI="#manufacturing_support_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#atomic_diffusion_additive_manufacturing_process"/>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#DirectedEnergyDeposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#basic_feature_creation_capability"/>
+        <Class IRI="#feature_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bi-stable_structure_capability"/>
+        <Class IRI="#artifact_fabrication_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bi-stable_structure_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#functional_complexity_capability"/>
+                <Class IRI="#hierarchical_complexity_capability"/>
+                <Class IRI="#shape-complexity_capability"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#biological_form_manufacturing_capability"/>
+        <Class IRI="#feature_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#biomimetic_form_creation_capability"/>
+        <Class IRI="#biological_form_manufacturing_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#biomimetic_form_creation_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+            <Class IRI="#hierarchical_complexity_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#biomimetic_form_creation_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+            <Class IRI="#shape-complexity_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blind_hole_fabrication_capability"/>
+        <Class IRI="#hole_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cell_printing_capability"/>
+        <Class IRI="#biological_form_manufacturing_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cellular_form"/>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ceramic_form_fabrication_capability"/>
+        <Class IRI="#single_material_form_fabrication_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chamfer_creation_capability"/>
+        <Class IRI="#basic_feature_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#channel"/>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#channel_fabrication_capability"/>
+        <Class IRI="#basic_feature_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#closed_cellular_form"/>
+        <Class IRI="#cellular_form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#closed_lattice_fabrication_capability"/>
+        <Class IRI="#lattice_structure_fabrication_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#complex_curved_form"/>
+        <Class IRI="#profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#composite_printing_capability"/>
+        <Class IRI="#multiple_material_form_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#computer_controlled_manufacturing_capability"/>
+        <Class IRI="#control_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#concave_curved_form"/>
+        <Class IRI="#profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#contextual_process_realization_capability"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#control_capability"/>
+        <Class IRI="#fabrication_method_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#convex_curve"/>
+        <Class IRI="#profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#counterbore_creation_capability"/>
+        <Class IRI="#basic_feature_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#countersink_creation_capability"/>
+        <Class IRI="#basic_feature_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cylindrical_form"/>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#design_for_additive_manufacturing_process"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#desktop_manufacturing_capability"/>
+        <Class IRI="#process_accessibility_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#distributed_manufacturing_capability"/>
+        <Class IRI="#process_accessibility_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#distributed_manufacturing_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+            <Class IRI="#computer_controlled_manufacturing_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#distributed_manufacturing_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+            <Class IRI="#low_skilll_manufacturing_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#electrical_trace_printing_capability"/>
+        <Class IRI="#electronics_printing_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#electronic_component_printing_capability"/>
+        <Class IRI="#electronics_printing_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#electronics_printing_capability"/>
+        <Class IRI="#artifact_fabrication_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#embedded_mechanism_capability"/>
+        <Class IRI="#artifact_fabrication_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#embedded_mechanism_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://www.owl-ontologies.com/Ontology1236208666.owl#RapidPrototyping"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                    <ObjectIntersectionOf>
+                        <Class IRI="http://www.owl-ontologies.com/MSDL_full#assembly"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
+                            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
+                        </ObjectSomeValuesFrom>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#embedded_mechanism_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+            <Class IRI="#layer_by_layer_building_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#entity_creation_capability"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#entity_creation_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://www.owl-ontologies.com/MSDL_full#MfgProcess"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                    <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eos_p110_machine"/>
+        <Class IRI="#eos_P-series_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eos_p770_machine"/>
+        <Class IRI="#eos_P-series_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eos_p800_machine"/>
+        <Class IRI="#eos_P-series_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fabricate_from_imaging_capability"/>
+        <Class IRI="#control_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fabrication_method_capability"/>
+        <Class IRI="#entity_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#feature_creation_capability"/>
+        <Class IRI="#entity_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#form_size_scale_capability"/>
+        <Class IRI="#additive_form_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#functional_complexity_capability"/>
+        <Class IRI="#artifact_fabrication_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#functional_complexity_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://www.owl-ontologies.com/Ontology1236208666.owl#RapidPrototyping"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                    <ObjectIntersectionOf>
+                        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+                        <ObjectMinCardinality cardinality="2">
+                            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
+                            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
+                        </ObjectMinCardinality>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#functional_complexity_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+            <Class IRI="#computer_controlled_manufacturing_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#functional_complexity_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+            <Class IRI="#layer_by_layer_building_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#functional_grading_capability"/>
+        <Class IRI="#additive_form_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#functional_grading_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+            <Class IRI="#multiple_material_form_creation_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hermetic_sealing_capability"/>
+        <Class IRI="#artifact_fabrication_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hermetic_sealing_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+            <Class IRI="#layer_by_layer_building_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hierarchical_complexity_capability"/>
+        <Class IRI="#additive_form_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hierarchical_complexity_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+            <Class IRI="#computer_controlled_manufacturing_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hierarchical_complexity_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+            <Class IRI="#layer_by_layer_building_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hierarchical_complexity_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+            <Class IRI="#meso-scale_manufacturing_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hole_creation_capability"/>
+        <Class IRI="#basic_feature_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hollow_cavity_fabrication_capability"/>
+        <Class IRI="#basic_feature_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hollow_cavity_with_escape_hole_fabrication_capability"/>
+        <Class IRI="#hollow_cavity_fabrication_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hollow_cavity_without_escape_hole_fabrication_capability"/>
+        <Class IRI="#hollow_cavity_fabrication_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hybrid_manufacturing_capability"/>
+        <Class IRI="#process_accessibility_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#internal_channel"/>
+        <Class IRI="#channel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#internal_channel_fabrication_capability"/>
+        <Class IRI="#basic_feature_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interwoven_three_dimensional_closed_cellular_form"/>
+        <Class IRI="#stacked_three_dimensional_closed_cellular_form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lattice_structure_fabrication_capability"/>
+        <Class IRI="#additive_form_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#layer_by_layer_building_capability"/>
+        <Class IRI="#fabrication_method_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#low_cost_complexity_capability"/>
+        <Class IRI="#Additive_manufacturing_scale_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#low_skilll_manufacturing_capability"/>
+        <Class IRI="#process_accessibility_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#low_tooling_cost_capability"/>
+        <Class IRI="#Additive_manufacturing_scale_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#low_tooling_cost_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+            <Class IRI="#computer_controlled_manufacturing_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#low_tooling_cost_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+            <Class IRI="#low_skilll_manufacturing_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#macro-scale_manufacturing_capabiliyt"/>
+        <Class IRI="#form_size_scale_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#magnet-polymer_form_creation_capability"/>
+        <Class IRI="#multiple_material_form_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#manufacturing_support_process"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#MfgProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mass_customization_capability"/>
+        <Class IRI="#Additive_manufacturing_scale_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mass_customization_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://www.owl-ontologies.com/Ontology1236208666.owl#RapidPrototyping"/>
+                <ObjectMaxCardinality cardinality="1">
+                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                    <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+                </ObjectMaxCardinality>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mass_customization_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+            <Class IRI="#low_tooling_cost_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#meso-scale_manufacturing_capability"/>
+        <Class IRI="#form_size_scale_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#metal_form_fabrication_capability"/>
+        <Class IRI="#single_material_form_fabrication_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#micro-scale_manufacturing_capability"/>
+        <Class IRI="#form_size_scale_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#multiple_material_form_creation_capability"/>
+        <Class IRI="#additive_form_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nano-scale_manufacturing_capability"/>
+        <Class IRI="#form_size_scale_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non-interwoven_three_dimensional_closed_cellular_form"/>
+        <Class IRI="#stacked_three_dimensional_closed_cellular_form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#open_cellular_form"/>
+        <Class IRI="#cellular_form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#open_foam_open__cellular_form"/>
+        <Class IRI="#unstructured_three_dimensional_open__cellular_form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#open_lattice_fabrication_capability"/>
+        <Class IRI="#lattice_structure_fabrication_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#optomec_LENS_oa_hybrid"/>
+        <Class IRI="#&apos;hybrid_manufacturing_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#optomec_LENS_oa_hybrid"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
+            <Class IRI="#functional_grading_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#optomec_LENS_oa_hybrid"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
+            <Class IRI="#hybrid_manufacturing_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#optomec_lens_850R"/>
+        <Class IRI="#&apos;hybrid_manufacturing_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#optomec_lens_850R"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
+            <Class IRI="#functional_grading_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#optomec_lens_850R"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
+            <Class IRI="#hybrid_manufacturing_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overhang"/>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overhang_creation_capability"/>
+        <Class IRI="#basic_feature_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pocket_creation_capability"/>
+        <Class IRI="#basic_feature_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#polymer_form_fabrication_capability"/>
+        <Class IRI="#single_material_form_fabrication_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pre-assembled_form_manufacturing_capability"/>
+        <Class IRI="#artifact_fabrication_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pre-assembled_form_manufacturing_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#hierarchical_complexity_capability"/>
+                <Class IRI="#shape-complexity_capability"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#process_accessibility_capability"/>
+        <Class IRI="#contextual_process_realization_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#profile"/>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quality_control_process"/>
+        <Class IRI="#manufacturing_support_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rapid_prototyping_capability"/>
+        <Class IRI="#Additive_manufacturing_scale_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rapid_prototyping_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://www.owl-ontologies.com/Ontology1236208666.owl#RapidPrototyping"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                    <Class IRI="#prototype_role"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rapid_prototyping_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+            <Class IRI="#low_tooling_cost_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rounded_overhang"/>
+        <Class IRI="#overhang"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sacrificial_feature"/>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sacrificial_feature_creation_capability"/>
+        <Class IRI="#basic_feature_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sacrificial_support"/>
+        <Class IRI="#sacrificial_feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sacrificial_thermal_dissipation_feature"/>
+        <Class IRI="#sacrificial_feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scale_model"/>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#physical_model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shape-complexity_capability"/>
+        <Class IRI="#additive_form_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shape-complexity_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+            <Class IRI="#computer_controlled_manufacturing_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shape-complexity_capability"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+            <Class IRI="#layer_by_layer_building_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shape_memory_capability"/>
+        <Class IRI="#artifact_fabrication_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#single_material_form_fabrication_capability"/>
+        <Class IRI="#additive_form_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#slot_creation_capability"/>
+        <Class IRI="#basic_feature_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stacked_three_dimensional_closed_cellular_form"/>
+        <Class IRI="#structured_three_dimensional_closed_cellular_form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#step_creation_capability"/>
+        <Class IRI="#basic_feature_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#structured_three_dimensional_closed_cellular_form"/>
+        <Class IRI="#three_dimensional_closed_cellular_form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#structured_three_dimensional_open__cellular_form"/>
+        <Class IRI="#three_dimensional_open__cellular_form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#structured_two_dimensional_closed_cellular_form"/>
+        <Class IRI="#two_dimensional_closed_cellular_form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#structured_two_dimensional_open__cellular_form"/>
+        <Class IRI="#two_dimensional_open__cellular_form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#surface_channel"/>
+        <Class IRI="#channel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#three_dimensional_closed_cellular_form"/>
+        <Class IRI="#closed_cellular_form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#three_dimensional_open__cellular_form"/>
+        <Class IRI="#open_cellular_form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#through_hole_fabrication_capability"/>
+        <Class IRI="#hole_creation_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tissue_printing_capability"/>
+        <Class IRI="#biological_form_manufacturing_capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tooling_process"/>
+        <Class IRI="#manufacturing_support_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#two_dimensional_closed_cellular_form"/>
+        <Class IRI="#closed_cellular_form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#two_dimensional_open__cellular_form"/>
+        <Class IRI="#open_cellular_form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#un-stacked_three_dimensional_closed_cellular_form"/>
+        <Class IRI="#structured_three_dimensional_closed_cellular_form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unstructured_three_dimensional_closed_cellular_form"/>
+        <Class IRI="#three_dimensional_closed_cellular_form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unstructured_three_dimensional_open__cellular_form"/>
+        <Class IRI="#three_dimensional_open__cellular_form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unstructured_two_dimensional_closed_cellular_form"/>
+        <Class IRI="#two_dimensional_closed_cellular_form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unstructured_two_dimensional_open__cellular_form"/>
+        <Class IRI="#two_dimensional_open__cellular_form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wall"/>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#working_volume"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000028"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#&apos;hybrid_manufacturing_machine"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics#longitudinal_loading_plan"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics#loading_orientation_plan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#eosp396Machine"/>
+        <Class IRI="#eos_P-series_machine"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#interwoven_three_dimensional_closed_cellular_form"/>
+        <Class IRI="#non-interwoven_three_dimensional_closed_cellular_form"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#stacked_three_dimensional_closed_cellular_form"/>
+        <Class IRI="#un-stacked_three_dimensional_closed_cellular_form"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#structured_three_dimensional_closed_cellular_form"/>
+        <Class IRI="#unstructured_three_dimensional_closed_cellular_form"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#structured_three_dimensional_open__cellular_form"/>
+        <Class IRI="#unstructured_three_dimensional_open__cellular_form"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#structured_two_dimensional_closed_cellular_form"/>
+        <Class IRI="#unstructured_two_dimensional_closed_cellular_form"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#structured_two_dimensional_open__cellular_form"/>
+        <Class IRI="#unstructured_two_dimensional_open__cellular_form"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#three_dimensional_closed_cellular_form"/>
+        <Class IRI="#two_dimensional_closed_cellular_form"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#three_dimensional_open__cellular_form"/>
+        <Class IRI="#two_dimensional_open__cellular_form"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasComplementaryService"/>
+        <ObjectProperty IRI="#has_related_service"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasSupportingServices"/>
+        <ObjectProperty IRI="#has_related_service"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_related_service"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#has_related_process"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_capability_of"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#disposition_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_performed_by"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_subject_of"/>
+    </InverseObjectProperties>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Compact_function</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">compacting function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Functional_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">functional model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#compress_function</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">compressing function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#crush_function</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">crushing function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#deform_function</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">deforming function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#form_function</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">forming function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#pierce_function</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">piercing function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.owl-ontologies.com/MSDL_full#hasMatterState</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has matter state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.owl-ontologies.com/MSDL_full#scale_item</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A scale datum is a data item wherein values are constrained along some defined scale with a known minimum and a known maximum value, or labels which communicate a relative value scale between them.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.owl-ontologies.com/Ontology1236208666.owl#powder_morphology</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">powder morphology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#product</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">physical product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#product_development_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">product development process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#Additive_manufacturing_scale_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a manufacturing scale capabiilty is an internal manufacturing  capability that when realized, aids or results in the creation of some number of units of an artifact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Additive_manufacturing_scale_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">manufacturing scale capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#additive_form_creation_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">form fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#alloying_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an alloying capability is a multiple material form fabrication capability that when realized in a single process results in a form that consists of two or more metals that are intermingled at a microstructure scale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#alloying_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">alloying capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#angled_overhang</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">angled overhang</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#artifact_fabrication_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">artifact fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#assembly_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">assembly process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#atomic_diffusion_additive_manufacturing_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">atomic diffusion additive manufacturing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#basic_feature_creation_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a manufacturing feature fabrication capability is the a feature fabrication capability that when realized results in features that are fabricated using a specific reductive processes, or create identical features through some other process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#basic_feature_creation_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">manfacturing feature creation capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#bi-stable_structure_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a bi-stable structure fabrication capability is a artifact fabrication capability that, when realized, results in an artifact that has multiple stable configurations that can be realized under distinct loading scenarios</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bi-stable_structure_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">bi-stable artifact fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#biological_form_manufacturing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an embedded form capability wherein the realization of the capability during some processs results in a process ouput that has biologically active material embedded wtihin it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#biological_form_manufacturing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">biological feature fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#biomimetic_form_creation_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a form creation capability wherein the realization of the capability during some processs results in a process ouput that approximates naturalistic or evolutionarily derived geometry despite the artifacts designed origin.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#biomimetic_form_creation_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">biomimetic feature fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#blind_hole_fabrication_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">blind hole fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#cell_printing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a cell printing capabiltiy is a biological form manufacturing capabiltiy wherein the realization of the capability during some processs results in a process ouput that has cells as an embedded object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cell_printing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cell printing capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cellular_form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cellular form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ceramic_form_fabrication_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ceramic form fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#chamfer_creation_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">chamfer fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#closed_cellular_form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">closed cellular form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#closed_lattice_fabrication_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">closed lattice fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#composite_printing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a composite printing capabiltiy is an embedded object  manufacturing capabiltiy wherein the realization of the capability during some processs results in an artifact composed composed of a primary, matrix material, and a secondary fiber material that reinforces it. This combination is-a portion of laminated composite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#composite_printing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">composite printing capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#computer_controlled_manufacturing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a computer controlled manufacturing capability is a manufacturing process control capability that, when realized, allows its bearer to engage in a manufacturing process under teh control of a computer rather than an agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#computer_controlled_manufacturing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">computer controlled manufacturing capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#contextual_process_realization_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a contextual capability is a capability that when realized allows its bearer or the owner of said bearer to successfully complete a process under a specified set of circumstances affecting its participants or environment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#contextual_process_realization_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">contextual process realization capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#control_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a manufacturing process control capabilty is an internal manufacutring process capability that has to do with the way a machine&apos;s tool assemblies are given commands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#control_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">manufacturing process control capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#convex_curve</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">convex curved form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#counterbore_creation_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">counterbore fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#countersink_creation_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">countersink fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cylindrical_form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cylindrical form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#design_for_additive_manufacturing_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a design for additive manufacturing process is a desing process wherein the participating agents intentionally create designs that are intended to be manufactured using additive manufacturing technologies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#design_for_additive_manufacturing_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">design for additive manufacturing process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#desktop_manufacturing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">desktop manufacturing capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#distributed_manufacturing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">distributed manufacturing capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#electrical_trace_printing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">electrical trace printing capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#electronic_component_printing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">electronic component printing capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#electronics_printing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">electronic artifact fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#embedded_mechanism_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an embedded mechanism  capabiltiy is a embedeed object manufacturing capabiltiy wherein the realization of the capability during some processs results in an artifact that contains some assembly with a designed function natively present in its geometry as a result of the growth process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#embedded_mechanism_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mechanism fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#entity_creation_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a fabrication capability is a capability taht when realized allows an object or its owner to intentionally manipulate portions or material or other objects so as to create some specified artifact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#entity_creation_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#eos_p110_machine</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">eos p110 machine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#eos_p110_machine</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">eos p110 machine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#eos_p770_machine</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">eos p770 machine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#eos_p770_machine</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">eos p770 machine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#eos_p800_machine</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">eos p800 machine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#eos_p800_machine</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">eos p800 machine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#fabricate_from_imaging_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a fabrication from imaging capability is a manufacturing process control capability that, when realized, allows its bearer to fabricate a form based on 3-dimensional imaging data.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#fabricate_from_imaging_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fabrication from imaging capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#fabrication_method_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a fabrication method capabilty is a fabrication capability that when realized allows the bearer to fabricate an object by realizing a specified type of plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#feature_creation_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">feature fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#form_size_scale_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a size scale fabrication capability is a form fabrication capabiltyt hat when realized results in a form that has dimensions that reside in some length scale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#form_size_scale_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">size scale fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#functional_complexity_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a functional complexity capability is a artifat fabrication capability that, when realized, results individual artifacts that perform many functions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#functional_complexity_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">functionally complex artifact fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#functional_grading_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a functional graded form fabrication capability is a form fabrication capability that when realized results in a form that has intentionally varied material properties in different sub-parts of its geometry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#functional_grading_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">functional grading capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#hermetic_sealing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a hermetic sealing capability is an artifact fabrication capability that results in the creation of structures with internal voids that are completely sealed to the passage of material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hermetic_sealing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hermetically sealed artifact fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#hierarchical_complexity_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a hierarchically complex form fabrication capabiltiy is a form fabrication capabilty that when realized results in a form that has sub-structures existing at multiple length scales</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hierarchical_complexity_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hierarchically complex form fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hole_creation_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hole fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hollow_cavity_fabrication_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hollow cavity fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hollow_cavity_with_escape_hole_fabrication_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hollow cavity with escape hole fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hollow_cavity_without_escape_hole_fabrication_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hollow cavity without escape hole fabrication capabilty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hybrid_manufacturing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hybrid manufacturing capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#internal_channel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">internal channel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#internal_channel_fabrication_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">internal channel fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#interwoven_three_dimensional_closed_cellular_form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">interwoeven three dimensional closed cellular form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#is_capability_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is capability of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#is_performed_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is performed by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#lattice_structure_fabrication_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a cellular form fabrication capability is a form fabrication capabiltiy that when realized results in a form that has an alternating sections of material and a mixture of cavities and surface voids.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lattice_structure_fabrication_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cellular form fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#layer_by_layer_building_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a layer by layer fabrication capability is an internal process capability that when realized, allows a bearer to create a substantially fused, solid structure by forming sequential layers of cross sections that are bound in some way</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#layer_by_layer_building_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">layer by layer building capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#low_cost_complexity_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">low cost complexity capability is a manufacturing process output capability that, when realized in a manufacturing process, results in objects that have prices that are minimally affected by changes in some measure of complexity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#low_cost_complexity_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">low cost complexity capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#low_skilll_manufacturing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">low skill manufacturing capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#low_tooling_cost_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a low tooling cost capability is a manufacturing scale capability that denotes a bearers ability to create different objects while realizing relatively little cost due to reconfiguration of tools or machinery.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#low_tooling_cost_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">low tooling cost capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#macro-scale_manufacturing_capabiliyt</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a macro-scale form fabrication capability is a form fabrication capability that when realized results in a form having dimensions measured in size scales greater than or equal to centimeters.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#macro-scale_manufacturing_capabiliyt</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">macro-scale form fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#magnet-polymer_form_creation_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a magnet polymer form fabrication capability is a multiple material form fabrication capability that when realized results in a form that is composed of a mixture of a polymer and a substance that has the quality of magnetism.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#manufacturing_support_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">manufacturing support process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#mass_customization_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a mass customization capability is a capability that, when realized, results in a procses or set of processes that yields of many &quot;custom&quot; or unique objects in a manner that is advantageous in terms of some qualities of the object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mass_customization_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mass customization capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#meso-scale_manufacturing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a nanoscale form fabrication capability is a form fabrication capability that when realized results in a form that has dimensions that are in the hundreds, tens, or single milimeter range.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#meso-scale_manufacturing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">meso-scale form fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#metal_form_fabrication_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">metal form fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#micro-scale_manufacturing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a micro-scale form fabrication capability is a form fabrication capability that when realized results in a form that has dimensions in the hundreds, tens, or single micron range</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#micro-scale_manufacturing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">micro-scale form fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#multiple_material_form_creation_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a multiple material form fabrication capability is a form fabrication capability that when realized results in the fabrication of forms that are made of more than one material using a single process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#multiple_material_form_creation_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">multiple material form creation capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#nano-scale_manufacturing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a nanoscale form fabrication capability is a form fabrication capability that when realized results in a form that has dimensions that are in the hundreds, tens, or single nanometer range.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nano-scale_manufacturing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">nano-scale form fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#non-interwoven_three_dimensional_closed_cellular_form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">inter-woven three dimensional closed cellular form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#open_cellular_form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">open cellular form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#open_foam_open__cellular_form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">open foam open cellular form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#open_lattice_fabrication_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">open lattice fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#optomec_LENS_oa_hybrid</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Optomec LENS OA hybrid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#optomec_lens_850R</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Optomec LENS 850R</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#overhang_creation_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">overhang fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pocket_creation_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">pocket fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#polymer_form_fabrication_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">polymer form fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#pre-assembled_form_manufacturing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a pre-assembled artifaction fabrication capability is an artifact fabrication capability that when realized results in an artifact that, while composed of two or more sub-artifacts, requires no subsequent assembly process to realize its assembled form.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pre-assembled_form_manufacturing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">pre-assembled artifact fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#process_accessibility_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a manufacturing context capability is a manufacutring capabilty that when realized results in a process that can occur in a specific type of environment, ro have participants with certain qulaities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#process_accessibility_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">manufacturing contextual process realization capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#profile</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">profiled form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#quality_control_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">quality control process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#rapid_prototyping_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a rapid manufacture capability is a manufacturing scale capability that, when realized, leads to a process which can create some specified number of parts at a rate which comparatively faster than a set of competing processes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rapid_prototyping_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rapid prototyping capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rounded_overhang</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rounded overhang</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#sacrificial_feature</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a sacrificial feature is a manufacturing feature that is created to enable the construction of some desired form or feature of the part. Once the necessary manufacturing processes are completed the feature is removed or otherwise destroyed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sacrificial_feature</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sacrificial feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sacrificial_feature_creation_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sacrificial feature fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#sacrificial_support</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a sacrificial support is a sacrificial feature that has the function of providing mechanical support to some desirable features or forms of an artifact.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sacrificial_support</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sacrificial support feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#sacrificial_thermal_dissipation_feature</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a sacrificial thermal dissipation feature is a sacrificial feature that has the function of dissipating thermal energy built up during a manufacturing process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sacrificial_thermal_dissipation_feature</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sacrificial thermal dissipation feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#scale_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">scale model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#shape-complexity_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a complex shaped form fabrication capabilty is a form fabrication capability that when realized results in a form that has highly complex geometry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#shape-complexity_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">shape complexity capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#shape_memory_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a shape memory artifact capability is an artifact fabrication capability that when realized results in an artifact that exhibits &quot;shape memory&quot; the ability to spontaneously return to some preconfigured shape after deformation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#shape_memory_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">shape memory artifact fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#single_material_form_fabrication_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a single material form fabrication capability is a form fabrication capabilty that when realized results in a form made out of a single engineering material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#single_material_form_fabrication_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">single material form fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#slot_creation_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">slot fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#stacked_three_dimensional_closed_cellular_form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stacked three dimensional closed cellular form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#step_creation_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">step fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#structured_three_dimensional_closed_cellular_form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">structured three dimensional closed cellular form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#structured_three_dimensional_open__cellular_form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">structured three dimensional open cellular form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#structured_two_dimensional_closed_cellular_form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">structured two dimensional closed cellular form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#structured_two_dimensional_open__cellular_form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">structured two dimensional open cellular form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#surface_channel</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">surface channel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#three_dimensional_closed_cellular_form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">three dimensional closed cellular form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#three_dimensional_open__cellular_form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">three dimensional open cellular form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#through_hole_fabrication_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">through hole fabrication capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#tissue_printing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a cell printing capabiltiy is a biological form manufacturing capabiltiy wherein the realization of the capability during some processs results in a process ouput that has biological tissues as an embedded object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tissue_printing_capability</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tissue printing capability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tooling_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tooling process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#two_dimensional_closed_cellular_form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">two dimensional closed cellular form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#un-stacked_three_dimensional_closed_cellular_form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">unstacked three dimensional closed cellular form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#unstructured_three_dimensional_closed_cellular_form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">unstructured three dimensional closed cellular form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#unstructured_three_dimensional_open__cellular_form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">unstructured three dimensional open cellular form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#unstructured_two_dimensional_closed_cellular_form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">unstructured two dimensional closed cellular form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#unstructured_two_dimensional_open__cellular_form</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">unstructured two dimensional open cellular form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#working_volume</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">working volume</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#&apos;hybrid_manufacturing_machine</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a hybrid manufacturing machine is a manufacturing machine that compeltes  both additive and subtractive processes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#&apos;hybrid_manufacturing_machine</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hybrid manufacturing system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#eosp396Machine</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">eos p396 machine</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,836 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/tom/ontologies/2017/8/FDA"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/tom/ontologies/2017/8/FDA">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.semanticweb.org/tom/ontologies/2017/8/regulation</Import>
+    <Declaration>
+        <Class IRI="#Title_21_section_868_Anesthesiology_devices_regulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDA_Gastroenterology-urology_devices_classification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_referenced_by"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title_21_section_874_Ear,_nose,_and_throat_devices_regulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title_21_section_870_Cardiovascular_devices_regulation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Code_of_Federal_Regulations_Title_21"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title_21_section_862_Clinical_chemistry_and_clinical_toxicology_devices_regulation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FDA_template_for_clinical_use_classification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#secton_11-199_ASTM_F565-04"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDA_Cardiovascular_devices_classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDA_Dental_devices_classification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#classification_system_FDA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title_21_section_872_Dental_devices_regulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDA_Neurological_devices_classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title_21_section_866_Immunology_and_microbiology_devices_regulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDA_General_and_plastic_surgery_devices_classification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#requirement_resistance_determination"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#section_8-344_ISO_7153-1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title_21_section_876_Gastroenterology-urology_devices_regulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDA_Obstetrical_and_gynecological_devices_classification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#requirement_test_method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title_21_section_882_Neurological_devices_regulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title_21_section_878_General_and_plastic_surgery_devices_regulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#designative_code"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#standard_ISO_13402"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#classification_FDA_classification_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title_21_section_886_Ophthalmic_devices_regulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDA_Radiology_devices_classification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#regulation_888.4800"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FDA_ris_class_1_classification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_guidance_referenced_by"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#code_LXH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDA_Risk_Classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDA_classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDA_Orthopedic_devices_classification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#standard_ASTM-F1089-10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FDA_manual_surgical_instrument"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#standard_ASTM_F565-04"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FDA_ris_class_2_classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDA_Clinical_chemistry_and_clinical_toxicology_devices_classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title_21_section_880_General_hospital_and_personal_use_devices_regulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title_21_section_884_Obstetrical_and_gynecological_devices_regulation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#standard_ISO_7153-1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDA_classification_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDA_Anesthesiology_devices_classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDA_type_classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title_21_section_892_Radiology_devices_regulation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#section_11-226_ASTM_F1089-10"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title_21_section_864_Hematology_and_pathology_devices_regulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDA_Ear,_nose,_and_throat_devices_classification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FDA_ris_class_3_classification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#requirement_stainless_steel_materials"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title_21_section_888_Orthopedic_devices_regulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title_21_section_890_Physical_medicine_devices_regulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#United_States_Regulation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#section_11-83_ISO_13402"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDA_Hematology_and_pathology_devices_classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDA_Physical_medicine_devices_classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDA_Immunology_and_microbiology_devices_classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Code_of_Federal_Regulations_Title_21_regulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDA_General_hospital_and_personal_use_devices_classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FDA_Ophthalmic_devices_classification"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Code_of_Federal_Regulations_Title_21_regulation"/>
+        <Class IRI="#United_States_Regulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDA_Anesthesiology_devices_classification"/>
+        <Class IRI="#FDA_type_classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDA_Cardiovascular_devices_classification"/>
+        <Class IRI="#FDA_type_classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDA_Clinical_chemistry_and_clinical_toxicology_devices_classification"/>
+        <Class IRI="#FDA_type_classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDA_Dental_devices_classification"/>
+        <Class IRI="#FDA_type_classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDA_Gastroenterology-urology_devices_classification"/>
+        <Class IRI="#FDA_type_classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDA_General_and_plastic_surgery_devices_classification"/>
+        <Class IRI="#FDA_type_classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDA_General_hospital_and_personal_use_devices_classification"/>
+        <Class IRI="#FDA_type_classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDA_Hematology_and_pathology_devices_classification"/>
+        <Class IRI="#FDA_type_classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDA_Immunology_and_microbiology_devices_classification"/>
+        <Class IRI="#FDA_type_classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDA_Neurological_devices_classification"/>
+        <Class IRI="#FDA_type_classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDA_Obstetrical_and_gynecological_devices_classification"/>
+        <Class IRI="#FDA_type_classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDA_Ophthalmic_devices_classification"/>
+        <Class IRI="#FDA_type_classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDA_Orthopedic_devices_classification"/>
+        <Class IRI="#FDA_type_classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDA_Physical_medicine_devices_classification"/>
+        <Class IRI="#FDA_type_classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDA_Radiology_devices_classification"/>
+        <Class IRI="#FDA_type_classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDA_Risk_Classification"/>
+        <Class IRI="#FDA_classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDA_classification"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#regulatory_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDA_classification_system"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#medical_device_classification_system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDA_type_classification"/>
+        <Class IRI="#FDA_classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title_21_section_862_Clinical_chemistry_and_clinical_toxicology_devices_regulation"/>
+        <Class IRI="#Code_of_Federal_Regulations_Title_21_regulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title_21_section_864_Hematology_and_pathology_devices_regulation"/>
+        <Class IRI="#Code_of_Federal_Regulations_Title_21_regulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title_21_section_866_Immunology_and_microbiology_devices_regulation"/>
+        <Class IRI="#Code_of_Federal_Regulations_Title_21_regulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title_21_section_868_Anesthesiology_devices_regulation"/>
+        <Class IRI="#Code_of_Federal_Regulations_Title_21_regulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title_21_section_870_Cardiovascular_devices_regulation"/>
+        <Class IRI="#Code_of_Federal_Regulations_Title_21_regulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title_21_section_872_Dental_devices_regulation"/>
+        <Class IRI="#Code_of_Federal_Regulations_Title_21_regulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title_21_section_876_Gastroenterology-urology_devices_regulation"/>
+        <Class IRI="#Code_of_Federal_Regulations_Title_21_regulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title_21_section_878_General_and_plastic_surgery_devices_regulation"/>
+        <Class IRI="#Code_of_Federal_Regulations_Title_21_regulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title_21_section_880_General_hospital_and_personal_use_devices_regulation"/>
+        <Class IRI="#Code_of_Federal_Regulations_Title_21_regulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title_21_section_882_Neurological_devices_regulation"/>
+        <Class IRI="#Code_of_Federal_Regulations_Title_21_regulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title_21_section_884_Obstetrical_and_gynecological_devices_regulation"/>
+        <Class IRI="#Code_of_Federal_Regulations_Title_21_regulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title_21_section_886_Ophthalmic_devices_regulation"/>
+        <Class IRI="#Code_of_Federal_Regulations_Title_21_regulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title_21_section_888_Orthopedic_devices_regulation"/>
+        <Class IRI="#Code_of_Federal_Regulations_Title_21_regulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title_21_section_890_Physical_medicine_devices_regulation"/>
+        <Class IRI="#Code_of_Federal_Regulations_Title_21_regulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title_21_section_892_Radiology_devices_regulation"/>
+        <Class IRI="#Code_of_Federal_Regulations_Title_21_regulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#United_States_Regulation"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#regulation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#designative_code"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FDA_Ear,_nose,_and_throat_devices_classification"/>
+        <Class IRI="#FDA_type_classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Title_21_section_874_Ear,_nose,_and_throat_devices_regulation"/>
+        <Class IRI="#Code_of_Federal_Regulations_Title_21_regulation"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#FDA_Anesthesiology_devices_classification"/>
+        <Class IRI="#FDA_Cardiovascular_devices_classification"/>
+        <Class IRI="#FDA_Clinical_chemistry_and_clinical_toxicology_devices_classification"/>
+        <Class IRI="#FDA_Dental_devices_classification"/>
+        <Class IRI="#FDA_Gastroenterology-urology_devices_classification"/>
+        <Class IRI="#FDA_General_and_plastic_surgery_devices_classification"/>
+        <Class IRI="#FDA_General_hospital_and_personal_use_devices_classification"/>
+        <Class IRI="#FDA_Hematology_and_pathology_devices_classification"/>
+        <Class IRI="#FDA_Immunology_and_microbiology_devices_classification"/>
+        <Class IRI="#FDA_Neurological_devices_classification"/>
+        <Class IRI="#FDA_Obstetrical_and_gynecological_devices_classification"/>
+        <Class IRI="#FDA_Ophthalmic_devices_classification"/>
+        <Class IRI="#FDA_Orthopedic_devices_classification"/>
+        <Class IRI="#FDA_Physical_medicine_devices_classification"/>
+        <Class IRI="#FDA_Radiology_devices_classification"/>
+        <Class IRI="#FDA_Ear,_nose,_and_throat_devices_classification"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Title_21_section_862_Clinical_chemistry_and_clinical_toxicology_devices_regulation"/>
+        <Class IRI="#Title_21_section_864_Hematology_and_pathology_devices_regulation"/>
+        <Class IRI="#Title_21_section_866_Immunology_and_microbiology_devices_regulation"/>
+        <Class IRI="#Title_21_section_868_Anesthesiology_devices_regulation"/>
+        <Class IRI="#Title_21_section_870_Cardiovascular_devices_regulation"/>
+        <Class IRI="#Title_21_section_872_Dental_devices_regulation"/>
+        <Class IRI="#Title_21_section_876_Gastroenterology-urology_devices_regulation"/>
+        <Class IRI="#Title_21_section_878_General_and_plastic_surgery_devices_regulation"/>
+        <Class IRI="#Title_21_section_880_General_hospital_and_personal_use_devices_regulation"/>
+        <Class IRI="#Title_21_section_882_Neurological_devices_regulation"/>
+        <Class IRI="#Title_21_section_884_Obstetrical_and_gynecological_devices_regulation"/>
+        <Class IRI="#Title_21_section_886_Ophthalmic_devices_regulation"/>
+        <Class IRI="#Title_21_section_888_Orthopedic_devices_regulation"/>
+        <Class IRI="#Title_21_section_890_Physical_medicine_devices_regulation"/>
+        <Class IRI="#Title_21_section_892_Radiology_devices_regulation"/>
+        <Class IRI="#Title_21_section_874_Ear,_nose,_and_throat_devices_regulation"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#United_States_Regulation"/>
+        <NamedIndividual IRI="#Code_of_Federal_Regulations_Title_21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FDA_Orthopedic_devices_classification"/>
+        <NamedIndividual IRI="#FDA_manual_surgical_instrument"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FDA_Risk_Classification"/>
+        <NamedIndividual IRI="#FDA_ris_class_1_classification"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FDA_Risk_Classification"/>
+        <NamedIndividual IRI="#FDA_ris_class_2_classification"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FDA_Risk_Classification"/>
+        <NamedIndividual IRI="#FDA_ris_class_3_classification"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FDA_Orthopedic_devices_classification"/>
+        <NamedIndividual IRI="#FDA_template_for_clinical_use_classification"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#medical_device_classification_system"/>
+        <NamedIndividual IRI="#classification_FDA_classification_system"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#designative_code"/>
+        <NamedIndividual IRI="#code_LXH"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Title_21_section_888_Orthopedic_devices_regulation"/>
+        <NamedIndividual IRI="#regulation_888.4800"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <NamedIndividual IRI="#section_11-226_ASTM_F1089-10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectHasValue>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_section"/>
+            </ObjectInverseOf>
+            <NamedIndividual IRI="#standard_ASTM-F1089-10"/>
+        </ObjectHasValue>
+        <NamedIndividual IRI="#section_11-226_ASTM_F1089-10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectHasValue>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#references_guidance"/>
+            </ObjectInverseOf>
+            <NamedIndividual IRI="#regulation_888.4800"/>
+        </ObjectHasValue>
+        <NamedIndividual IRI="#section_11-226_ASTM_F1089-10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <NamedIndividual IRI="#section_11-83_ISO_13402"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectHasValue>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_section"/>
+            </ObjectInverseOf>
+            <NamedIndividual IRI="#standard_ISO_13402"/>
+        </ObjectHasValue>
+        <NamedIndividual IRI="#section_11-83_ISO_13402"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectHasValue>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#references_guidance"/>
+            </ObjectInverseOf>
+            <NamedIndividual IRI="#regulation_888.4800"/>
+        </ObjectHasValue>
+        <NamedIndividual IRI="#section_11-83_ISO_13402"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <NamedIndividual IRI="#section_8-344_ISO_7153-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectHasValue>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_section"/>
+            </ObjectInverseOf>
+            <NamedIndividual IRI="#standard_ISO_7153-1"/>
+        </ObjectHasValue>
+        <NamedIndividual IRI="#section_8-344_ISO_7153-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectHasValue>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#references_guidance"/>
+            </ObjectInverseOf>
+            <NamedIndividual IRI="#regulation_888.4800"/>
+        </ObjectHasValue>
+        <NamedIndividual IRI="#section_8-344_ISO_7153-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <NamedIndividual IRI="#secton_11-199_ASTM_F565-04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectHasValue>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_section"/>
+            </ObjectInverseOf>
+            <NamedIndividual IRI="#standard_ASTM_F565-04"/>
+        </ObjectHasValue>
+        <NamedIndividual IRI="#secton_11-199_ASTM_F565-04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectHasValue>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#references_guidance"/>
+            </ObjectInverseOf>
+            <NamedIndividual IRI="#regulation_888.4800"/>
+        </ObjectHasValue>
+        <NamedIndividual IRI="#secton_11-199_ASTM_F565-04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#standard"/>
+        <NamedIndividual IRI="#standard_ASTM-F1089-10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#standard"/>
+        <NamedIndividual IRI="#standard_ASTM_F565-04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#standard"/>
+        <NamedIndividual IRI="#standard_ISO_13402"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#standard"/>
+        <NamedIndividual IRI="#standard_ISO_7153-1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_classification"/>
+        <NamedIndividual IRI="#FDA_manual_surgical_instrument"/>
+        <NamedIndividual IRI="#code_LXH"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_classification"/>
+        <NamedIndividual IRI="#FDA_template_for_clinical_use_classification"/>
+        <NamedIndividual IRI="#FDA_ris_class_1_classification"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_members_affected_by"/>
+        <NamedIndividual IRI="#FDA_template_for_clinical_use_classification"/>
+        <NamedIndividual IRI="#regulation_888.4800"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+        <NamedIndividual IRI="#classification_FDA_classification_system"/>
+        <NamedIndividual IRI="#FDA_ris_class_1_classification"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+        <NamedIndividual IRI="#classification_FDA_classification_system"/>
+        <NamedIndividual IRI="#FDA_ris_class_2_classification"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+        <NamedIndividual IRI="#classification_FDA_classification_system"/>
+        <NamedIndividual IRI="#FDA_ris_class_3_classification"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_guidance_referenced_by"/>
+        <NamedIndividual IRI="#section_11-226_ASTM_F1089-10"/>
+        <NamedIndividual IRI="#regulation_888.4800"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design#has_consequence"/>
+        <NamedIndividual IRI="#section_11-226_ASTM_F1089-10"/>
+        <NamedIndividual IRI="#requirement_test_method"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_guidance_referenced_by"/>
+        <NamedIndividual IRI="#section_11-83_ISO_13402"/>
+        <NamedIndividual IRI="#regulation_888.4800"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design#has_consequence"/>
+        <NamedIndividual IRI="#section_11-83_ISO_13402"/>
+        <NamedIndividual IRI="#requirement_resistance_determination"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_guidance_referenced_by"/>
+        <NamedIndividual IRI="#section_8-344_ISO_7153-1"/>
+        <NamedIndividual IRI="#regulation_888.4800"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design#has_consequence"/>
+        <NamedIndividual IRI="#section_8-344_ISO_7153-1"/>
+        <NamedIndividual IRI="#requirement_stainless_steel_materials"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_guidance_referenced_by"/>
+        <NamedIndividual IRI="#secton_11-199_ASTM_F565-04"/>
+        <NamedIndividual IRI="#regulation_888.4800"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_guidance_referenced_by"/>
+        <ObjectProperty IRI="#is_referenced_by"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#references"/>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#has_section"/>
+            </ObjectInverseOf>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation#references"/>
+    </SubObjectPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Code_of_Federal_Regulations_Title_21</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Code of Federal Regulations Title 21</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Code_of_Federal_Regulations_Title_21_regulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Code of Federal Regulations Title 21 regulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_Anesthesiology_devices_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA anesthesiology device classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_Cardiovascular_devices_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA cardiovascular device classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_Clinical_chemistry_and_clinical_toxicology_devices_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA clinical chemistry and clinical toxicology device classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_Dental_devices_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA dental device classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_Gastroenterology-urology_devices_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA gastroenterology-urology device classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_General_and_plastic_surgery_devices_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA general and plastic surgery device classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_General_hospital_and_personal_use_devices_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA general and plastic surgery devices classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_Hematology_and_pathology_devices_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA hematology and pathology device classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_Immunology_and_microbiology_devices_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA immunology and microbiology device classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_Neurological_devices_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA neurological devices classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_Obstetrical_and_gynecological_devices_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA obstetrical and gynecological devices classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_Ophthalmic_devices_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA ophthalmic device classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_Orthopedic_devices_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA orthopedic device classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_Physical_medicine_devices_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA physical medicine device classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_Radiology_devices_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA radiology device classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_Risk_Classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA risk classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_classification_system</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA classification system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_ris_class_1_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA risk class 1 classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_ris_class_2_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA risk class 2 classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_ris_class_3_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA risk class 3 classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_template_for_clinical_use_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA template for clinical use classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_type_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA device type classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Title_21_section_862_Clinical_chemistry_and_clinical_toxicology_devices_regulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Title 21 section 862 Clinical chemistry and clinical toxicology devices regulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Title_21_section_864_Hematology_and_pathology_devices_regulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Title 21 section 864 Hematology and pathology devices regulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Title_21_section_866_Immunology_and_microbiology_devices_regulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Title 21 section 866 Immunology and microbiology devices regulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Title_21_section_868_Anesthesiology_devices_regulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Title 21 section 868 Anesthesiology devices regulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Title_21_section_870_Cardiovascular_devices_regulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Title 21 section 870 Cardiovascular devices regulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Title_21_section_872_Dental_devices_regulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Title 21 section 872 Dental devices regulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Title_21_section_876_Gastroenterology-urology_devices_regulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Title 21 section 876 Gastroenterology-urology devices</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Title_21_section_876_Gastroenterology-urology_devices_regulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Title 21 section 876 Gastroenterology-urology devices regulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Title_21_section_878_General_and_plastic_surgery_devices_regulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Title 21 section 878 General and plastic surgery devices regulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Title_21_section_880_General_hospital_and_personal_use_devices_regulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Title 21 section 880 General hospital and personal use devices regulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Title_21_section_882_Neurological_devices_regulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Title 21 section 882 Neurological devices regulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Title_21_section_884_Obstetrical_and_gynecological_devices_regulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Title 21 section 884 Obstetrical and gynecological devices regulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Title_21_section_886_Ophthalmic_devices_regulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Title 21 section 886 Ophthalmic devices regulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Title_21_section_888_Orthopedic_devices_regulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Title 21 section 888 Orthopedic devices regulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Title_21_section_890_Physical_medicine_devices_regulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Title 21 section 890 Physical medicine devices regulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Title_21_section_892_Radiology_devices_regulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Title 21 section 892 Radiology devices regulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#United_States_Regulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">United States Regulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FDA_Ear,_nose,_and_throat_devices_classification</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FDA ear, nose, and throat device classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Title_21_section_874_Ear,_nose,_and_throat_devices_regulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Title 21 section 874 Ear, nose, and throat devices regulation</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

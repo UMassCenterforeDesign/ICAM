@@ -1,0 +1,495 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL</Import>
+    <Declaration>
+        <Class IRI="#portion_of_cobalt_chrome_SP2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_aluminum_silicon_10_Magnesium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_inconel690"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_oftitanium_6-2-4-6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_inconel718"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stainless_steel_17-4_PH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_oftitanium_6-2-4-2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_stainless_steel420"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_maraging_steel_MS1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stainless_steel_PH1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_stainless_steel410"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_aluminum_4047"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stainless_steel_CX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_stainless_steel13-8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stainless_steel_GP1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_inconel625"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_tool_steel_S7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_stainless_steel304"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_stainless_steel316"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_nickel_HX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_stainless_steel17-4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_cobalt_chrome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_oftitanium_22_Al_23_Nb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_ofCP_titanium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_stainless_steel15-5PH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_titanium_64_ELI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_tool_steel_H13"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_tool_steel_A-2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_stellite_21"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_copper-Ni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_Titanium_6_Aluminum_4_V"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_titanium_64"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_oftitanium_6-4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_stainless_steel416"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_GRCop-84"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_stainless_steel309"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_stainless_steelAM355"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_cobalt_chrome_MP1"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#portion_ofCP_titanium"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Titanium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_GRCop-84"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Copper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_Titanium_6_Aluminum_4_V"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Titanium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_aluminum_4047"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Aluminum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_aluminum_silicon_10_Magnesium"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Aluminum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_cobalt_chrome"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Non-Ferrous"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_cobalt_chrome_MP1"/>
+        <Class IRI="#portion_of_cobalt_chrome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_cobalt_chrome_SP2"/>
+        <Class IRI="#portion_of_cobalt_chrome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_copper-Ni"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Copper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_inconel625"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Inconel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_inconel690"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Inconel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_inconel718"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Inconel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_maraging_steel_MS1"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#ToolSteel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_nickel_HX"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Nickel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_stainless_steel13-8"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_stainless_steel15-5PH"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_stainless_steel17-4"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_stainless_steel304"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_stainless_steel309"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_stainless_steel316"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_stainless_steel410"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_stainless_steel416"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_stainless_steel420"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_stainless_steelAM355"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_stellite_21"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Stellite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_titanium_64"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Titanium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_titanium_64_ELI"/>
+        <Class IRI="#portion_of_titanium_64"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_tool_steel_A-2"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#ToolSteel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_tool_steel_H13"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#ToolSteel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_of_tool_steel_S7"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#ToolSteel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_oftitanium_22_Al_23_Nb"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Titanium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_oftitanium_6-2-4-2"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Titanium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_oftitanium_6-2-4-6"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Titanium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#portion_oftitanium_6-4"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Titanium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stainless_steel_17-4_PH"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stainless_steel_CX"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stainless_steel_GP1"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stainless_steel_PH1"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#portion_ofCP_titanium"/>
+        <Class IRI="#portion_oftitanium_22_Al_23_Nb"/>
+        <Class IRI="#portion_oftitanium_6-2-4-2"/>
+        <Class IRI="#portion_oftitanium_6-2-4-6"/>
+        <Class IRI="#portion_oftitanium_6-4"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#portion_of_inconel625"/>
+        <Class IRI="#portion_of_inconel690"/>
+        <Class IRI="#portion_of_inconel718"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#portion_of_stainless_steel13-8"/>
+        <Class IRI="#portion_of_stainless_steel15-5PH"/>
+        <Class IRI="#portion_of_stainless_steel17-4"/>
+        <Class IRI="#portion_of_stainless_steel304"/>
+        <Class IRI="#portion_of_stainless_steel309"/>
+        <Class IRI="#portion_of_stainless_steel316"/>
+        <Class IRI="#portion_of_stainless_steel410"/>
+        <Class IRI="#portion_of_stainless_steel416"/>
+        <Class IRI="#portion_of_stainless_steel420"/>
+        <Class IRI="#portion_of_stainless_steelAM355"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_ofCP_titanium</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of CP titanium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_GRCop-84</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of GRCopper-84</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_Titanium_6_Aluminum_4_V</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of titanium 6 aluminum 4V</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_aluminum_silicon_10_Magnesium</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of aluminum silicon 10 magnesium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_cobalt_chrome</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of cobalt chrome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_cobalt_chrome_MP1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of cobalt chrome MP1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_cobalt_chrome_SP2</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of cobalt chrome SP2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_copper-Ni</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of Cu-Ni</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_inconel625</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of inconel 625</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_inconel690</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of inconel 690</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_inconel718</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of inconel 718</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_maraging_steel_MS1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of maraging steel MS1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_nickel_HX</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of nickel alloy HX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_stainless_steel13-8</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of stainless steel 13-8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_stainless_steel15-5PH</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of stainless steel 15-5PH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_stainless_steel17-4</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of stainless steel 17-4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_stainless_steel304</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of stainless steel 304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_stainless_steel309</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of stainless steel 309</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_stainless_steel316</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of stainless steel 316</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_stainless_steel410</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of stainless steel 410</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_stainless_steel416</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of stainless steel 416</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_stainless_steel420</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of stainless steel 420</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_stainless_steelAM355</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of stainless steel AM 355</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_stellite_21</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of stellite 21</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_titanium_64</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of titanium 64</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_titanium_64_ELI</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of titanium 64 ELI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_tool_steel_A-2</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of tool steel A-2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_tool_steel_H13</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of tool steel H13</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_of_tool_steel_S7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of tool steel S7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_oftitanium_22_Al_23_Nb</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of titanium 22 Al23 Nb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_oftitanium_6-2-4-2</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of titanium 6-2-4-2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_oftitanium_6-2-4-6</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of titanium  6-2-4-6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#portion_oftitanium_6-4</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of titanium 6-4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#stainless_steel_17-4_PH</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of stainless steel 17-4 PH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#stainless_steel_CX</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of stainless steel CX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#stainless_steel_GP1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of stainless steel GP1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#stainless_steel_PH1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">portion of stainless steel PH1</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
