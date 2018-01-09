@@ -1,94 +1,81 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/voids.owl"
+     xml:base="http://www.semanticweb.org/tom/ontologies/2017/6/voids"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/voids.owl">
-    <Prefix name="" IRI="http://www.semanticweb.org/tom/ontologies/2017/6/voids"/>
+     ontologyIRI="http://www.semanticweb.org/tom/ontologies/2017/6/voids">
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#alternating_taper_straight_blindhole"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#surface_void"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#hole"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#outward_taper_curved_throughhole"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#aperture"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#inward_taper_straight_blindhole"/>
+        <Class IRI="#inward_taper_straight_throughhole"/>
     </Declaration>
     <Declaration>
         <Class IRI="#alternating_taper_curved_throughhole"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#inward_taper_curved_throughhole"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#alternating_taper_straight_throughhole"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#inward_taper_straight_throughhole"/>
     </Declaration>
     <Declaration>
         <Class IRI="#curved_blindhole"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#outward_taper_straight_throughhole"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#single_direction_taper_curved_blind_hole"/>
+        <Class IRI="#non-uniform_cavity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#single_direction_taper_straight_blind_hole"/>
+        <Class IRI="#inward_taper_curved_throughhole"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#non-tapered_straight_blindhole"/>
+        <Class IRI="#inward_taper_straight_blindhole"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#uniform_cavity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#curved_throughhole"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#non-tapered_straight_throughhole"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#straighthole"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#tapered_straight_blindhole"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#cavity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#alternating_taper_curved_blindhole"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#outward_taper_curved_blindhole"/>
+        <Class IRI="#throughhole"/>
     </Declaration>
     <Declaration>
         <Class IRI="#pocket"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#tapered_straight_throughhole"/>
+        <Class IRI="#curved_throughhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#outward_taper_curved_throughhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#outward_taper_curved_blindhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#single_direction_taper_curved_blind_hole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tapered_straight_blindhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alternating_taper_curved_blindhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#uniform_cavity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#non-tapered_straight_blindhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#single_direction_taper_straight_blind_hole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#void"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#outward_taper_straight_throughhole"/>
     </Declaration>
     <Declaration>
         <Class IRI="#non-tapered_curved_blindhole"/>
@@ -97,40 +84,52 @@
         <Class IRI="#tapered_curved_blindhole"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#throughhole"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#tapered_curved_throughhole"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#non-uniform_cavity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000028"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#void"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#gap"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#inward_taper_curved_blindhole"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#blindhole"/>
     </Declaration>
     <Declaration>
         <Class IRI="#outward_taper_straight_blindhole"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#straight_blindhole"/>
+        <Class IRI="#aperture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cavity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tapered_straight_throughhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000028"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#non-tapered_straight_throughhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#non-tapered_curved_throughhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#straighthole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inward_taper_curved_blindhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#blindhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#surface_void"/>
     </Declaration>
     <Declaration>
         <Class IRI="#single_direction_curved_through_hole"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#non-tapered_curved_throughhole"/>
+        <Class IRI="#straight_blindhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alternating_taper_straight_blindhole"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#alternating_taper_curved_blindhole"/>

@@ -6,13 +6,12 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate">
-    <Prefix name="" IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl</Import>
+    <Import>http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL</Import>
     <Declaration>
         <Class IRI="#portion_of_cobalt_chrome_SP2"/>
     </Declaration>
@@ -126,33 +125,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#portion_of_cobalt_chrome_MP1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Copper"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Nickel"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Stellite"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#ToolSteel"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Inconel"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Aluminum"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Non-Ferrous"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Titanium"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#portion_ofCP_titanium"/>

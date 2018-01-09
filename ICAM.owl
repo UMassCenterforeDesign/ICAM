@@ -1,93 +1,97 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl"
+     xml:base="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl">
+     ontologyIRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0">
     <Prefix name="" IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl</Import>
+    <Import>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0</Import>
     <Import>http://www.semanticweb.org/tom/ontologies/2017/7/AM_machines2</Import>
+    <Import>http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL</Import>
     <Declaration>
-        <Class IRI="#cell_printing_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#single_material_form_fabrication_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#metal_form_fabrication_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#hierarchical_complexity_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#sacrificial_feature_creation_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#low_tooling_cost_capability"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#lattice_structure_fabrication_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#atomic_diffusion_additive_manufacturing_process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#un-stacked_three_dimensional_closed_cellular_form"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#feature_creation_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#three_dimensional_open__cellular_form"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#assembly"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#two_dimensional_closed_cellular_form"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#has_related_process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#bi-stable_structure_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#composite_printing_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#interwoven_three_dimensional_closed_cellular_form"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#mass_customization_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#electronic_component_printing_capability"/>
+        <Class IRI="#sacrificial_thermal_dissipation_feature"/>
     </Declaration>
     <Declaration>
         <Class IRI="#polymer_form_fabrication_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Machine"/>
+        <Class IRI="#electronic_component_printing_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#structured_two_dimensional_closed_cellular_form"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#macro-scale_manufacturing_capabiliyt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#assembly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hierarchical_complexity_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#control_capability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#has_related_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#metal_form_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hollow_cavity_without_escape_hole_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#single_material_form_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#computer_controlled_manufacturing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pocket_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#desktop_manufacturing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#un-stacked_three_dimensional_closed_cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#three_dimensional_open__cellular_form"/>
     </Declaration>
     <Declaration>
         <Class IRI="#counterbore_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#atomic_diffusion_additive_manufacturing_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#low_tooling_cost_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sacrificial_feature_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bi-stable_structure_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Machine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#artifact_fabrication_capability"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#disposition_of"/>
@@ -96,37 +100,61 @@
         <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#low_skilll_manufacturing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#through_hole_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#functional_complexity_capability"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#DirectedEnergyDeposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#complex_curved_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#overhang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eos_p770_machine"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000028"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#closed_cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#countersink_creation_capability"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#unstructured_two_dimensional_open__cellular_form"/>
+        <Class IRI="#basic_feature_creation_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#computer_controlled_manufacturing_capability"/>
+        <Class IRI="#convex_curve"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#electrical_trace_printing_capability"/>
+        <Class IRI="#wall"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#three_dimensional_closed_cellular_form"/>
+        <Class IRI="#manufacturing_support_process"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#optomec_lens_850R"/>
+        <Class IRI="#biomimetic_form_creation_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#shape_memory_capability"/>
+        <Class IRI="#non-interwoven_three_dimensional_closed_cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unstructured_three_dimensional_closed_cellular_form"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#macro-scale_manufacturing_capabiliyt"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Functional_model"/>
@@ -135,154 +163,172 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#distributed_manufacturing_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#closed_lattice_fabrication_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#open_foam_open__cellular_form"/>
+        <Class IRI="#channel"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#flow"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#nano-scale_manufacturing_capability"/>
+        <Class IRI="#concave_curved_form"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#rounded_overhang"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#meso-scale_manufacturing_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#pocket_creation_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#biological_form_manufacturing_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#quality_control_process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#internal_channel_fabrication_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#design_for_additive_manufacturing_process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#open_cellular_form"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics#longitudinal_loading_plan"/>
+        <Class IRI="#multiple_material_form_creation_capability"/>
     </Declaration>
     <Declaration>
         <Class IRI="#magnet-polymer_form_creation_capability"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tissue_printing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chamfer_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#micro-scale_manufacturing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#closed_lattice_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#feature_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics#longitudinal_loading_plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unstructured_two_dimensional_closed_cellular_form"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.owl-ontologies.com/Ontology1236208666.owl#RapidPrototyping"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#non-interwoven_three_dimensional_closed_cellular_form"/>
+        <Class IRI="#embedded_mechanism_capability"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#is_capability_of"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#biomimetic_form_creation_capability"/>
+        <Class IRI="#unstructured_two_dimensional_open__cellular_form"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#eosp396Machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#wall"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#closed_cellular_form"/>
+        <Class IRI="#scale_model"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#overhang"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#shape-complexity_capability"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.owl-ontologies.com/MSDL_full#MfgProcess"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#cylindrical_form"/>
+        <Class IRI="#layer_by_layer_building_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#desktop_manufacturing_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#low_cost_complexity_capability"/>
+        <Class IRI="#three_dimensional_closed_cellular_form"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#channel_fabrication_capability"/>
+        <Class IRI="#hollow_cavity_fabrication_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#complex_curved_form"/>
+        <Class IRI="#eos_p110_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#hollow_cavity_without_escape_hole_fabrication_capability"/>
+        <Class IRI="#internal_channel"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#control_capability"/>
+        <Class IRI="#eos_P-series_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#fabricate_from_imaging_capability"/>
+        <Class IRI="#form_size_scale_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#eos_p770_machine"/>
+        <Class IRI="#surface_channel"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#functional_complexity_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#stacked_three_dimensional_closed_cellular_form"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Additive_manufacturing_scale_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#low_skilll_manufacturing_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#sacrificial_support"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#two_dimensional_open__cellular_form"/>
+        <Class IRI="#ceramic_form_fabrication_capability"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#hybrid_manufacturing_capability"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasSupportingServices"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#open_lattice_fabrication_capability"/>
+        <Class IRI="#angled_overhang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#overhang_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pre-assembled_form_manufacturing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#working_volume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#entity_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#structured_two_dimensional_open__cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_performed_by"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quality_control_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#contextual_process_realization_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalShape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics#loading_orientation_plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eos_p800_machine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#optomec_LENS_oa_hybrid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alloying_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sacrificial_feature"/>
     </Declaration>
     <Declaration>
         <Class IRI="#hollow_cavity_with_escape_hole_fabrication_capability"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#assembly_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#additive_form_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#structured_three_dimensional_closed_cellular_form"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#fabrication_method_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#open_cellular_form"/>
     </Declaration>
     <Declaration>
         <Class IRI="#process_accessibility_capability"/>
@@ -291,208 +337,163 @@
         <Class IRI="#hole_creation_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#structured_three_dimensional_closed_cellular_form"/>
+        <Class IRI="#open_lattice_fabrication_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#slot_creation_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#prototype_role"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalShape"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#structured_three_dimensional_open__cellular_form"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#step_creation_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics#loading_orientation_plan"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#alloying_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#blind_hole_fabrication_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#overhang_creation_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#concave_curved_form"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#angled_overhang"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#entity_creation_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#working_volume"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#pre-assembled_form_manufacturing_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#internal_channel"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#optomec_LENS_oa_hybrid"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#tooling_process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#physical_model"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#hybrid_manufacturing_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#assembly_process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#form_size_scale_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#hermetic_sealing_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#layer_by_layer_building_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#rapid_prototyping_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#hollow_cavity_fabrication_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#scale_model"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#eos_p110_machine"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_related_service"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#embedded_mechanism_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#chamfer_creation_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#functional_grading_capability"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#manufacturing_support_process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ceramic_form_fabrication_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#surface_channel"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#additive_form_creation_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#countersink_creation_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#eos_P-series_machine"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#convex_curve"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#&apos;hybrid_manufacturing_machine"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasComplementaryService"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_subject_of"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#contextual_process_realization_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#unstructured_three_dimensional_closed_cellular_form"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#channel"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#unstructured_two_dimensional_closed_cellular_form"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#sacrificial_thermal_dissipation_feature"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#unstructured_three_dimensional_open__cellular_form"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#profile"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#product_development_process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#eos_p800_machine"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#descriptive_model"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_performed_by"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#multiple_material_form_creation_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#artifact_fabrication_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#tissue_printing_capability"/>
+        <Class IRI="#distributed_manufacturing_capability"/>
     </Declaration>
     <Declaration>
         <Class IRI="#electronics_printing_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#cellular_form"/>
+        <Class IRI="#step_creation_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#micro-scale_manufacturing_capability"/>
+        <Class IRI="#&apos;hybrid_manufacturing_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#sacrificial_feature"/>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#physical_model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#basic_feature_creation_capability"/>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#structured_two_dimensional_open__cellular_form"/>
+        <Class IRI="#sacrificial_support"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#through_hole_fabrication_capability"/>
+        <Class IRI="#two_dimensional_open__cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stacked_three_dimensional_closed_cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#structured_three_dimensional_open__cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unstructured_three_dimensional_open__cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#slot_creation_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shape-complexity_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prototype_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Additive_manufacturing_scale_capability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_capability_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tooling_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#design_for_additive_manufacturing_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fabricate_from_imaging_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mass_customization_capability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#functional_grading_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cylindrical_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasComplementaryService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#meso-scale_manufacturing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#channel_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_subject_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#structured_two_dimensional_closed_cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nano-scale_manufacturing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#low_cost_complexity_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#internal_channel_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cell_printing_capability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_related_service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#open_foam_open__cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#electrical_trace_printing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rapid_prototyping_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shape_memory_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#blind_hole_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#product_development_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#composite_printing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#descriptive_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interwoven_three_dimensional_closed_cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hermetic_sealing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#optomec_lens_850R"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#biological_form_manufacturing_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#two_dimensional_closed_cellular_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rounded_overhang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lattice_structure_fabrication_capability"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
@@ -519,14 +520,6 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#product_development_process"/>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics#longitudinal_loading_plan"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics#loading_orientation_plan"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#eosp396Machine"/>
-        <Class IRI="#eos_P-series_machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Additive_manufacturing_scale_capability"/>
@@ -1252,6 +1245,14 @@
         <Class IRI="#&apos;hybrid_manufacturing_machine"/>
         <Class IRI="http://www.owl-ontologies.com/MSDL_full#Machine"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics#longitudinal_loading_plan"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics#loading_orientation_plan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#eosp396Machine"/>
+        <Class IRI="#eos_P-series_machine"/>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="#interwoven_three_dimensional_closed_cellular_form"/>
         <Class IRI="#non-interwoven_three_dimensional_closed_cellular_form"/>
@@ -1367,11 +1368,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#product_development_process</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">product development process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#eosp396Machine</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">eos p396 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -2157,6 +2153,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#&apos;hybrid_manufacturing_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hybrid manufacturing system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#eosp396Machine</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">eos p396 machine</Literal>
     </AnnotationAssertion>
 </Ontology>
 
