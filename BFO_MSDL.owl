@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL">
+    <Prefix name="" IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -153,6 +154,10 @@
     <SubClassOf>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/EventOntology#ActOfMotion"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalShape"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.owl-ontologies.com/MSDL_full#CuttingEdge"/>

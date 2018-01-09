@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics">
+    <Prefix name="" IRI="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -14,9 +15,6 @@
     <Import>http://www.semanticweb.org/tom/ontologies/2017/5/design</Import>
     <Declaration>
         <Class IRI="#general_linear_model"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#strength_measurement_datum"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Hookes_law_model"/>
@@ -94,12 +92,6 @@
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Young&apos;s_modulus"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Lames_first_parameter"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#torsion"/>
     </Declaration>
     <Declaration>
@@ -130,9 +122,6 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_stress"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Poisson_ratio"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#rate"/>
     </Declaration>
     <Declaration>
@@ -148,16 +137,10 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#equation_constant"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#rupture"/>
     </Declaration>
     <Declaration>
         <Class IRI="#plasticity_model"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#rate_measurement_datum"/>
     </Declaration>
     <Declaration>
         <Class IRI="#plastic_deformation_model"/>
@@ -187,22 +170,13 @@
         <Class IRI="#loading_along_x_axis"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#flexural_modulus"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#normal_strain"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Prony_series_viscoelastic_model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#hardness_measurement_datum"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#compression"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#modulus_of_resiliance"/>
     </Declaration>
     <Declaration>
         <Class IRI="#longitudinal_loading_plan"/>
@@ -214,19 +188,10 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#hardness"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#curve_fit_constant"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#shear_modulus"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_deformation"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_disposition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#p-wave_modulus"/>
     </Declaration>
     <Declaration>
         <Class IRI="#shear_strain"/>
@@ -235,25 +200,10 @@
         <Class IRI="#loading_along_axis"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#solid_mechanics_modulus_datum"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#material_response_modulus_datum"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fracture"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#loss_modulus"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#continuum_mechanics_constant_datum"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#creep_strength"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#dynamic_modulus"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#plan"/>
@@ -268,19 +218,10 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#compressive_strength"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#storage_modulus"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#bulk_modulus"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#shear_strength"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#fluid_disposition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#elastic_isotropic_material_modulus"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#normal_stress"/>
@@ -300,10 +241,6 @@
         <Class IRI="#viscoelastic_model"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Lames_first_parameter"/>
-        <Class IRI="#elastic_isotropic_material_modulus"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Maxwell_model"/>
         <Class IRI="#viscoelastic_model"/>
     </SubClassOf>
@@ -312,44 +249,12 @@
         <Class IRI="#fluid_mechanics_model"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Poisson_ratio"/>
-        <Class IRI="#elastic_isotropic_material_modulus"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Prony_series_viscoelastic_model"/>
         <Class IRI="#viscoelastic_model"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#bulk_modulus"/>
-        <Class IRI="#elastic_isotropic_material_modulus"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#continuum_mechanics_constant_datum"/>
-        <Class IRI="#curve_fit_constant"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#curve_fit_constant"/>
-        <Class IRI="#equation_constant"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#dynamic_modulus"/>
-        <Class IRI="#solid_mechanics_modulus_datum"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#elastic_isotropic_material_modulus"/>
-        <Class IRI="#solid_mechanics_modulus_datum"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#elasticity_model"/>
         <Class IRI="#solid_mechanics_model"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#equation_constant"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#flexural_modulus"/>
-        <Class IRI="#solid_mechanics_modulus_datum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#fluid_mechanics_model"/>
@@ -358,10 +263,6 @@
     <SubClassOf>
         <Class IRI="#general_linear_model"/>
         <Class IRI="#viscoelastic_model"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#hardness_measurement_datum"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#load_along_z_axis"/>
@@ -396,20 +297,8 @@
         <Class IRI="#loading_orientation_plan"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#loss_modulus"/>
-        <Class IRI="#solid_mechanics_modulus_datum"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#material_behavior_model"/>
         <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#predictive_model"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#material_response_modulus_datum"/>
-        <Class IRI="#continuum_mechanics_constant_datum"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#modulus_of_resiliance"/>
-        <Class IRI="#solid_mechanics_modulus_datum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#non-Newtonian_fluid_model"/>
@@ -422,10 +311,6 @@
     <SubClassOf>
         <Class IRI="#normal_strain"/>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#mechanical_strain"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#p-wave_modulus"/>
-        <Class IRI="#elastic_isotropic_material_modulus"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#plastic_deformation_model"/>
@@ -444,16 +329,8 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#rate_measurement_datum"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#rheological_model"/>
         <Class IRI="#material_behavior_model"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#shear_modulus"/>
-        <Class IRI="#elastic_isotropic_material_modulus"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#shear_strain"/>
@@ -462,18 +339,6 @@
     <SubClassOf>
         <Class IRI="#solid_mechanics_model"/>
         <Class IRI="#material_behavior_model"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#solid_mechanics_modulus_datum"/>
-        <Class IRI="#material_response_modulus_datum"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#storage_modulus"/>
-        <Class IRI="#solid_mechanics_modulus_datum"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#strength_measurement_datum"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#transverse_loading_plan"/>
@@ -490,10 +355,6 @@
     <SubClassOf>
         <Class IRI="#yield_strength"/>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_strength"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Young&apos;s_modulus"/>
-        <Class IRI="#elastic_isotropic_material_modulus"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#bending"/>
@@ -667,11 +528,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Lames_first_parameter</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Lame first parameter</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Maxwell_model</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maxwell model</Literal>
     </AnnotationAssertion>
@@ -682,58 +538,13 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Poisson_ratio</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">poisson ratio</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Prony_series_viscoelastic_model</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Prony series viscoelastic model</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#bulk_modulus</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">bulk modulus</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#continuum_mechanics_constant_datum</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a material model modulus datum is a curve fit constant datum that is derived from a &quot;best fit&quot; model of data relating to s material</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#continuum_mechanics_constant_datum</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material modulus datum</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#curve_fit_constant</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a curve fit constant datum is a equation constant datum that is obtained some &quot;best fit&quot; mathematical approach to describing data.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#curve_fit_constant</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">curve fit constant datum</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#elastic_isotropic_material_modulus</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">elastic material modulus</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#elasticity_model</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material elasticity model</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#equation_constant</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an equation constant datum is a data item that contains the value of some constant used to define an equation relating to some dataset</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#equation_constant</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">equation constant datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -744,11 +555,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#general_linear_model</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">general linear model</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#hardness_measurement_datum</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hardness measurement datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -796,16 +602,6 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">continuum mechanics model</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#material_response_modulus_datum</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a continuum mechanics modulus datum is a material modulus datum that is derived from data measurements of material response to loading subject to a continuum mechanics approximation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#material_response_modulus_datum</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">continuum mechanics modulus datum</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#non-Newtonian_fluid_model</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">non-Newtonian fluid model</Literal>
@@ -814,11 +610,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#normal_strain</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">normal strain</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#p-wave_modulus</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p-wave modulus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -832,18 +623,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#rate_measurement_datum</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rate measurement datum</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#rheological_model</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rheological model</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#shear_modulus</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">shear modulus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -854,11 +635,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#solid_mechanics_model</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">solid mechanics model</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#strength_measurement_datum</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">strength measurement datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -874,11 +650,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#yield_strength</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">yield strength</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Young&apos;s_modulus</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Youngs modulus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -914,6 +685,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_deformation</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material deformation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/4/dimensions#material_disposition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material disposition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
