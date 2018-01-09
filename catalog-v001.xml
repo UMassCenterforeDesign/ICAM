@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/voids.owl" uri="voids.owl"/>
+    <uri id="Imports Wizard Entry" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/SAMPRO.owl" uri="SAMPRO.owl"/>
+    <uri id="Imports Wizard Entry" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl" uri="MSDL_full.owl"/>
+    <uri id="Imports Wizard Entry" name="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/EngMechanics.owl" uri="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/EngMechanics.owl"/>
+    <uri id="Imports Wizard Entry" name="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl" uri="file:/C:/Users/Tom/Desktop/Github%20upload/core/model.owl"/>
     <uri id="Imports Wizard Entry" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/dimensions.owl" uri="dimensions.owl"/>
     <uri id="Imports Wizard Entry" name="http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design" uri="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ergo-design.owl"/>
     <uri id="Imports Wizard Entry" name="http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design" uri="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ergo-design.owl"/>
@@ -23,27 +28,26 @@
     <uri id="Imports Wizard Entry" name="http://www.semanticweb.org/presentation/ontologies/2017/3/SAMPRO" uri="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/SAMPRO.owl"/>
     <uri id="Imports Wizard Entry" name="http://www.owl-ontologies.com/MSDL_full" uri="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl" uri="functioanl%20model%202.0.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="http://purl.obolibrary.org/obo/bfo.owl" uri="bfo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology" uri="UnitsOfMeasureOntology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="http://www.owl-ontologies.com/MSDL_full" uri="MSDL_full.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL" uri="BFO_MSDL.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="http://www.semanticweb.org/presentation/ontologies/2017/3/SAMPRO" uri="SAMPRO.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="http://www.semanticweb.org/tom/ontologies/2017/10/info" uri="info.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0" uri="BEM2.0.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="duplicate:http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0" uri="ICAM.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="duplicate:http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0" uri="ICAM_2.0.0.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate" uri="additive%20materials.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics" uri="EngMechanics.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="duplicate:http://www.semanticweb.org/tom/ontologies/2017/4/dimensions" uri="dimensions.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="duplicate:http://www.semanticweb.org/tom/ontologies/2017/4/dimensions" uri="manufacturing_properties.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="http://www.semanticweb.org/tom/ontologies/2017/5/design" uri="design.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="http://www.semanticweb.org/tom/ontologies/2017/6/voids" uri="voids.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="http://www.semanticweb.org/tom/ontologies/2017/7/AM_machines2" uri="am_machines.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="http://www.semanticweb.org/tom/ontologies/2017/8/FDA" uri="FDA.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design" uri="ergo-design.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="http://www.semanticweb.org/tom/ontologies/2017/8/regulation" uri="regulation.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability" uri="user%20capability.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515519279493" name="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model" uri="model.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515528409668" name="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl" uri="functioanl%20model%202.0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515528409668" name="http://purl.obolibrary.org/obo/bfo.owl" uri="bfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515528409668" name="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology" uri="UnitsOfMeasureOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515528409668" name="http://www.semanticweb.org/tom/ontologies/2017/10/info" uri="info.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515528409668" name="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0" uri="ICAM_2.0.0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515528409668" name="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate" uri="additive%20materials.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515528409668" name="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics" uri="EngMechanics.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515528409668" name="http://www.semanticweb.org/tom/ontologies/2017/4/dimensions" uri="dimensions.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515528409668" name="http://www.semanticweb.org/tom/ontologies/2017/5/design" uri="design.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515528409668" name="http://www.semanticweb.org/tom/ontologies/2017/7/AM_machines2" uri="am_machines.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515528409668" name="http://www.semanticweb.org/tom/ontologies/2017/8/FDA" uri="FDA.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515528409668" name="http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design" uri="ergo-design.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515528409668" name="http://www.semanticweb.org/tom/ontologies/2017/8/regulation" uri="regulation.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515528409668" name="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability" uri="user%20capability.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515528409668" name="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model" uri="model.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515528409668" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl" uri="BEM2.0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515528409668" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl" uri="BFO_MSDL.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515528409668" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl" uri="ICAM.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515528409668" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl" uri="MSDL_full.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515528409668" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/SAMPRO.owl" uri="SAMPRO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515528409668" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/voids.owl" uri="voids.owl"/>
     </group>
 </catalog>

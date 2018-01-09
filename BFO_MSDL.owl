@@ -1,30 +1,143 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL"
+     xml:base="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL">
+     ontologyIRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl">
     <Prefix name="" IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/dimensions.owl</Import>
-    <Import>http://www.semanticweb.org/presentation/ontologies/2017/3/SAMPRO</Import>
-    <Import>http://www.semanticweb.org/tom/ontologies/2017/6/voids</Import>
-    <Import>http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics</Import>
-    <Import>http://www.owl-ontologies.com/MSDL_full</Import>
+    <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/EngMechanics.owl</Import>
+    <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl</Import>
+    <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/SAMPRO.owl</Import>
+    <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/voids.owl</Import>
     <Declaration>
         <Class IRI="#optical_energy_delivery_artifact"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasTool"/>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasStockType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasToughness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Medium"/>
     </Declaration>
     <Declaration>
         <Class IRI="#nozzle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMachineMotion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Ferrous"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasSweepShape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#assembly"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasWorkHolder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#ValuePartition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasShape"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasFeedDrive"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasCorrosionResistance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Photopolymer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasApplication"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasCO2Content"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasDensity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasThermalConductivity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasWearResistance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Machine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#chemicalProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1236208666.owl#Three-DPrinting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000403"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#process_volume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#manufacturing_process_volume"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasReflectivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_steel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#infrared_energy_delivery_artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reservoir_volume"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses_tool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#DriveSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#projector"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasInsert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Plaster"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasCost"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasSpecificHeat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1236208666.owl#powder_morphology"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasOxidationRate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#mentions_object"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000295"/>
@@ -33,55 +146,61 @@
         <Class IRI="#laser"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#heater"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Material"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#manufacturing_process_volume"/>
+        <Class IRI="#build_volume"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#morphology"/>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasServiceProvider"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#continuous_scale_datum"/>
+        <Class IRI="#material_working_process"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#reservoir_volume"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Polymer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#portion_of_steel"/>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasStiffness"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#uses_tool"/>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#binder_role"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#layer"/>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasDielectricConstant"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#has_related_process"/>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasCoating"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#mathemathical_representation"/>
+        <NamedIndividual IRI="#measurement"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#material_creation_process"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design#has_sub-process"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#item_a"/>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasTable"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#infrared_energy_delivery_artifact"/>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#manufacturingProperty"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_subject_of"/>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasEnergyContent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#material_delivery_artifact"/>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMold"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#manufacturing_tool"/>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasToolAssembly"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#categorical_scale_datum"/>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasStrength"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasToolHolder"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasProcessInput"/>
     </Declaration>
     <Declaration>
         <Class IRI="#manufacturing_plan_specification"/>
@@ -90,34 +209,196 @@
         <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#projector"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#MfgProcess"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#process_volume"/>
+        <Class IRI="#layer"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#has_strength"/>
+        <Class IRI="#mathemathical_representation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#build_volume"/>
+        <Class IRI="#manufacturing_tool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Sand"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasElectricalConductivity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMachinability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasBusinessType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasCollet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasCreepStrength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heater"/>
     </Declaration>
     <Declaration>
         <Class IRI="#energy_delivery_artifact"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#High"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#manufacturing_plan"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#material_working_process"/>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasHotHardness"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#measurement"/>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Table"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasCompressiveStrength"/>
     </Declaration>
     <Declaration>
         <Class IRI="#direct_metal_laser_sintering_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Low"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasHardness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasToolSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#categorical_scale_datum"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasRecyclability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasSubstrate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#CuttingEdge"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasShapability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#producesGeometry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#continuous_scale_datum"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasHotYieldStrength"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasStrengthToWeightRatio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_related_process"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMotion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasCuttingEdge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#scale_item"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasStiffnessToWeightRatio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#isMadeOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#prototype_role"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#mentions_service"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Production_facility"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasSpindleDrive"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Ceramic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasProcessOutput"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_strength"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasElement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#mechanicalProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasCoeffThermalExpansion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1236208666.owl#DepositionBasedPrototyping"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasIntendedUse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_subject_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#repairs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000401"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#morphology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Sintering"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#removesVolume"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasDuctility"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasOrientation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Wax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#material_delivery_artifact"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#item_a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#material_creation_process"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasCertification"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Photopolymer"/>
@@ -198,6 +479,10 @@
     <SubClassOf>
         <Class IRI="http://www.owl-ontologies.com/Ontology1236208666.owl#powder_morphology"/>
         <Class IRI="#morphology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#prototype_role"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#build_volume"/>
@@ -294,10 +579,6 @@
     <SubClassOf>
         <Class IRI="#reservoir_volume"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000029"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#prototype_role"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
     </SubClassOf>
     <ClassAssertion>
         <Class IRI="http://www.owl-ontologies.com/MSDL_full#High"/>
@@ -2783,6 +3064,21 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">powder morphology</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#commercial_role</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">commercial role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#product</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">product role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design#has_sub-process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has sub-process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#build_volume</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a build volume is a manufacturing process volume that comprises the available space in which material can be deposited in an additive process</Literal>
@@ -2926,21 +3222,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#uses_tool</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">uses tool</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#commercial_role</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">commercial role</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#product</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">product role</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design#has_sub-process</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has sub-process</Literal>
     </AnnotationAssertion>
 </Ontology>
 
