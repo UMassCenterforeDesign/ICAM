@@ -1,0 +1,684 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/tom/ontologies/2017/6/voids"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/tom/ontologies/2017/6/voids">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#inward_taper_straight_throughhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alternating_taper_curved_throughhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alternating_taper_straight_throughhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#curved_blindhole"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#non-uniform_cavity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inward_taper_curved_throughhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inward_taper_straight_blindhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#throughhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pocket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#curved_throughhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#outward_taper_curved_throughhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#outward_taper_curved_blindhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#single_direction_taper_curved_blind_hole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tapered_straight_blindhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alternating_taper_curved_blindhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#uniform_cavity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#non-tapered_straight_blindhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#single_direction_taper_straight_blind_hole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#void"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#outward_taper_straight_throughhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#non-tapered_curved_blindhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tapered_curved_blindhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tapered_curved_throughhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#outward_taper_straight_blindhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aperture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cavity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tapered_straight_throughhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000028"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#non-tapered_straight_throughhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#non-tapered_curved_throughhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#straighthole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inward_taper_curved_blindhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#blindhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#surface_void"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#single_direction_curved_through_hole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#straight_blindhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alternating_taper_straight_blindhole"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#alternating_taper_curved_blindhole"/>
+        <Class IRI="#tapered_curved_blindhole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alternating_taper_curved_throughhole"/>
+        <Class IRI="#tapered_curved_throughhole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alternating_taper_straight_blindhole"/>
+        <Class IRI="#tapered_straight_blindhole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alternating_taper_straight_throughhole"/>
+        <Class IRI="#tapered_straight_throughhole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aperture"/>
+        <Class IRI="#surface_void"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blindhole"/>
+        <Class IRI="#hole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cavity"/>
+        <Class IRI="#void"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#curved_blindhole"/>
+        <Class IRI="#blindhole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#curved_throughhole"/>
+        <Class IRI="#throughhole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gap"/>
+        <Class IRI="#pocket"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hole"/>
+        <Class IRI="#surface_void"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inward_taper_curved_blindhole"/>
+        <Class IRI="#single_direction_taper_curved_blind_hole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inward_taper_curved_throughhole"/>
+        <Class IRI="#single_direction_curved_through_hole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inward_taper_straight_blindhole"/>
+        <Class IRI="#single_direction_taper_straight_blind_hole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inward_taper_straight_throughhole"/>
+        <Class IRI="#tapered_straight_throughhole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non-tapered_curved_blindhole"/>
+        <Class IRI="#curved_blindhole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non-tapered_curved_throughhole"/>
+        <Class IRI="#curved_throughhole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non-tapered_straight_blindhole"/>
+        <Class IRI="#straight_blindhole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non-tapered_straight_throughhole"/>
+        <Class IRI="#straighthole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non-uniform_cavity"/>
+        <Class IRI="#cavity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#outward_taper_curved_blindhole"/>
+        <Class IRI="#single_direction_taper_curved_blind_hole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#outward_taper_curved_throughhole"/>
+        <Class IRI="#single_direction_curved_through_hole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#outward_taper_straight_blindhole"/>
+        <Class IRI="#single_direction_taper_straight_blind_hole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#outward_taper_straight_throughhole"/>
+        <Class IRI="#tapered_straight_throughhole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pocket"/>
+        <Class IRI="#surface_void"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#single_direction_curved_through_hole"/>
+        <Class IRI="#tapered_curved_throughhole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#single_direction_taper_curved_blind_hole"/>
+        <Class IRI="#tapered_curved_blindhole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#single_direction_taper_straight_blind_hole"/>
+        <Class IRI="#tapered_straight_blindhole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#straight_blindhole"/>
+        <Class IRI="#blindhole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#straighthole"/>
+        <Class IRI="#throughhole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#surface_void"/>
+        <Class IRI="#void"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tapered_curved_blindhole"/>
+        <Class IRI="#curved_blindhole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tapered_curved_throughhole"/>
+        <Class IRI="#curved_throughhole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tapered_straight_blindhole"/>
+        <Class IRI="#straight_blindhole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tapered_straight_throughhole"/>
+        <Class IRI="#straighthole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#throughhole"/>
+        <Class IRI="#hole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#uniform_cavity"/>
+        <Class IRI="#cavity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#void"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000028"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#alternating_taper_curved_blindhole"/>
+        <Class IRI="#inward_taper_curved_blindhole"/>
+        <Class IRI="#outward_taper_curved_blindhole"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#alternating_taper_curved_throughhole"/>
+        <Class IRI="#inward_taper_curved_throughhole"/>
+        <Class IRI="#outward_taper_curved_throughhole"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#alternating_taper_straight_blindhole"/>
+        <Class IRI="#inward_taper_straight_blindhole"/>
+        <Class IRI="#outward_taper_straight_blindhole"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#alternating_taper_straight_throughhole"/>
+        <Class IRI="#inward_taper_straight_throughhole"/>
+        <Class IRI="#outward_taper_straight_throughhole"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#blindhole"/>
+        <Class IRI="#throughhole"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#curved_blindhole"/>
+        <Class IRI="#straight_blindhole"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#curved_throughhole"/>
+        <Class IRI="#straighthole"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#non-tapered_curved_blindhole"/>
+        <Class IRI="#tapered_curved_blindhole"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#non-tapered_curved_throughhole"/>
+        <Class IRI="#tapered_curved_throughhole"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#non-tapered_straight_blindhole"/>
+        <Class IRI="#tapered_straight_blindhole"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#non-tapered_straight_throughhole"/>
+        <Class IRI="#tapered_straight_throughhole"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#alternating_taper_curved_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an alternating taper curved blind hole is a tapered curved blind hole that increases and decreases at different regions along its centroid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#alternating_taper_curved_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">alternating taper curved blind hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#alternating_taper_curved_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an alternating taper curved through hole is a tapered curved through hole that increases and decreases at different regions along its centroid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#alternating_taper_curved_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">alternating taper curved through hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#alternating_taper_straight_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an alternating taper straight blind hole is a tapered straight blind hole that increases and decreases at different regions along its centroid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#alternating_taper_straight_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">alternating taper straight blind hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#alternating_taper_straight_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an alternating taper straight through hole is a tapered straight through hole that increases and decreases at different regions along its centroid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#alternating_taper_straight_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">alternating taper straight through hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#aperture</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an aperture is a surface void that creates an interface between two otherwise isolated voids or between isolated spatial regions that are interior and exterior to some volume</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a blind hole is a hole with a single aperture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">blind hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#cavity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a cavity is a void that is entirely enclosed by a material volume</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#curved_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a curved blind hole is a blind hole with a centroid that cannot be accurately represented using a straight line</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#curved_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">curved blind hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#curved_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a curved through hole is a through hole with a centroid that cannot be represented using a straight line</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#curved_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">curved through hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#gap</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a gap is a pocket that resides between two surfaces offset from one another at an angle of less than 90 degrees</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#hole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a hole is a surface void that has surface touching geometry on only one surface at its originating point</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#inward_taper_curved_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an inward  taper curved blind hole is a single direction taper curved blind hole with a transverse cross section that only decreases or stays the same at all points along its centroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#inward_taper_curved_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">inward taper curved blind hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#inward_taper_curved_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an inward  taper curved through hole is a single direction taper curved through hole with a transverse cross section that only decreases or stays the same at all points along its centroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#inward_taper_curved_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">inward taper curved through hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#inward_taper_straight_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an inward  taper straight blind hole is a single direction taper straight blind hole with a transverse cross section that only decreases or stays the same at all points along its centroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#inward_taper_straight_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">inward taper straight blind hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#inward_taper_straight_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an inward  taper straight through hole is a single direction taper straight through hole with a transverse cross section that only decreases or stays the same at all points along its centroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#inward_taper_straight_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">inward taper straight through hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#non-tapered_curved_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a non tapered curved blind hole is a curved blind hole with a transverse cross section that does not change along its centroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#non-tapered_curved_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">non-tapered curved blind hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#non-tapered_curved_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a non tapered curved through hole is a curved through hole with a transverse cross section that does not change along its centroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#non-tapered_curved_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">non-tapered curved through hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#non-tapered_straight_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a non tapered straight blind hole is a straight blind hole with a transverse cross section that does not change along its centroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#non-tapered_straight_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">non-tapered straight blind hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#non-tapered_straight_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a non tapered straight through hole is a straight through hole with a transverse cross section that does not change along its centroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#non-tapered_straight_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">non-tapered straight through hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#non-uniform_cavity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a non-uniform cavity is a cavity that has length dimensions which change in all 3 dimensions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#non-uniform_cavity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">non-uniform cavity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#outward_taper_curved_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an outward taper  curved blind hole is a single direction tapered curved blind hole with a transverse cross section that only increases or stays the same along its centroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#outward_taper_curved_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">outward taper curved blind hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#outward_taper_curved_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an outward taper  curved through hole is a single direction tapered curved through hole with a transverse cross section that only increases or stays the same along its centroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#outward_taper_curved_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">outward taper curved through hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#outward_taper_straight_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an outward taper  straight blind hole is a single direction tapered straight blind hole with a transverse cross section that only increases or stays the same along its centroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#outward_taper_straight_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">outward taper straight blind hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#outward_taper_straight_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an outward taper  straight through hole is a single direction tapered straight through hole with a transverse cross section that only increases or stays the same along its centroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#outward_taper_straight_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">outward taper straight through hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#pocket</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a pocket is a surface void with geometry on more than one surface at its originating point, and which reducts teh cross sectional area of surfaces preceeding or proceeding it in some direction relative to it</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#single_direction_curved_through_hole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a single direction  taper curved through hole is a tapered curved through hole with a transverse cross section that only increases or stays the same, or decreases and stays the same, at all points along its centroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#single_direction_curved_through_hole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">single direction curved through hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#single_direction_taper_curved_blind_hole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a single direction  taper curved blind hole is a tapered curved blind hole with a transverse cross section that only increases or stays the same, or decreases and stays the same, at all points along its centroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#single_direction_taper_curved_blind_hole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">single direction taper curved blind hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#single_direction_taper_straight_blind_hole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a single direction  taper straight blind hole is a tapered straight blind hole with a transverse cross section that only increases or stays the same, or decreases and stays the same, at all points along its centroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#single_direction_taper_straight_blind_hole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">single direction taper straight blind hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#straight_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a straight blind hole is a blind hole with a centroid that can be represented using a straight line</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#straight_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">straight blind hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#straighthole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a straight through is a through hole with a centroid that can be represented using a straight line</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#straighthole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">straight through hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#surface_void</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a surface void is a void that intersects the surface of some solid, resulting in the exposure of features internal to the volume in some dimension, or causing a mismatch between two lenghts in some volume of the dimension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#surface_void</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">surface void</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#tapered_curved_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a  tapered curved blind hole is a curved blind hole with a transverse cross section that changes along its centroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tapered_curved_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tapered curved blind hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#tapered_curved_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a  tapered curved through hole is a curved through hole with a transverse cross section that changes along its centroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tapered_curved_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tapered curved through hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#tapered_straight_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a  tapered straight blind hole is a straight blind hole with a transverse cross section that changes along its centroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tapered_straight_blindhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tapered straight blind hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#tapered_straight_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a  tapered straight through hole is a straight through hole with a transverse cross section that changes along its centroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tapered_straight_throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tapered straight through hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#throughhole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">through hole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#uniform_cavity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a uniform cavity is a cavity that has the quality of having a uniform length dimension for all values of the other two dimensions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#uniform_cavity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">uniform cavity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#void</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a void is a three-dimensional spatial region that is defined by the absence of material in some volume of material that is otherwise solid when observed from some length scale</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
