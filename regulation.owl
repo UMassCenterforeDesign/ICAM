@@ -6,13 +6,18 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl">
+    <Prefix name="" IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>http://www.semanticweb.org/tom/ontologies/2017/10/info</Import>
-    <Import>http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model</Import>
+    <Declaration>
+        <ObjectProperty IRI="#references_guidance"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    </Declaration>
     <Declaration>
         <ObjectProperty IRI="#specifies"/>
     </Declaration>
@@ -20,82 +25,82 @@
         <Class IRI="#regulatory_specification"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#has_vertical_section"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl_design#has_consequence"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <ObjectProperty IRI="#has_vertical_section"/>
     </Declaration>
     <Declaration>
         <Class IRI="#standard"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#has_section"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_classification"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#is_specified_by"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_classification_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl_design#has_consequence"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#classification_system"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#is_design_of"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#is_specified_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_classification"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_subject_of"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#classification"/>
+        <ObjectProperty IRI="#is_classification_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#has_horizontal_section"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_consequence_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#&apos;is_subject_to&apos;"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000310"/>
+        <Class IRI="#classification_system"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#is_specification_for"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#medical_device_classification_system"/>
+        <ObjectProperty IRI="#&apos;is_subject_to&apos;"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#has_members_affected_by"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#classification_specification"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000310"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#regulation"/>
+        <ObjectProperty IRI="#has_horizontal_section"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#references"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#references_guidance"/>
+        <Class IRI="#medical_device_classification_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#classification_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#classification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_section"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#regulation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_consequence_of"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DescriptiveInformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#DesignativeInformationContentEntity"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#classification"/>
@@ -182,6 +187,13 @@
     </ObjectPropertyDomain>
     <SubObjectPropertyOf>
         <ObjectPropertyChain>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#is_specified_by"/>
+            <ObjectProperty IRI="#&apos;is_subject_to&apos;"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#&apos;is_subject_to&apos;"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
             <ObjectProperty IRI="#has_classification"/>
             <ObjectProperty IRI="#has_members_affected_by"/>
         </ObjectPropertyChain>
@@ -230,13 +242,11 @@
         </ObjectPropertyChain>
         <ObjectProperty IRI="#&apos;is_subject_to&apos;"/>
     </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#is_specified_by"/>
-            <ObjectProperty IRI="#&apos;is_subject_to&apos;"/>
-        </ObjectPropertyChain>
-        <ObjectProperty IRI="#&apos;is_subject_to&apos;"/>
-    </SubObjectPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#is_specified_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is specified by</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl_design#has_consequence</IRI>
@@ -351,11 +361,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#&apos;is_subject_to&apos;</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is subject to</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#is_specified_by</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is specified by</Literal>
     </AnnotationAssertion>
 </Ontology>
 

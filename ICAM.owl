@@ -14,7 +14,7 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0</Import>
     <Import>http://www.semanticweb.org/tom/ontologies/2017/7/AM_machines2</Import>
-    <Import>http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL</Import>
+    <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl</Import>
     <Declaration>
         <Class IRI="#sacrificial_thermal_dissipation_feature"/>
     </Declaration>
@@ -40,7 +40,7 @@
         <Class IRI="#control_capability"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#has_related_process"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#has_related_process"/>
     </Declaration>
     <Declaration>
         <Class IRI="#metal_form_fabrication_capability"/>
@@ -1285,7 +1285,7 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#has_related_service"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#has_related_process"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#has_related_process"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#is_capability_of"/>

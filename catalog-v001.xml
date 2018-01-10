@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1515595058198" name="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl" uri="functioanl%20model%202.0.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515595058198" name="http://purl.obolibrary.org/obo/bfo.owl" uri="bfo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515595058198" name="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology" uri="UnitsOfMeasureOntology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515595058198" name="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL" uri="BFO_MSDL.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515595058198" name="http://www.semanticweb.org/presentation/ontologies/2017/3/SAMPRO" uri="SAMPRO.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515595058198" name="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0" uri="BEM2.0.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515595058198" name="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0" uri="ICAM.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515595058198" name="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate" uri="additive%20materials.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515595058198" name="http://www.semanticweb.org/tom/ontologies/2017/6/voids" uri="voids.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515595058198" name="http://www.semanticweb.org/tom/ontologies/2017/7/AM_machines2" uri="am_machines.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515595058198" name="http://www.semanticweb.org/tom/ontologies/2017/8/regulation" uri="regulation.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1515595058198" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl" uri="MSDL_full.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515605291716" name="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl" uri="functioanl%20model%202.0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515605291716" name="http://purl.obolibrary.org/obo/bfo.owl" uri="bfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515605291716" name="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology" uri="UnitsOfMeasureOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515605291716" name="http://www.semanticweb.org/presentation/ontologies/2017/3/SAMPRO" uri="SAMPRO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515605291716" name="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0" uri="BEM2.0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515605291716" name="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0" uri="ICAM.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515605291716" name="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate" uri="additive%20materials.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515605291716" name="http://www.semanticweb.org/tom/ontologies/2017/6/voids" uri="voids.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515605291716" name="http://www.semanticweb.org/tom/ontologies/2017/7/AM_machines2" uri="am_machines.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515605291716" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl" uri="BFO_MSDL.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515605291716" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl" uri="MSDL_full.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1515605291716" name="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl" uri="regulation.owl"/>
     </group>
 </catalog>

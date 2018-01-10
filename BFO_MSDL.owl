@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL"
+     xml:base="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL">
-    <Prefix name="" IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL"/>
+     ontologyIRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl">
+    <Prefix name="" IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -18,6 +18,12 @@
     <Import>http://www.semanticweb.org/presentation/ontologies/2017/3/SAMPRO</Import>
     <Import>http://www.semanticweb.org/tom/ontologies/2017/6/voids</Import>
     <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#rationale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#optical_energy_delivery_artifact"/>
     </Declaration>
     <Declaration>
@@ -27,10 +33,10 @@
         <Class IRI="#nozzle"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasTool"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000295"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000295"/>
+        <ObjectProperty IRI="#hasTool"/>
     </Declaration>
     <Declaration>
         <Class IRI="#laser"/>
@@ -42,88 +48,22 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#manufacturing_process_volume"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#morphology"/>
+        <Class IRI="#build_volume"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#continuous_scale_datum"/>
+        <ObjectProperty IRI="#has_strength"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#reservoir_volume"/>
+        <Class IRI="#energy_delivery_artifact"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#portion_of_steel"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000029"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#layer"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#uses_tool"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_related_process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#material_creation_process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#mathemathical_representation"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#item_a"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#infrared_energy_delivery_artifact"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_subject_of"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#material_delivery_artifact"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#manufacturing_tool"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#categorical_scale_datum"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#manufacturing_plan_specification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#projector"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#process_volume"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_strength"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#build_volume"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000006"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#energy_delivery_artifact"/>
     </Declaration>
     <Declaration>
         <Class IRI="#manufacturing_plan"/>
@@ -132,13 +72,94 @@
         <Class IRI="#material_working_process"/>
     </Declaration>
     <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_subject_of"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#measurement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#direct_metal_laser_sintering_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#categorical_scale_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#assumption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#predictive_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#manufacturing_plan_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#process_volume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#morphology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#manufacturing_process_volume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#continuous_scale_datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_steel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_related_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#infrared_energy_delivery_artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reservoir_volume"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses_tool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#layer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#idealization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#projector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#material_delivery_artifact"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#item_a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mathemathical_representation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#material_creation_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#manufacturing_tool"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#direct_metal_laser_sintering_process"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#purpose"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Photopolymer"/>
@@ -193,6 +214,14 @@
         <Class IRI="#morphology"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#product"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#prototype_role"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#build_volume"/>
         <Class IRI="#manufacturing_process_volume"/>
     </SubClassOf>
@@ -227,6 +256,10 @@
     <SubClassOf>
         <Class IRI="#layer"/>
         <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#manufacturing_plan"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/info.owl#plan"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#manufacturing_plan_specification"/>
@@ -285,10 +318,6 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000029"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#prototype_role"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#CuttingEdge"/>
         <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
     </SubClassOf>
@@ -315,6 +344,73 @@
     <SubClassOf>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#assembly"/>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/EngMechanics.owl#loading_plan"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/info.owl#plan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#assumption"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#idealization"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_model_element"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#assumption"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_model_element"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#idealization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#has_model_element"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#rationale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#is_model_of"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#predictive_model"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#purpose"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#rationale"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#rationale"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#purpose"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <ClassAssertion>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#High"/>
@@ -980,6 +1076,16 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">powder morphology</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#commercial_role</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">commercial role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#product</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">product role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#build_volume</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a build volume is a manufacturing process volume that comprises the available space in which material can be deposited in an additive process</Literal>
@@ -1123,21 +1229,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#uses_tool</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">uses tool</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#commercial_role</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">commercial role</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#product</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">product role</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl_design#has_sub-process</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has sub-process</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2958,6 +3049,66 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#scale_item</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">scale datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl_design#has_sub-process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has sub-process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000112"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#assumption</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">In continuum mechanics it is assumed that the space in between atoms is not significant to the macroscopic dispositions or qualities of the entity being analyzed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#assumption</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">an assumption is a narrative object composed of a description or conclusion that depends on some pre-defined state of an entity or approximation of reality to be fully accurrate or valid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A descriptive model is a model that only documents or representation of an entity to within the scope information that is known, and deemed relevant to the model creator’s objectives or purpose.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">descriptive model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000112"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#idealization</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">In continuum mechanics the assumption that empty space between atoms is not significant to the dispositions or qualities of the entity in question allows the entity to be idealized as a continuum. In reality, it is not.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#idealization</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The representation of an entity that is simpler or &quot;better&quot; than reality. When an agent makes an assumption as to the description of an entity, they may allow certain simplifications to be invoked under circumstances in which the underlying assumption is valid to within some relevant metric of validity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A model is an information content entity that is deliberately created using a replicable methodology and based a set of known objectives, purposes, assumptions, and idealizations that constitute a rationale to represent or discover information relating to some entity to within the limits of the creator and said methodology.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#predictive_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A predictive model is a model that is deliberately constructed with the objective of accurately predicting unknown information about some entity that is at least in part unknown or poorly understood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#predictive_model</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">predictive model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#rationale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A rationale is a representational information content entity that represents thejustification or logic used when an agent participates in a planned process or makes a decision</Literal>
     </AnnotationAssertion>
 </Ontology>
 

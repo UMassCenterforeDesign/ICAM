@@ -11,7 +11,7 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL</Import>
+    <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl</Import>
     <Declaration>
         <Class IRI="#portion_of_cobalt_chrome_SP2"/>
     </Declaration>

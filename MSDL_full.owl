@@ -66,13 +66,13 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#OrnamentalAndArchitecturalMetalProductsManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#mathemathical_representation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#mathemathical_representation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#MachineryForPreparingHides"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#manufacturing_tool"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#manufacturing_tool"/>
     </Declaration>
     <Declaration>
         <Class IRI="#IronAndSteelForging"/>
@@ -1026,7 +1026,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#RolledSteelShapeManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#portion_of_steel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#portion_of_steel"/>
     </Declaration>
     <Declaration>
         <Class IRI="#NonferrousForging"/>
@@ -3030,7 +3030,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <ObjectProperty IRI="#hasShape"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#material_working_process"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#material_working_process"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasAccuracy"/>
@@ -3630,7 +3630,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#WorkPieceType"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#uses_tool"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#uses_tool"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ScrewMachine"/>
@@ -3716,7 +3716,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     <EquivalentClasses>
         <Class IRI="#AlloySteel"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#portion_of_steel"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#portion_of_steel"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#hasDuctility"/>
                 <ObjectIntersectionOf>
@@ -4782,7 +4782,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#HorizontalTurning"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#uses_tool"/>
+                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#uses_tool"/>
                 <ObjectIntersectionOf>
                     <Class IRI="#CuttingTool"/>
                     <ObjectAllValuesFrom>
@@ -4954,7 +4954,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#Broaching"/>
         <ObjectIntersectionOf>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#uses_tool"/>
+                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#uses_tool"/>
                 <ObjectIntersectionOf>
                     <Class IRI="#CuttingTool"/>
                     <ObjectAllValuesFrom>
@@ -5123,7 +5123,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     <EquivalentClasses>
         <Class IRI="#CarbonSteel"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#portion_of_steel"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#portion_of_steel"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#hasDuctility"/>
                 <ObjectIntersectionOf>
@@ -5400,7 +5400,7 @@ Engineering Informatics Lab - Texas State University</Literal>
                 </ObjectIntersectionOf>
             </ObjectSomeValuesFrom>
             <ObjectAllValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#uses_tool"/>
+                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#uses_tool"/>
                 <Class IRI="#CounterBoreTool"/>
             </ObjectAllValuesFrom>
         </ObjectIntersectionOf>
@@ -5473,7 +5473,7 @@ Engineering Informatics Lab - Texas State University</Literal>
                 </ObjectIntersectionOf>
             </ObjectSomeValuesFrom>
             <ObjectAllValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#uses_tool"/>
+                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#uses_tool"/>
                 <Class IRI="#CounterSinkTool"/>
             </ObjectAllValuesFrom>
         </ObjectIntersectionOf>
@@ -5483,7 +5483,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#HorizontalTurning"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#uses_tool"/>
+                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#uses_tool"/>
                 <ObjectIntersectionOf>
                     <Class IRI="#CuttingTool"/>
                     <ObjectAllValuesFrom>
@@ -5581,7 +5581,7 @@ Engineering Informatics Lab - Texas State University</Literal>
                 </ObjectIntersectionOf>
             </ObjectSomeValuesFrom>
             <ObjectAllValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#uses_tool"/>
+                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#uses_tool"/>
                 <Class IRI="#TwistDrill"/>
             </ObjectAllValuesFrom>
             <ObjectAllValuesFrom>
@@ -5756,7 +5756,7 @@ Engineering Informatics Lab - Texas State University</Literal>
                 </ObjectIntersectionOf>
             </ObjectSomeValuesFrom>
             <ObjectAllValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#uses_tool"/>
+                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#uses_tool"/>
                 <Class IRI="#TwistDrill"/>
             </ObjectAllValuesFrom>
             <ObjectAllValuesFrom>
@@ -5849,7 +5849,7 @@ Engineering Informatics Lab - Texas State University</Literal>
                 </ObjectIntersectionOf>
             </ObjectSomeValuesFrom>
             <ObjectAllValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#uses_tool"/>
+                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#uses_tool"/>
                 <Class IRI="#EndMill"/>
             </ObjectAllValuesFrom>
         </ObjectIntersectionOf>
@@ -5945,7 +5945,7 @@ Engineering Informatics Lab - Texas State University</Literal>
                 </ObjectIntersectionOf>
             </ObjectSomeValuesFrom>
             <ObjectAllValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#uses_tool"/>
+                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#uses_tool"/>
                 <Class IRI="#FaceMill"/>
             </ObjectAllValuesFrom>
         </ObjectIntersectionOf>
@@ -5955,7 +5955,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#HorizontalTurning"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#uses_tool"/>
+                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#uses_tool"/>
                 <ObjectIntersectionOf>
                     <Class IRI="#CuttingTool"/>
                     <ObjectAllValuesFrom>
@@ -6069,7 +6069,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#HorizontalTurning"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#uses_tool"/>
+                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#uses_tool"/>
                 <ObjectIntersectionOf>
                     <Class IRI="#CuttingTool"/>
                     <ObjectAllValuesFrom>
@@ -6651,7 +6651,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#Milling"/>
         <ObjectIntersectionOf>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#uses_tool"/>
+                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#uses_tool"/>
                 <ObjectIntersectionOf>
                     <Class IRI="#CuttingTool"/>
                     <ObjectSomeValuesFrom>
@@ -6825,7 +6825,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     <EquivalentClasses>
         <Class IRI="#NonShapingProcess"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#material_working_process"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#material_working_process"/>
             <DataHasValue>
                 <DataProperty IRI="#ChangesGeometry"/>
                 <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
@@ -6968,7 +6968,7 @@ Engineering Informatics Lab - Texas State University</Literal>
                 </ObjectIntersectionOf>
             </ObjectSomeValuesFrom>
             <ObjectAllValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#uses_tool"/>
+                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#uses_tool"/>
                 <Class IRI="#Reamer"/>
             </ObjectAllValuesFrom>
             <ObjectAllValuesFrom>
@@ -7025,7 +7025,7 @@ Engineering Informatics Lab - Texas State University</Literal>
                 </ObjectIntersectionOf>
             </ObjectSomeValuesFrom>
             <ObjectAllValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#uses_tool"/>
+                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#uses_tool"/>
                 <Class IRI="#StraightSaw"/>
             </ObjectAllValuesFrom>
             <ObjectAllValuesFrom>
@@ -7038,7 +7038,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#Shaping"/>
         <ObjectIntersectionOf>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#uses_tool"/>
+                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#uses_tool"/>
                 <ObjectIntersectionOf>
                     <Class IRI="#CuttingTool"/>
                     <ObjectAllValuesFrom>
@@ -7106,7 +7106,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#HorizontalMilling"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#uses_tool"/>
+                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#uses_tool"/>
                 <ObjectIntersectionOf>
                     <Class IRI="#CuttingTool"/>
                     <ObjectSomeValuesFrom>
@@ -7169,7 +7169,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     <EquivalentClasses>
         <Class IRI="#StainlessSteel"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#portion_of_steel"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#portion_of_steel"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#hasCorrosionResistance"/>
                 <ObjectIntersectionOf>
@@ -7267,7 +7267,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#HorizontalTurning"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#uses_tool"/>
+                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#uses_tool"/>
                 <ObjectIntersectionOf>
                     <Class IRI="#CuttingTool"/>
                     <ObjectAllValuesFrom>
@@ -7407,7 +7407,7 @@ Engineering Informatics Lab - Texas State University</Literal>
                 </ObjectIntersectionOf>
             </ObjectSomeValuesFrom>
             <ObjectAllValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#uses_tool"/>
+                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#uses_tool"/>
                 <Class IRI="#Tap"/>
             </ObjectAllValuesFrom>
         </ObjectIntersectionOf>
@@ -7899,7 +7899,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Axis"/>
-        <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#mathemathical_representation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#mathemathical_representation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BallAndRollerBearingManufacturing"/>
@@ -8383,7 +8383,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CuttingTool"/>
-        <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#manufacturing_tool"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#manufacturing_tool"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CuttingToolAndMachineToolAccessoryManufacturing"/>
@@ -8427,7 +8427,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DieSteel"/>
-        <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#portion_of_steel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#portion_of_steel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DiffusionBonding"/>
@@ -8519,7 +8519,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DriveSystem"/>
-        <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#manufacturing_tool"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#manufacturing_tool"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DropForging"/>
@@ -9203,7 +9203,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Insert"/>
-        <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#manufacturing_tool"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#manufacturing_tool"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#InspectionMachine"/>
@@ -9327,7 +9327,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Line"/>
-        <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#mathemathical_representation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#mathemathical_representation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Liquid"/>
@@ -9651,7 +9651,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mold"/>
-        <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#manufacturing_tool"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#manufacturing_tool"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MoldingMachine"/>
@@ -10683,7 +10683,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ShapingProcess"/>
-        <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#material_working_process"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#material_working_process"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ShearingStamping"/>
@@ -10931,7 +10931,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Surface"/>
-        <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#mathemathical_representation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#mathemathical_representation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SurfaceFinishing"/>
@@ -11051,7 +11051,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ToolAssembly"/>
-        <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#manufacturing_tool"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#manufacturing_tool"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ToolDesignService"/>
@@ -11059,7 +11059,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ToolHolder"/>
-        <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#manufacturing_tool"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#manufacturing_tool"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ToolHolders"/>
@@ -11067,11 +11067,11 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ToolSteel"/>
-        <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#portion_of_steel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#portion_of_steel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ToolSystem"/>
-        <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#manufacturing_tool"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#manufacturing_tool"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TorchBrazing"/>
@@ -11167,7 +11167,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Vector"/>
-        <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#mathemathical_representation"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#mathemathical_representation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VehiclesNotMechanicallyPropelled"/>
@@ -11287,7 +11287,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#WorkHolder"/>
-        <Class IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/BFO_MSDL#manufacturing_tool"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#manufacturing_tool"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#WorkHolders"/>
