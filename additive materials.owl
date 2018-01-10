@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate"
+     xml:base="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate">
+     ontologyIRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl">
+    <Prefix name="" IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -13,7 +14,73 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl</Import>
     <Declaration>
+        <Class IRI="#portion_of_tool_steel_A-2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_stainless_steel15-5PH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_stainless_steel309"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_titanium_64_ELI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_GRCop-84"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_tool_steel_H13"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_cobalt_chrome_MP1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_stainless_steelAM355"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_cobalt_chrome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_oftitanium_6-4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_ofCP_titanium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_tool_steel_S7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_titanium_64"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_aluminum_4047"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_stellite_21"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stainless_steel_PH1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_Titanium_6_Aluminum_4_V"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_stainless_steel316"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_stainless_steel304"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_maraging_steel_MS1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stainless_steel_CX"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#portion_of_cobalt_chrome_SP2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_oftitanium_6-2-4-6"/>
     </Declaration>
     <Declaration>
         <Class IRI="#portion_of_aluminum_silicon_10_Magnesium"/>
@@ -22,133 +89,67 @@
         <Class IRI="#portion_of_inconel690"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#portion_oftitanium_6-2-4-6"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_of_inconel718"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#stainless_steel_17-4_PH"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_oftitanium_6-2-4-2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_of_stainless_steel420"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_of_maraging_steel_MS1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#stainless_steel_PH1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_of_stainless_steel410"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_of_aluminum_4047"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#stainless_steel_CX"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_of_stainless_steel13-8"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#stainless_steel_GP1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_of_inconel625"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_of_tool_steel_S7"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_of_stainless_steel304"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_of_stainless_steel316"/>
+        <Class IRI="#portion_oftitanium_22_Al_23_Nb"/>
     </Declaration>
     <Declaration>
         <Class IRI="#portion_of_nickel_HX"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#stainless_steel_GP1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_stainless_steel13-8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_inconel625"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#portion_of_stainless_steel17-4"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_of_cobalt_chrome"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_oftitanium_22_Al_23_Nb"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_ofCP_titanium"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_of_stainless_steel15-5PH"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_of_titanium_64_ELI"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_of_tool_steel_H13"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_of_tool_steel_A-2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_of_stellite_21"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_of_copper-Ni"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_of_Titanium_6_Aluminum_4_V"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_of_titanium_64"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#portion_oftitanium_6-4"/>
     </Declaration>
     <Declaration>
         <Class IRI="#portion_of_stainless_steel416"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#portion_of_GRCop-84"/>
+        <Class IRI="#portion_of_copper-Ni"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#portion_of_stainless_steel309"/>
+        <Class IRI="#portion_oftitanium_6-2-4-2"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#portion_of_stainless_steelAM355"/>
+        <Class IRI="#stainless_steel_17-4_PH"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#portion_of_cobalt_chrome_MP1"/>
+        <Class IRI="#portion_of_inconel718"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_stainless_steel410"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#portion_of_stainless_steel420"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#portion_ofCP_titanium"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Titanium"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Titanium"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_GRCop-84"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Copper"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Copper"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_Titanium_6_Aluminum_4_V"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Titanium"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Titanium"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_aluminum_4047"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Aluminum"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Aluminum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_aluminum_silicon_10_Magnesium"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Aluminum"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Aluminum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_cobalt_chrome"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Non-Ferrous"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Non-Ferrous"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_cobalt_chrome_MP1"/>
@@ -160,75 +161,75 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_copper-Ni"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Copper"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Copper"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_inconel625"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Inconel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Inconel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_inconel690"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Inconel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Inconel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_inconel718"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Inconel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Inconel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_maraging_steel_MS1"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#ToolSteel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#ToolSteel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_nickel_HX"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Nickel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Nickel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_stainless_steel13-8"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#StainlessSteel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_stainless_steel15-5PH"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#StainlessSteel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_stainless_steel17-4"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#StainlessSteel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_stainless_steel304"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#StainlessSteel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_stainless_steel309"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#StainlessSteel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_stainless_steel316"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#StainlessSteel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_stainless_steel410"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#StainlessSteel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_stainless_steel416"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#StainlessSteel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_stainless_steel420"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#StainlessSteel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_stainless_steelAM355"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#StainlessSteel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_stellite_21"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Stellite"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Stellite"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_titanium_64"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Titanium"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Titanium"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_titanium_64_ELI"/>
@@ -236,47 +237,47 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_tool_steel_A-2"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#ToolSteel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#ToolSteel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_tool_steel_H13"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#ToolSteel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#ToolSteel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_of_tool_steel_S7"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#ToolSteel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#ToolSteel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_oftitanium_22_Al_23_Nb"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Titanium"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Titanium"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_oftitanium_6-2-4-2"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Titanium"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Titanium"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_oftitanium_6-2-4-6"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Titanium"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Titanium"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#portion_oftitanium_6-4"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Titanium"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Titanium"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#stainless_steel_17-4_PH"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#StainlessSteel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#stainless_steel_CX"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#StainlessSteel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#stainless_steel_GP1"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#StainlessSteel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#stainless_steel_PH1"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#StainlessSteel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#StainlessSteel"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#portion_ofCP_titanium"/>

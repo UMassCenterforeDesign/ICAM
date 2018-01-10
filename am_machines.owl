@@ -1,189 +1,186 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/tom/ontologies/2017/7/AM_machines2"
+     xml:base="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/am_machines.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/tom/ontologies/2017/7/AM_machines2">
-    <Prefix name="" IRI="http://www.semanticweb.org/tom/ontologies/2017/7/AM_machines2"/>
+     ontologyIRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/am_machines.owl">
+    <Prefix name="" IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/am_machines.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate</Import>
+    <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl</Import>
     <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl</Import>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#eosint_M280_400_W"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#eosint_M280_400_W"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#direct_metal_laser_sintering_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#direct_metal_laser_sintering_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#electronic_component_printing_capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#electronic_component_printing_capability"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet30Machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#counter_crafting_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#counter_crafting_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Fortus_Machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Fortus_Machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#fused_deposition_modeling_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#fused_deposition_modeling_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#aerosol_jet_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#aerosol_jet_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#selective_laser_singering_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#selective_laser_singering_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#material_jetting_system_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#material_jetting_system_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#hierarchical_complexity_capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#hierarchical_complexity_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#computer_controlled_manufacturing_capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#computer_controlled_manufacturing_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#FF_Creator_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#FF_Creator_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Connex_550_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Connex_550_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#desktop_manufacturing_capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#desktop_manufacturing_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Form-2_Machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Form-2_Machine"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#MarkforgedOnyxOneMachine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#sacrificial_feature_creation_capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#sacrificial_feature_creation_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#optomec_aerosol_jet_200_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#optomec_aerosol_jet_200_machine"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#F370Machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#atomic_diffusion_additive_manufacturing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#atomic_diffusion_additive_manufacturing_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#functional_complexity_capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#functional_complexity_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#sheet_lamination_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#sheet_lamination_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#powder_bed_melting_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#powder_bed_melting_machine"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#ProXDMP200Machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#vat_photopolymerization_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#vat_photopolymerization_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Form-1_Machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Form-1_Machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#digital_sand_casting_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#digital_sand_casting_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#layerless_accumulation_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#layerless_accumulation_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#multiple_material_form_creation_capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#multiple_material_form_creation_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#polyjet_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#polyjet_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#plaster_jetting_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#plaster_jetting_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#SLM_500"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#SLM_500"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#ProXDMP300Machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Mark_2_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Mark_2_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M100_DLMS_printer"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M100_DLMS_printer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#directed_energy_deposition_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#directed_energy_deposition_machine"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#ProxDMP100Machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#wax_printing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#wax_printing_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#eosint_m280_200_W"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#eosint_m280_200_W"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Fortus450Machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M080_DMLS_Printer"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M080_DMLS_Printer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Statysys_F-series_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Statysys_F-series_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#stereolithography_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#stereolithography_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#embedded_mechanism_capability"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#embedded_mechanism_capability"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#ProJect7000"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#layer_by_layer_building_capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#layer_by_layer_building_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#ProJet_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#ProJet_machine"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#SLM280Machin"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#eos_M-series_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#eos_M-series_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#FF_dreamer_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#FF_dreamer_machine"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#F270Machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#J750_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#J750_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#eos_P-series_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#eos_P-series_machine"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet24Machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Onxy_one_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Onxy_one_machine"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#OptomecLENSMR7Machine"/>
@@ -192,67 +189,67 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#objet30PrimeMachine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#additive_manufacturing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#additive_manufacturing_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#pre-assembled_form_manufacturing_capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#pre-assembled_form_manufacturing_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Fortus_900_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Fortus_900_machine"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#ProXDMP320Machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M290_DMLS_printer"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M290_DMLS_printer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#alloying_capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#alloying_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#digital_light_processing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#digital_light_processing_machine"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#ProJet6000"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#powder_bed_fusion_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#powder_bed_fusion_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#optomec_lens_450XL"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#optomec_lens_450XL"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#distributed_manufacturing_capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#distributed_manufacturing_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#voxel8_printer"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#voxel8_printer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Mark_X_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Mark_X_machine"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#mojo_magic_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M400_DMLS_printer"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M400_DMLS_printer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Markforged_Fiber_Printing_Maching"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Markforged_Fiber_Printing_Maching"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Onyx_Pro_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Onyx_Pro_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#laminated_object_manufacturing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#laminated_object_manufacturing_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#shape-complexity_capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#shape-complexity_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#paper_lamination_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#paper_lamination_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Markforged_Metal_X_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Markforged_Metal_X_machine"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet260Machine"/>
@@ -261,1570 +258,1576 @@
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#ObjetEden260VSMachine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#laser_engineered_net_shaping_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#laser_engineered_net_shaping_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#material_extrusion_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#material_extrusion_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M280_DMLS_printer"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M280_DMLS_printer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#electron_beam_melting_powder_bed_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#electron_beam_melting_powder_bed_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Fortus_380_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Fortus_380_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#ProX_series_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#ProX_series_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#selective_laser_sintering_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#selective_laser_sintering_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#binder_jetting_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#binder_jetting_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#functional_grading_capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#functional_grading_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#ultrasonic_additive_manufacturing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#ultrasonic_additive_manufacturing_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Objet_1000_plus_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Objet_1000_plus_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#ion_fusion_formation_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#ion_fusion_formation_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#electron_beam_welding_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#electron_beam_welding_machine"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#F170Machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#SLM_125_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#SLM_125_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#electrical_trace_printing_capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#electrical_trace_printing_capability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet30ProMachine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Connex_350_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Connex_350_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#composite_printing_capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#composite_printing_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#selective_laser_melting_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#selective_laser_melting_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#selective_heat_sintering_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#selective_heat_sintering_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#optomec_lens_450"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#optomec_lens_450"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Connex_350_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#polyjet_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Connex_350_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#polyjet_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Connex_350_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Connex_350_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#embedded_mechanism_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#embedded_mechanism_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Connex_350_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Connex_350_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#multiple_material_form_creation_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#multiple_material_form_creation_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Connex_350_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Connex_350_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#pre-assembled_form_manufacturing_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#pre-assembled_form_manufacturing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Connex_550_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#polyjet_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Connex_550_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#polyjet_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Connex_550_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Connex_550_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#embedded_mechanism_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#embedded_mechanism_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Connex_550_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Connex_550_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#multiple_material_form_creation_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#multiple_material_form_creation_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Connex_550_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Connex_550_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#pre-assembled_form_manufacturing_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#pre-assembled_form_manufacturing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#FF_Creator_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#fused_deposition_modeling_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#FF_Creator_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#fused_deposition_modeling_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#FF_dreamer_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#fused_deposition_modeling_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#FF_dreamer_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#fused_deposition_modeling_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#FF_dreamer_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#FF_dreamer_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#desktop_manufacturing_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#desktop_manufacturing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#FF_dreamer_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#FF_dreamer_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#multiple_material_form_creation_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#multiple_material_form_creation_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Form-1_Machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#stereolithography_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Form-1_Machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#stereolithography_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Form-2_Machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#stereolithography_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Form-2_Machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#stereolithography_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Fortus_380_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Fortus_Machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Fortus_380_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Fortus_Machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Fortus_900_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Fortus_Machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Fortus_900_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Fortus_Machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Fortus_Machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#fused_deposition_modeling_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Fortus_Machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#fused_deposition_modeling_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#J750_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#polyjet_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#J750_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#polyjet_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#J750_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#J750_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#embedded_mechanism_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#embedded_mechanism_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#J750_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#J750_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#multiple_material_form_creation_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#multiple_material_form_creation_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#J750_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#J750_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#pre-assembled_form_manufacturing_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#pre-assembled_form_manufacturing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M080_DMLS_Printer"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#eos_M-series_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M080_DMLS_Printer"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#eos_M-series_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M080_DMLS_Printer"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M080_DMLS_Printer"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#pre-assembled_form_manufacturing_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#pre-assembled_form_manufacturing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M100_DLMS_printer"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#eos_M-series_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M100_DLMS_printer"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#eos_M-series_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M100_DLMS_printer"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M100_DLMS_printer"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#pre-assembled_form_manufacturing_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#pre-assembled_form_manufacturing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M280_DMLS_printer"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#eos_M-series_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M280_DMLS_printer"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#eos_M-series_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M280_DMLS_printer"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M280_DMLS_printer"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#pre-assembled_form_manufacturing_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#pre-assembled_form_manufacturing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M290_DMLS_printer"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#eos_M-series_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M290_DMLS_printer"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#eos_M-series_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M290_DMLS_printer"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M290_DMLS_printer"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#pre-assembled_form_manufacturing_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#pre-assembled_form_manufacturing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M400_DMLS_printer"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#eos_M-series_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M400_DMLS_printer"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#eos_M-series_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M400_DMLS_printer"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M400_DMLS_printer"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#pre-assembled_form_manufacturing_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#pre-assembled_form_manufacturing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Mark_2_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Markforged_Fiber_Printing_Maching"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Mark_2_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Markforged_Fiber_Printing_Maching"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Mark_2_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Mark_2_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#composite_printing_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#composite_printing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Mark_X_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Markforged_Fiber_Printing_Maching"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Mark_X_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Markforged_Fiber_Printing_Maching"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Mark_X_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Mark_X_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#composite_printing_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#composite_printing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Markforged_Fiber_Printing_Maching"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#fused_deposition_modeling_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Markforged_Fiber_Printing_Maching"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#fused_deposition_modeling_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Markforged_Metal_X_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#atomic_diffusion_additive_manufacturing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Markforged_Metal_X_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#atomic_diffusion_additive_manufacturing_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Objet_1000_plus_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#polyjet_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Objet_1000_plus_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#polyjet_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Objet_1000_plus_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Objet_1000_plus_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#embedded_mechanism_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#embedded_mechanism_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Objet_1000_plus_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Objet_1000_plus_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#multiple_material_form_creation_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#multiple_material_form_creation_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Objet_1000_plus_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Objet_1000_plus_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#pre-assembled_form_manufacturing_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#pre-assembled_form_manufacturing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Onxy_one_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Markforged_Fiber_Printing_Maching"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Onxy_one_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Markforged_Fiber_Printing_Maching"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Onyx_Pro_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Markforged_Fiber_Printing_Maching"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Onyx_Pro_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Markforged_Fiber_Printing_Maching"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Onyx_Pro_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Onyx_Pro_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#composite_printing_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#composite_printing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#laser_engineered_net_shaping_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#laser_engineered_net_shaping_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
-            <ObjectIntersectionOf>
-                <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
-                <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.owl-ontologies.com/MSDL_full#Hastelloy"/>
-                </ObjectSomeValuesFrom>
-            </ObjectIntersectionOf>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_ofCP_titanium"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Hastelloy"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_of_GRCop-84"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_ofCP_titanium"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_of_copper-Ni"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_of_GRCop-84"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_of_inconel625"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_of_copper-Ni"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_of_inconel690"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_of_inconel625"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_of_inconel718"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_of_inconel690"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_of_stainless_steel13-8"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_of_inconel718"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_of_stainless_steel15-5PH"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_of_stainless_steel13-8"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_of_stainless_steel17-4"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_of_stainless_steel15-5PH"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_of_stainless_steel304"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_of_stainless_steel17-4"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_of_stainless_steel309"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_of_stainless_steel304"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_of_stainless_steel316"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_of_stainless_steel309"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_of_stainless_steel410"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_of_stainless_steel316"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_of_stainless_steel416"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_of_stainless_steel410"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_of_stainless_steel420"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_of_stainless_steel416"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_of_stainless_steelAM355"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_of_stainless_steel420"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_of_stellite_21"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_of_stainless_steelAM355"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_of_tool_steel_A-2"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_of_stellite_21"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_of_tool_steel_H13"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_of_tool_steel_A-2"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_of_tool_steel_S7"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_of_tool_steel_H13"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_oftitanium_22_Al_23_Nb"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_of_tool_steel_S7"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_oftitanium_6-2-4-2"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_oftitanium_22_Al_23_Nb"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_oftitanium_6-2-4-6"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_oftitanium_6-2-4-2"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-                    <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/AdditiveMate#portion_oftitanium_6-4"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_oftitanium_6-2-4-6"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#ProJet_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#stereolithography_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#ProX_series_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#direct_metal_laser_sintering_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#SLM_125_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#selective_laser_melting_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#SLM_500"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#selective_laser_melting_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Statysys_F-series_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#fused_deposition_modeling_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#additive_manufacturing_machine"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#additive_manufacturing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#computer_controlled_manufacturing_capability"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#additive_manufacturing_machine"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#distributed_manufacturing_capability"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#additive_manufacturing_machine"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#layer_by_layer_building_capability"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#additive_manufacturing_machine"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#sacrificial_feature_creation_capability"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#additive_manufacturing_machine"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
+            <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
             <ObjectIntersectionOf>
-                <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#functional_complexity_capability"/>
-                <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#hierarchical_complexity_capability"/>
-                <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#shape-complexity_capability"/>
+                <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasMaterial"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl#portion_oftitanium_6-4"/>
+                </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#aerosol_jet_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#material_jetting_system_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#ProJet_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#stereolithography_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#aerosol_jet_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#ProX_series_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#direct_metal_laser_sintering_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#SLM_125_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#selective_laser_melting_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#SLM_500"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#selective_laser_melting_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Statysys_F-series_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#fused_deposition_modeling_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#additive_manufacturing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#additive_manufacturing_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#electronic_component_printing_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#computer_controlled_manufacturing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#atomic_diffusion_additive_manufacturing_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#fused_deposition_modeling_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#binder_jetting_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#additive_manufacturing_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#counter_crafting_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#material_extrusion_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#digital_light_processing_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#vat_photopolymerization_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#digital_sand_casting_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#binder_jetting_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#direct_metal_laser_sintering_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#selective_laser_singering_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#directed_energy_deposition_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#additive_manufacturing_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#electron_beam_melting_powder_bed_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#powder_bed_melting_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#electron_beam_welding_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#directed_energy_deposition_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#eos_M-series_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#direct_metal_laser_sintering_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#eos_P-series_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#selective_laser_sintering_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#eosint_M280_400_W"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M280_DMLS_printer"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#eosint_m280_200_W"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M280_DMLS_printer"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#fused_deposition_modeling_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#material_extrusion_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#ion_fusion_formation_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#directed_energy_deposition_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#laminated_object_manufacturing_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#sheet_lamination_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#laser_engineered_net_shaping_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#directed_energy_deposition_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#layerless_accumulation_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#vat_photopolymerization_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#material_extrusion_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#additive_manufacturing_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#material_jetting_system_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#additive_manufacturing_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#optomec_aerosol_jet_200_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#aerosol_jet_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#optomec_lens_450"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#optomec_lens_450"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#additive_manufacturing_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#alloying_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#distributed_manufacturing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#optomec_lens_450"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#additive_manufacturing_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#functional_grading_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#layer_by_layer_building_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#optomec_lens_450XL"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#optomec_lens_450XL"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#additive_manufacturing_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#alloying_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#sacrificial_feature_creation_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#optomec_lens_450XL"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#additive_manufacturing_machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#functional_grading_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <ObjectIntersectionOf>
+                <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#functional_complexity_capability"/>
+                <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#hierarchical_complexity_capability"/>
+                <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#shape-complexity_capability"/>
+            </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#paper_lamination_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#sheet_lamination_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#aerosol_jet_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#material_jetting_system_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#plaster_jetting_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#binder_jetting_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#aerosol_jet_machine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#electronic_component_printing_capability"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#polyjet_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#material_jetting_system_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#atomic_diffusion_additive_manufacturing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#fused_deposition_modeling_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#powder_bed_fusion_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#additive_manufacturing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#binder_jetting_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#additive_manufacturing_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#powder_bed_melting_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#powder_bed_fusion_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#counter_crafting_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#material_extrusion_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#prototype_role"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#digital_light_processing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#vat_photopolymerization_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#digital_sand_casting_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#binder_jetting_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#direct_metal_laser_sintering_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#selective_laser_singering_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#directed_energy_deposition_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#additive_manufacturing_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#electron_beam_melting_powder_bed_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#powder_bed_melting_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#electron_beam_welding_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#directed_energy_deposition_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#eos_M-series_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#direct_metal_laser_sintering_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#eos_P-series_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#selective_laser_sintering_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#eosint_M280_400_W"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M280_DMLS_printer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#eosint_m280_200_W"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M280_DMLS_printer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#fused_deposition_modeling_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#material_extrusion_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#ion_fusion_formation_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#directed_energy_deposition_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#laminated_object_manufacturing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#sheet_lamination_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#laser_engineered_net_shaping_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#directed_energy_deposition_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#layerless_accumulation_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#vat_photopolymerization_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#material_extrusion_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#additive_manufacturing_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#material_jetting_system_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#additive_manufacturing_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#optomec_aerosol_jet_200_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#aerosol_jet_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#optomec_lens_450"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#optomec_lens_450"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#alloying_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#optomec_lens_450"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#functional_grading_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#optomec_lens_450XL"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#optomec_lens_450XL"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#alloying_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#optomec_lens_450XL"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#functional_grading_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#paper_lamination_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#sheet_lamination_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#plaster_jetting_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#binder_jetting_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#polyjet_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#material_jetting_system_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#powder_bed_fusion_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#additive_manufacturing_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#powder_bed_melting_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#powder_bed_fusion_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#prototype_role"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#selective_heat_sintering_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#selective_laser_singering_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#selective_heat_sintering_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#selective_laser_singering_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#selective_laser_melting_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#powder_bed_melting_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#selective_laser_melting_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#powder_bed_melting_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#selective_laser_singering_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#powder_bed_fusion_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#selective_laser_singering_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#powder_bed_fusion_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#selective_laser_sintering_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#selective_laser_singering_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#selective_laser_sintering_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#selective_laser_singering_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#sheet_lamination_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#additive_manufacturing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#sheet_lamination_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#additive_manufacturing_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#stereolithography_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#vat_photopolymerization_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#stereolithography_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#vat_photopolymerization_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#ultrasonic_additive_manufacturing_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#sheet_lamination_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#ultrasonic_additive_manufacturing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#sheet_lamination_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#vat_photopolymerization_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#additive_manufacturing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#vat_photopolymerization_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#additive_manufacturing_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#voxel8_printer"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#fused_deposition_modeling_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#voxel8_printer"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#fused_deposition_modeling_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#voxel8_printer"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#voxel8_printer"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#electrical_trace_printing_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#electrical_trace_printing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#wax_printing_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#binder_jetting_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#wax_printing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#binder_jetting_machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#F170Machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Statysys_F-series_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Statysys_F-series_machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#F270Machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Statysys_F-series_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Statysys_F-series_machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#F370Machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Statysys_F-series_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Statysys_F-series_machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Fortus450Machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Fortus_Machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Fortus_Machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#MarkforgedOnyxOneMachine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Markforged_Fiber_Printing_Maching"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Markforged_Fiber_Printing_Maching"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet24Machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#polyjet_machine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet24Machine"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#embedded_mechanism_capability"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#polyjet_machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet24Machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#multiple_material_form_creation_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#embedded_mechanism_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet24Machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#pre-assembled_form_manufacturing_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#multiple_material_form_creation_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet24Machine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#pre-assembled_form_manufacturing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet260Machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#polyjet_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#polyjet_machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet260Machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#embedded_mechanism_capability"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet260Machine"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#multiple_material_form_creation_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#embedded_mechanism_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet260Machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#pre-assembled_form_manufacturing_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#multiple_material_form_creation_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet260Machine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#pre-assembled_form_manufacturing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet30Machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#polyjet_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#polyjet_machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet30Machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#embedded_mechanism_capability"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet30Machine"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#multiple_material_form_creation_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#embedded_mechanism_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet30Machine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#pre-assembled_form_manufacturing_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#multiple_material_form_creation_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet30Machine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#pre-assembled_form_manufacturing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet30ProMachine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#polyjet_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#polyjet_machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet30ProMachine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#embedded_mechanism_capability"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet30ProMachine"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#multiple_material_form_creation_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#embedded_mechanism_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet30ProMachine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#pre-assembled_form_manufacturing_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#multiple_material_form_creation_capability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#Objet30ProMachine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#pre-assembled_form_manufacturing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#ObjetEden260VSMachine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#polyjet_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#polyjet_machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#ObjetEden260VSMachine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#embedded_mechanism_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#embedded_mechanism_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#ObjetEden260VSMachine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#multiple_material_form_creation_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#multiple_material_form_creation_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#ObjetEden260VSMachine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#pre-assembled_form_manufacturing_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#pre-assembled_form_manufacturing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#OptomecLENSMR7Machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#ProJect7000"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#ProJet_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#ProJet_machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#ProJet6000"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#ProJet_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#ProJet_machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#ProXDMP200Machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#ProX_series_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#ProX_series_machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#ProXDMP300Machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#ProX_series_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#ProX_series_machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#ProXDMP320Machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#ProX_series_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#ProX_series_machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#ProxDMP100Machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#ProX_series_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#ProX_series_machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#SLM280Machin"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#selective_laser_melting_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#selective_laser_melting_machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#mojo_magic_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#fused_deposition_modeling_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#fused_deposition_modeling_machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#objet30PrimeMachine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#polyjet_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#polyjet_machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#objet30PrimeMachine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#embedded_mechanism_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#embedded_mechanism_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#objet30PrimeMachine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#multiple_material_form_creation_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#multiple_material_form_creation_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#objet30PrimeMachine"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
-            <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#pre-assembled_form_manufacturing_capability"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#has_capability"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#pre-assembled_form_manufacturing_capability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#aerosol_jet_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#polyjet_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#aerosol_jet_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#polyjet_machine"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#counter_crafting_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#fused_deposition_modeling_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#counter_crafting_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#fused_deposition_modeling_machine"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#digital_light_processing_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#layerless_accumulation_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#stereolithography_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#digital_light_processing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#layerless_accumulation_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#stereolithography_machine"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#digital_sand_casting_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#plaster_jetting_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#wax_printing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#digital_sand_casting_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#plaster_jetting_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#wax_printing_machine"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#electron_beam_melting_powder_bed_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#selective_laser_melting_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#electron_beam_melting_powder_bed_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#selective_laser_melting_machine"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#electron_beam_welding_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#ion_fusion_formation_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#laser_engineered_net_shaping_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#electron_beam_welding_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#ion_fusion_formation_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#laser_engineered_net_shaping_machine"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#laminated_object_manufacturing_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#paper_lamination_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#ultrasonic_additive_manufacturing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#laminated_object_manufacturing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#paper_lamination_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#ultrasonic_additive_manufacturing_machine"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#powder_bed_melting_machine"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#selective_laser_singering_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#powder_bed_melting_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#selective_laser_singering_machine"/>
     </DisjointClasses>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Connex_350_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Connex_350_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Connex 350 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Connex_350_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Connex_350_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Connex 350 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Connex_550_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Connex_550_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Connex 550 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Connex_550_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Connex_550_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Connex 550 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#FF_Creator_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#FF_Creator_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FF creator machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#FF_dreamer_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#FF_dreamer_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FF dreamer machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Form-1_Machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Form-1_Machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Form-1 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Form-2_Machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Form-2_Machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Form-2 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Fortus_380_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Fortus_380_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fortus 380 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Fortus_380_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Fortus_380_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Fortus 380 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Fortus_900_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Fortus_900_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fortus 900 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Fortus_900_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Fortus_900_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Fortus 900 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Fortus_Machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Fortus_Machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fortus machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#J750_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#J750_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">J750 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#J750_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#J750_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">J750 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M080_DMLS_Printer</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M080_DMLS_Printer</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">eos M080 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M080_DMLS_Printer</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M080_DMLS_Printer</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">eos M080 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M100_DLMS_printer</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M100_DLMS_printer</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">eos M100 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M100_DLMS_printer</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M100_DLMS_printer</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">eos M100 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M280_DMLS_printer</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M280_DMLS_printer</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">eos M280 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M280_DMLS_printer</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M280_DMLS_printer</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">eos M280 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M290_DMLS_printer</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M290_DMLS_printer</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">eos M290 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M290_DMLS_printer</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M290_DMLS_printer</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">eos M290 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M400_DMLS_printer</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M400_DMLS_printer</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">eos M400 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#M400_DMLS_printer</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#M400_DMLS_printer</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">eos M400 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Mark_2_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Mark_2_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Markforged Mark 2 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Mark_2_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Mark_2_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Markforged Mark 2 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Mark_X_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Mark_X_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Markforged Mark X machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Mark_X_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Mark_X_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Markforged Mark X machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Markforged_Fiber_Printing_Maching</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Markforged_Fiber_Printing_Maching</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Markforged fiber printing machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Markforged_Metal_X_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Markforged_Metal_X_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Marforged Metal X machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Objet_1000_plus_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Objet_1000_plus_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Objet 1000 plus machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Onxy_one_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Onxy_one_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Markforged Onyx 1 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Onyx_Pro_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Onyx_Pro_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Markforged Onyx Pro machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Onyx_Pro_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Onyx_Pro_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Markforged Onyx Pro machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#Optomec_LENS_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#Optomec_LENS_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Optomec LENS machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#ProJet_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#ProJet_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ProJet machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#ProX_series_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#ProX_series_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ProX series machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#SLM_125_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#SLM_125_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SLM 125 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#SLM_125_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#SLM_125_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SLM 125 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#SLM_500</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#SLM_500</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SLM 500 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#SLM_500</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#SLM_500</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SLM 500 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#additive_manufacturing_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#additive_manufacturing_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">additive manufacturing machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#aerosol_jet_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#aerosol_jet_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">aerosol jet machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#atomic_diffusion_additive_manufacturing_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#atomic_diffusion_additive_manufacturing_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">atomic diffusion additive manufacturing machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#binder_jetting_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#binder_jetting_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">binder jetting machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#counter_crafting_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#counter_crafting_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">contour crafting machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#digital_light_processing_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#digital_light_processing_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">digital light processing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#digital_sand_casting_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#digital_sand_casting_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">digital sand casting machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#direct_metal_laser_sintering_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#direct_metal_laser_sintering_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">direct metal laser sintering machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#directed_energy_deposition_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#directed_energy_deposition_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">directed energy deposition machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#electron_beam_melting_powder_bed_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#electron_beam_melting_powder_bed_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">powder bed electron beam melting machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#electron_beam_welding_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#electron_beam_welding_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">electron beam welding machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#eos_M-series_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#eos_M-series_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">eos M-series machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#eos_P-series_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#eos_P-series_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">eos P-series machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#eosint_M280_400_W</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#eosint_M280_400_W</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">eosint M280 400 watt</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#eosint_m280_200_W</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#eosint_m280_200_W</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">eosint M280 200 watt</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#fused_deposition_modeling_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#fused_deposition_modeling_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">fused deposition modeling machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#ion_fusion_formation_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#ion_fusion_formation_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ion fusion formation machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#laminated_object_manufacturing_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#laminated_object_manufacturing_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">laminated object machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#laser_engineered_net_shaping_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#laser_engineered_net_shaping_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">laser engineered net shaping machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#layerless_accumulation_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#layerless_accumulation_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">layerless accumulation machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#material_extrusion_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#material_extrusion_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material extrusion machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#material_jetting_system_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#material_jetting_system_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material jetting system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#optomec_aerosol_jet_200_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#optomec_aerosol_jet_200_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">optomec aerosol jet 200 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#optomec_lens_450</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#optomec_lens_450</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Optomec LENS 450 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#optomec_lens_450</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#optomec_lens_450</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Optomec LENS 450 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#optomec_lens_450XL</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#optomec_lens_450XL</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Optomec LENS 450 XL machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#optomec_lens_450XL</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#optomec_lens_450XL</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Optomec LENS 450 XL machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#paper_lamination_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#paper_lamination_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">paper lamination machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#plaster_jetting_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#plaster_jetting_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">plaster jetting machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#polyjet_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#polyjet_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">polyjet machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#powder_bed_fusion_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#powder_bed_fusion_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">powder bed fusion machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#powder_bed_melting_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#powder_bed_melting_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">powder bed melting machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#selective_heat_sintering_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#selective_heat_sintering_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">selective heat sintering</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#selective_laser_melting_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#selective_laser_melting_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">selective laser melting machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#selective_laser_singering_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#selective_laser_singering_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">powder bed sintering machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#selective_laser_sintering_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#selective_laser_sintering_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">selective laser sintering machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#sheet_lamination_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#sheet_lamination_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sheet lamination machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#stereolithography_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#stereolithography_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stereolithography machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#ultrasonic_additive_manufacturing_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#ultrasonic_additive_manufacturing_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ultrasonic additive manufacturing machien</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#vat_photopolymerization_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#vat_photopolymerization_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">vat photopolymerization machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#voxel8_printer</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#voxel8_printer</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">voxel8 machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0#wax_printing_machine</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl#wax_printing_machine</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">wax jetting machine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>

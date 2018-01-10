@@ -214,7 +214,7 @@
         <Class IRI="#morphology"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#product"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#product"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
     </SubClassOf>
     <SubClassOf>
@@ -1077,12 +1077,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#commercial_role</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#commercial_role</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">commercial role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#product</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#product</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">product role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>

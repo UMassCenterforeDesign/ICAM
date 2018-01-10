@@ -1854,7 +1854,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#Aluminum5052"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#is_enabled_by"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#isMechanical"/>
@@ -2412,7 +2412,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#RowingBoatsAndCanoes"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#product"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#product"/>
     </Declaration>
     <Declaration>
         <Class IRI="#IronAndSteelMillsManufacturing"/>
@@ -2724,7 +2724,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#OtherWatchOrClockParts"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#commercial_role"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#commercial_role"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SandCastingMachine"/>
@@ -6588,7 +6588,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#MfgService"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#is_enabled_by"/>
+                <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#is_enabled_by"/>
                 <Class IRI="#MachineTool"/>
             </ObjectSomeValuesFrom>
             <ObjectAllValuesFrom>
@@ -7670,7 +7670,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#geometry"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#commercial_role"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#commercial_role"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
     </SubClassOf>
     <SubClassOf>
@@ -8479,7 +8479,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Distributer"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#commercial_role"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#commercial_role"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DomesticApplianceParts"/>
@@ -8755,7 +8755,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Exporter"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#commercial_role"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#commercial_role"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Extrusion"/>
@@ -8783,7 +8783,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Fabricator"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#commercial_role"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#commercial_role"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FacePlate"/>
@@ -9135,7 +9135,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Importer"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#commercial_role"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#commercial_role"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#InDirectExtrusion"/>
@@ -9447,7 +9447,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Manufacturer"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#commercial_role"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#commercial_role"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Manufacturing"/>
@@ -9831,7 +9831,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OEM"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#commercial_role"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#commercial_role"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OfficeAccountingAndComputingMachinery"/>
@@ -10559,7 +10559,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SME"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#commercial_role"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#commercial_role"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SPCService"/>
@@ -11704,7 +11704,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasApplication"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#product"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#product"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasAxis"/>
@@ -12112,7 +12112,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </FunctionalDataProperty>
     <DataPropertyDomain>
         <DataProperty IRI="#CPCCode"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#product"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#product"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#ChangesDensity"/>
@@ -12801,12 +12801,12 @@ Engineering Informatics Lab - Texas State University</Literal>
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#commercial_role</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#commercial_role</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Represents the category a supplier belongs to (SME, OEM, etc)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#product</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#product</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Represents the category a product belongs to.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>

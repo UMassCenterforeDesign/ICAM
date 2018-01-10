@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0"
+     xml:base="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0">
-    <Prefix name="" IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0"/>
+     ontologyIRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl">
+    <Prefix name="" IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -16,103 +16,109 @@
     <Import>http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl</Import>
     <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl</Import>
     <Declaration>
-        <ObjectProperty IRI="#is_replaced_by"/>
+        <ObjectProperty IRI="#has_cost_stream"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#need"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#cash_flow_hypothesis"/>
+        <Class IRI="#organization"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#preference"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#hypothesis"/>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#need"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#temporally_recurring_price_model"/>
+        <Class IRI="#use-based_price_model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#outcome_based_price_model"/>
+        <ObjectProperty IRI="#is_problem_to"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#amount_price_model"/>
+        <Class IRI="#negotiated_price_model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#commercial_partnership_relation"/>
+        <ObjectProperty IRI="#has_value"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#has_solution"/>
+        <Class IRI="#cost_stream"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#automated_service_relation"/>
+        <Class IRI="#shipping_process"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#is_value_to"/>
+        <Class IRI="#fixed_price_model"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#has_problem"/>
+        <ObjectProperty IRI="#eliminates_participant"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#is_modified_by"/>
+        <Class IRI="#right"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#channel_role"/>
+        <Class IRI="#product"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#realizes_problem"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#is_user_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#realization_affects"/>
+        <ObjectProperty IRI="#had_disadvantage"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#marketing_process"/>
+        <ObjectProperty IRI="#has_advantage"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#modifies_process"/>
+        <ObjectProperty IRI="#owns"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#community_relationship"/>
+        <Class IRI="#community_maintenance_relation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#intellectual_property_right"/>
+        <Class IRI="#communication_channel_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#business_plan_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#seller_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#community_interaction_relation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#enables_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#physical_property_right"/>
     </Declaration>
     <Declaration>
         <Class IRI="#distribution_channel_role"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#diversified_market"/>
+        <Class IRI="#auction_price_model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#value_proposition"/>
+        <ObjectProperty IRI="#replaces"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#is_enabled_by"/>
+        <Class IRI="#business_plan"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#personal_assistance_relation"/>
+        <Class IRI="#busines-customer_relation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#commercial_proces"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#market"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#lease_price_model"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#business"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#self_service_relation"/>
+        <ObjectProperty IRI="#replaces_participant"/>
     </Declaration>
     <Declaration>
         <Class IRI="#licensing_price_model"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#is_eliminated_by"/>
+        <Class IRI="#resource_role"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#modifies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#commercial_role"/>
     </Declaration>
     <Declaration>
         <Class IRI="#property_role"/>
@@ -121,130 +127,127 @@
         <ObjectProperty IRI="#eliminates"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#key_activity_specification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#single_payment_model"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#right"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#resource_role"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#buyer_role"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#transaction_process"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_problem_to"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#replaces"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#busines-customer_relation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#product"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#had_disadvantage"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#communication_channel_role"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#temporal_price_model"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_cost_stream"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#niche_market"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#brokerage_price_model"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_capability"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_revenue_stream"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#enables_plan"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_value_proposition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#shipping_process"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_value_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#enables"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#customer_service_relationship"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#eliminates_participant"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#enables_value"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#cost_flow_hypothesis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#customer_specification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#multiple_payment_model"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#modifies"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_solution_to"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#customer_role"/>
+        <Class IRI="#subscription_price_model"/>
     </Declaration>
     <Declaration>
         <Class IRI="#free_price_model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#subscription_price_model"/>
+        <Class IRI="#segmented_market"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#seller_role"/>
+        <Class IRI="#personal_assistance_relation"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#has_financial_stream"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#performs"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#community_maintenance_relation"/>
+        <Class IRI="#outcome_based_price_model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#community_interaction_relation"/>
+        <Class IRI="#commercial_partnership_relation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#commercial_relation"/>
+        <Class IRI="#amount_price_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#customer_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hypothesis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#temporally_recurring_price_model"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#modifies_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cash_flow_hypothesis"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#introduces_participant"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#segmented_market"/>
+        <Class IRI="#price_model"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#owns"/>
+        <ObjectProperty IRI="#has_financial_stream"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#marketing_process"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#enables_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#marketing_channel_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#customer_segment_hypothesis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#market_need"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#financial_stream"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#buyer_role"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_value_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#multisided_market"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_eliminated_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#modifies_participant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#transaction_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mass_market"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#initiates_process"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_modified_version_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#customer_service_relationship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#single_payment_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#business"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#value_proposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#price"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diversified_market"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_enabled_by"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#community_relationship"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_modified_by"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lease_price_model"/>
     </Declaration>
     <Declaration>
         <Class IRI="#property_right"/>
@@ -253,110 +256,129 @@
         <Class IRI="#revenue_stream"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#enables_capability"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#problem_realized_in"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#business_plan_specification"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#replaces_participant"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#business_plan"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#variable_price_model"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#risk_appetite"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#fixed_price_model"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#customer_segment_hypothesis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#mass_market"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_value"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_advantage"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#is_modified_version_of"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#organization"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#marketing_channel_role"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#use-based_price_model"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#business_model"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#co-creation_relational_quality"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#commercial_role"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#cost_stream"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#multisided_market"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#modifies_participant"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#physical_property_right"/>
+        <ObjectProperty IRI="#realizes_problem"/>
     </Declaration>
     <Declaration>
         <Class IRI="#business_hypothesis"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#initiates_process"/>
+        <Class IRI="#intellectual_property_right"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#auction_price_model"/>
+        <ObjectProperty IRI="#problem_realized_in"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#price"/>
+        <ObjectProperty IRI="#is_value_to"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#market_need"/>
+        <Class IRI="#temporal_price_model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#price_model"/>
+        <Class IRI="#variable_price_model"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#enables_process"/>
+        <Class IRI="#commercial_proces"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#financial_stream"/>
+        <Class IRI="#business_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#market"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#self_service_relation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#co-creation_relational_quality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_replaced_by"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#risk_appetite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cost_flow_hypothesis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#commercial_relation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#enables_plan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_revenue_stream"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#channel_role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#automated_service_relation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_problem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_solution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#brokerage_price_model"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_capability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#realization_affects"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#enables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#customer_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#niche_market"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#multiple_payment_model"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#enables_value"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_solution_to"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#key_activity_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/decision_process#concern"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#negotiated_price_model"/>
+        <ObjectProperty IRI="#has_value_proposition"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#is_user_of"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_role"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#performs"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#has_model_element"/>
     </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/decision_process#concern"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#need"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/decision_process#concern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#preference"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/decision_process#concern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#risk_appetite"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/decision_process#concern"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="#amount_price_model"/>
         <Class IRI="#price_model"/>
@@ -393,7 +415,7 @@
                 <ObjectIntersectionOf>
                     <ObjectUnionOf>
                         <Class IRI="#market"/>
-                        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#agent"/>
+                        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#agent"/>
                     </ObjectUnionOf>
                     <ObjectSomeValuesFrom>
                         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
@@ -721,24 +743,8 @@
         <Class IRI="#amount_price_model"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/decision_process#concern"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_role"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#need"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/decision_process#concern"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#preference"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/decision_process#concern"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#risk_appetite"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/decision_process#concern"/>
     </SubClassOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#eliminates"/>
@@ -881,7 +887,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#initiates_process"/>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#agent"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#agent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#realization_affects"/>
@@ -920,6 +926,13 @@
             <ObjectProperty IRI="#is_solution_to"/>
         </ObjectPropertyChain>
         <ObjectProperty IRI="#is_solution_to"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#is_user_of"/>
+            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#performs"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#performs"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectPropertyChain>
@@ -998,13 +1011,6 @@
         </ObjectPropertyChain>
         <ObjectProperty IRI="#has_solution"/>
     </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#is_user_of"/>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#performs"/>
-        </ObjectPropertyChain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#performs"/>
-    </SubObjectPropertyOf>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#flow</IRI>
@@ -1019,6 +1025,51 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/OBI_0000295</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is specified input of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/decision_process#concern</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a concern is a disposition that reflects an agent&apos;s interest in some process or its participants.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/method#has_parameter</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">denotes a relation between a model and some numerical parameter that is used in a modeling process. Only a subset of models, those which mathematical formulations to describe some entity have associated parameters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#has_model_element</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has model artifact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#need</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a need is a disposition of an agent to require or desire some entity at some point in time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#need</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a need is a disposition that details the specific set of continuants or continuant properties that an entity requires to realize a set of dispositions that they feel is important</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#preference</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A preference is a disposition of an agent to favor one entity over another in a decision making process.  It is realized in a decision making process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#preference</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a preference is a dispositoin of some agent to favor one alternative over another based on the agents&apos; understanding of the two alternatives.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#risk_appetite</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a risk appetite is a disposition of an agent or object aggregate of agents to tolerate uncertainty.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#risk_appetite</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">risk appetite</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1541,51 +1592,6 @@ equivalent to TBox axiom: &apos;realized in&apos; only (affects some &lt;entity&
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#variable_price_model</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A variable price model is a price amount model where prices may be negotiated by agents on either side of a commercial process or determined by processes occuring chronologically after a sale is agreed.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/decision_process#concern</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a concern is a disposition that reflects an agent&apos;s interest in some process or its participants.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/method#has_parameter</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">denotes a relation between a model and some numerical parameter that is used in a modeling process. Only a subset of models, those which mathematical formulations to describe some entity have associated parameters</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#has_model_element</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has model artifact</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#need</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a need is a disposition of an agent to require or desire some entity at some point in time</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#need</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a need is a disposition that details the specific set of continuants or continuant properties that an entity requires to realize a set of dispositions that they feel is important</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#preference</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A preference is a disposition of an agent to favor one entity over another in a decision making process.  It is realized in a decision making process.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#preference</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a preference is a dispositoin of some agent to favor one alternative over another based on the agents&apos; understanding of the two alternatives.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#risk_appetite</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a risk appetite is a disposition of an agent or object aggregate of agents to tolerate uncertainty.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#risk_appetite</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">risk appetite</Literal>
     </AnnotationAssertion>
 </Ontology>
 
