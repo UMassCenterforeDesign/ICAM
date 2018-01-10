@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl">
-    <Prefix name="" IRI="http://www.semanticweb.org/tom/ontologies/2017/3/ICAM2.0"/>
+    <Prefix name="" IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -19,28 +19,28 @@
         <Class IRI="#cell_printing_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#single_material_form_fabrication_capability"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#metal_form_fabrication_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#hierarchical_complexity_capability"/>
+        <Class IRI="#single_material_form_fabrication_capability"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasSupportingServices"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#sacrificial_feature_creation_capability"/>
+        <Class IRI="#hierarchical_complexity_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#low_tooling_cost_capability"/>
+        <Class IRI="#sacrificial_feature_creation_capability"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
     </Declaration>
     <Declaration>
         <Class IRI="#lattice_structure_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#low_tooling_cost_capability"/>
     </Declaration>
     <Declaration>
         <Class IRI="#atomic_diffusion_additive_manufacturing_process"/>
@@ -68,6 +68,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#capability"/>
     </Declaration>
     <Declaration>
         <Class IRI="#mass_customization_capability"/>
@@ -109,10 +112,10 @@
         <Class IRI="#computer_controlled_manufacturing_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#electrical_trace_printing_capability"/>
+        <Class IRI="#three_dimensional_closed_cellular_form"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#three_dimensional_closed_cellular_form"/>
+        <Class IRI="#electrical_trace_printing_capability"/>
     </Declaration>
     <Declaration>
         <Class IRI="#optomec_lens_850R"/>
@@ -157,9 +160,6 @@
         <Class IRI="#pocket_creation_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#biological_form_manufacturing_capability"/>
     </Declaration>
     <Declaration>
@@ -193,19 +193,19 @@
         <Class IRI="#biomimetic_form_creation_capability"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#eosp396Machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#eosp396Machine"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
     </Declaration>
     <Declaration>
         <Class IRI="#wall"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
+        <Class IRI="#overhang"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#overhang"/>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
     </Declaration>
     <Declaration>
         <Class IRI="#closed_cellular_form"/>
@@ -253,10 +253,10 @@
         <Class IRI="#Additive_manufacturing_scale_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#low_skilll_manufacturing_capability"/>
+        <Class IRI="#sacrificial_support"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#sacrificial_support"/>
+        <Class IRI="#low_skilll_manufacturing_capability"/>
     </Declaration>
     <Declaration>
         <Class IRI="#two_dimensional_open__cellular_form"/>
@@ -280,10 +280,10 @@
         <Class IRI="#process_accessibility_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#hole_creation_capability"/>
+        <Class IRI="#structured_three_dimensional_closed_cellular_form"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#structured_three_dimensional_closed_cellular_form"/>
+        <Class IRI="#hole_creation_capability"/>
     </Declaration>
     <Declaration>
         <Class IRI="#slot_creation_capability"/>
@@ -391,13 +391,13 @@
         <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full#hasComplementaryService"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#manufacturing_support_process"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ceramic_form_fabrication_capability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
@@ -501,10 +501,6 @@
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#product_development_process"/>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
     </SubClassOf>
@@ -515,6 +511,10 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#eosp396Machine"/>
         <Class IRI="#eos_P-series_machine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#capability"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Additive_manufacturing_scale_capability"/>
@@ -639,7 +639,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#contextual_process_realization_capability"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#capability"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#control_capability"/>
@@ -712,7 +712,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#entity_creation_capability"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#capability"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#capability"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#entity_creation_capability"/>

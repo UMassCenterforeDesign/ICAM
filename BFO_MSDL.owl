@@ -16,7 +16,7 @@
     <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/EngMechanics.owl</Import>
     <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/SAMPRO.owl</Import>
     <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/dimensions.owl</Import>
-    <Import>http://www.semanticweb.org/tom/ontologies/2017/6/voids</Import>
+    <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/voids.owl</Import>
     <Declaration>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#rationale"/>
     </Declaration>

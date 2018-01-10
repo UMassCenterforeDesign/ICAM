@@ -22,10 +22,10 @@
         <Class IRI="#organization"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#preference"/>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#need"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#need"/>
+        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/8/decision#preference"/>
     </Declaration>
     <Declaration>
         <Class IRI="#use-based_price_model"/>
@@ -82,10 +82,10 @@
         <Class IRI="#seller_role"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#community_interaction_relation"/>
+        <ObjectProperty IRI="#enables_capability"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#enables_capability"/>
+        <Class IRI="#community_interaction_relation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#physical_property_right"/>
@@ -145,6 +145,9 @@
         <Class IRI="#outcome_based_price_model"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#has_model_element"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#commercial_partnership_relation"/>
     </Declaration>
     <Declaration>
@@ -175,10 +178,10 @@
         <ObjectProperty IRI="#has_financial_stream"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#marketing_process"/>
+        <ObjectProperty IRI="#enables_process"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#enables_process"/>
+        <Class IRI="#marketing_process"/>
     </Declaration>
     <Declaration>
         <Class IRI="#marketing_channel_role"/>
@@ -191,6 +194,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#financial_stream"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_role"/>
     </Declaration>
     <Declaration>
         <Class IRI="#buyer_role"/>
@@ -280,10 +286,10 @@
         <Class IRI="#commercial_proces"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#business_model"/>
+        <Class IRI="#market"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#market"/>
+        <Class IRI="#business_model"/>
     </Declaration>
     <Declaration>
         <Class IRI="#self_service_relation"/>
@@ -334,13 +340,13 @@
         <ObjectProperty IRI="#enables"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#customer_specification"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#niche_market"/>
     </Declaration>
     <Declaration>
         <Class IRI="#multiple_payment_model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#customer_specification"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#enables_value"/>
@@ -352,16 +358,13 @@
         <Class IRI="#key_activity_specification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/decision_process#concern"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#has_value_proposition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl#stakeholder_role"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/decision_process#concern"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#has_model_element"/>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#flow"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/8/decision_process#concern"/>
@@ -475,7 +478,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#business_plan"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#plan"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/info.owl#plan"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#business_plan_specification"/>
