@@ -13,7 +13,6 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl</Import>
-    <Import>http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model</Import>
     <Declaration>
         <Class IRI="#reset_function"/>
     </Declaration>
@@ -124,9 +123,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#remove_function"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Functional_model"/>
     </Declaration>
     <Declaration>
         <Class IRI="#reserve_function"/>
@@ -906,9 +902,6 @@
         <Class IRI="#sever_function"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#descriptive_model"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Temperature_flow"/>
     </Declaration>
     <Declaration>
@@ -951,10 +944,13 @@
         <Class IRI="#Channel_function"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#model"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#RepresentationalInformationContentEntity"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Absorb_function"/>
@@ -1243,10 +1239,6 @@
     <SubClassOf>
         <Class IRI="#Form_entrance_function"/>
         <Class IRI="#Import_function"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Functional_model"/>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#descriptive_model"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Gas-gas_flow"/>
@@ -2176,31 +2168,6 @@
         <ObjectProperty IRI="#function"/>
         <Class IRI="#Operation"/>
     </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_functional_model_element"/>
-        <ObjectUnionOf>
-            <Class IRI="#Functional_model"/>
-            <Class IRI="#Operation"/>
-        </ObjectUnionOf>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#input_flow"/>
-        <ObjectUnionOf>
-            <Class IRI="#Functional_model"/>
-            <Class IRI="#Operation"/>
-        </ObjectUnionOf>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#output_flow"/>
-        <ObjectUnionOf>
-            <Class IRI="#Functional_model"/>
-            <Class IRI="#Operation"/>
-        </ObjectUnionOf>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#submodel"/>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#model"/>
-    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#function"/>
         <ObjectSomeValuesFrom>
@@ -2216,22 +2183,11 @@
         </ObjectSomeValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#input_source"/>
-        <ObjectUnionOf>
-            <Class IRI="#Functional_model"/>
-            <Class IRI="#Operation"/>
-        </ObjectUnionOf>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#output_flow"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000058"/>
             <Class IRI="#flow"/>
         </ObjectSomeValuesFrom>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#submodel"/>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#model"/>
     </ObjectPropertyRange>
     <FunctionalDataProperty>
         <DataProperty IRI="#description"/>
@@ -2568,11 +2524,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Form_entrance_function</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">entrance forming function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Functional_model</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">functional model</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

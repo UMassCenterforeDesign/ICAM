@@ -42,7 +42,7 @@
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Metal"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Metal"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://www.owl-ontologies.com/Ontology1236208666.owl#ReducesMass"/>
@@ -129,7 +129,7 @@
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#PaperLamination"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Thermoplastic"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Thermoplastic"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#isMadeOf"/>
@@ -159,13 +159,13 @@
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#UltrasonicAdditiveManufacturing"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasMaterial"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Stereolithography"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Material"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Material"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
@@ -180,7 +180,7 @@
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#SelectiveLaserSintering"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Polymer"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Polymer"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#binder_role"/>
@@ -210,7 +210,7 @@
         <Class IRI="http://www.owl-ontologies.com/Ontology1236208666.owl#RapidPrototyping"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Solid"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Solid"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#hasDuctilityQuantitative"/>
@@ -219,7 +219,7 @@
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#MaterialJetting"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasProcessInput"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasProcessInput"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#hasQuantitativeData"/>
@@ -231,7 +231,7 @@
         <DataProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#hasStiffnessToWeightRatioQuantitative"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMatterState"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasMatterState"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#hasHotYieldStrengthQuantitative"/>
@@ -255,7 +255,7 @@
         <DataProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#hasStrengthQuantitative"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#AdditionProcess"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#AdditionProcess"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Wax"/>
@@ -295,9 +295,9 @@
     <SubClassOf>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#DigitalSandCasting"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasProcessInput"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasProcessInput"/>
             <ObjectIntersectionOf>
-                <Class IRI="http://www.owl-ontologies.com/MSDL_full#Material"/>
+                <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Material"/>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_quality"/>
                     <Class IRI="http://www.owl-ontologies.com/Ontology1236208666.owl#powder_morphology"/>
@@ -308,11 +308,11 @@
     <SubClassOf>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#DigitalSandCasting"/>
         <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasMaterial"/>
             <ObjectUnionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Sand"/>
                 <ObjectIntersectionOf>
-                    <Class IRI="http://www.owl-ontologies.com/MSDL_full#Material"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Material"/>
                     <ObjectSomeValuesFrom>
                         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
                         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#binder_role"/>
@@ -340,13 +340,13 @@
     <SubClassOf>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#IonFusionFormation"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasMaterial"/>
             <ObjectIntersectionOf>
-                <Class IRI="http://www.owl-ontologies.com/MSDL_full#Material"/>
+                <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Material"/>
                 <ObjectUnionOf>
                     <ObjectSomeValuesFrom>
                         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_disposition"/>
-                        <Class IRI="http://www.owl-ontologies.com/MSDL_full#Solid"/>
+                        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Solid"/>
                     </ObjectSomeValuesFrom>
                     <ObjectSomeValuesFrom>
                         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_quality"/>
@@ -359,8 +359,8 @@
     <SubClassOf>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#IonFusionFormation"/>
         <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-            <Class IRI="http://www.owl-ontologies.com/MSDL_full#Metal"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasMaterial"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Metal"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -370,9 +370,9 @@
     <SubClassOf>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaminatedObjectManufacturing"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasMaterial"/>
             <ObjectIntersectionOf>
-                <Class IRI="http://www.owl-ontologies.com/MSDL_full#Material"/>
+                <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Material"/>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
                     <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#binder_role"/>
@@ -387,9 +387,9 @@
     <SubClassOf>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasMaterial"/>
             <ObjectIntersectionOf>
-                <Class IRI="http://www.owl-ontologies.com/MSDL_full#Material"/>
+                <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Material"/>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_quality"/>
                     <Class IRI="http://www.owl-ontologies.com/Ontology1236208666.owl#powder_morphology"/>
@@ -400,10 +400,10 @@
     <SubClassOf>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
         <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasMaterial"/>
             <ObjectUnionOf>
-                <Class IRI="http://www.owl-ontologies.com/MSDL_full#Metal"/>
-                <Class IRI="http://www.owl-ontologies.com/MSDL_full#Polymer"/>
+                <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Metal"/>
+                <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Polymer"/>
             </ObjectUnionOf>
         </ObjectAllValuesFrom>
     </SubClassOf>
@@ -418,8 +418,8 @@
     <SubClassOf>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#MaterialExtrusion"/>
         <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-            <Class IRI="http://www.owl-ontologies.com/MSDL_full#Thermoplastic"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasMaterial"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Thermoplastic"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -437,9 +437,9 @@
     <SubClassOf>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#PaperLamination"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasMaterial"/>
             <ObjectIntersectionOf>
-                <Class IRI="http://www.owl-ontologies.com/MSDL_full#Material"/>
+                <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Material"/>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
                     <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#binder_role"/>
@@ -454,7 +454,7 @@
     <SubClassOf>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#PlasterBased"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasMaterial"/>
             <ObjectIntersectionOf>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Plaster"/>
                 <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Water"/>
@@ -468,16 +468,16 @@
     <SubClassOf>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Polyjet"/>
         <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasMaterial"/>
             <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Photopolymer"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Polyjet"/>
         <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasMaterial"/>
             <ObjectIntersectionOf>
-                <Class IRI="http://www.owl-ontologies.com/MSDL_full#Material"/>
+                <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Material"/>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#isMadeOf"/>
                     <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Photopolymer"/>
@@ -495,16 +495,16 @@
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
             <ObjectIntersectionOf>
                 <ObjectUnionOf>
-                    <Class IRI="http://www.owl-ontologies.com/MSDL_full#Metal"/>
-                    <Class IRI="http://www.owl-ontologies.com/MSDL_full#Polymer"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Metal"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Polymer"/>
                 </ObjectUnionOf>
                 <ObjectSomeValuesFrom>
                     <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_quality"/>
                     <Class IRI="http://www.owl-ontologies.com/Ontology1236208666.owl#powder_morphology"/>
                 </ObjectSomeValuesFrom>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMatterState"/>
-                    <Class IRI="http://www.owl-ontologies.com/MSDL_full#Solid"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasMatterState"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Solid"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
@@ -530,10 +530,10 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
             <ObjectIntersectionOf>
-                <Class IRI="http://www.owl-ontologies.com/MSDL_full#Material"/>
+                <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Material"/>
                 <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMatterState"/>
-                    <Class IRI="http://www.owl-ontologies.com/MSDL_full#Solid"/>
+                    <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasMatterState"/>
+                    <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Solid"/>
                 </ObjectSomeValuesFrom>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
@@ -567,8 +567,8 @@
     <SubClassOf>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#UltrasonicAdditiveManufacturing"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
-            <Class IRI="http://www.owl-ontologies.com/MSDL_full#Metal"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasMaterial"/>
+            <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Metal"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -578,7 +578,7 @@
     <SubClassOf>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#VatPhotopolymerization"/>
         <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasMaterial"/>
             <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Photopolymer"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
@@ -596,7 +596,7 @@
     <SubClassOf>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#WaxPrinter"/>
         <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://www.owl-ontologies.com/MSDL_full#hasMaterial"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasMaterial"/>
             <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Wax"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
@@ -606,7 +606,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.owl-ontologies.com/Ontology1236208666.owl#RapidPrototyping"/>
-        <Class IRI="http://www.owl-ontologies.com/MSDL_full#AdditionProcess"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#AdditionProcess"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.owl-ontologies.com/Ontology1236208666.owl#RapidPrototyping"/>

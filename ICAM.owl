@@ -157,9 +157,6 @@
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Functional_model"/>
-    </Declaration>
-    <Declaration>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </Declaration>
     <Declaration>
@@ -289,13 +286,13 @@
         <ObjectProperty IRI="#is_performed_by"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalShape"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#quality_control_process"/>
     </Declaration>
     <Declaration>
         <Class IRI="#contextual_process_realization_capability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalShape"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics#loading_orientation_plan"/>
@@ -331,10 +328,10 @@
         <Class IRI="#open_cellular_form"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#process_accessibility_capability"/>
+        <Class IRI="#hole_creation_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#hole_creation_capability"/>
+        <Class IRI="#process_accessibility_capability"/>
     </Declaration>
     <Declaration>
         <Class IRI="#open_lattice_fabrication_capability"/>
@@ -472,9 +469,6 @@
         <Class IRI="#composite_printing_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#descriptive_model"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#interwoven_three_dimensional_closed_cellular_form"/>
     </Declaration>
     <Declaration>
@@ -501,10 +495,6 @@
     <EquivalentClasses>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
     </EquivalentClasses>
-    <SubClassOf>
-        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Functional_model"/>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#descriptive_model"/>
-    </SubClassOf>
     <SubClassOf>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#flow"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
@@ -1313,11 +1303,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Compact_function</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">compacting function</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#Functional_model</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">functional model</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

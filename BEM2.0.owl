@@ -12,9 +12,9 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl</Import>
     <Import>http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl</Import>
-    <Import>http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model</Import>
-    <Import>http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design</Import>
+    <Import>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl</Import>
     <Declaration>
         <ObjectProperty IRI="#is_replaced_by"/>
     </Declaration>
@@ -351,6 +351,12 @@
     <Declaration>
         <Class IRI="#negotiated_price_model"/>
     </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#is_user_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/user_capability#performs"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#amount_price_model"/>
         <Class IRI="#price_model"/>
@@ -407,7 +413,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#business_model"/>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#descriptive_model"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#descriptive_model"/>
     </SubClassOf>
     <SubClassOf>
         <Annotation>
@@ -446,22 +452,8 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the model is based on some rationale derived from either reasoning or experiment</Literal>
-        </Annotation>
-        <Class IRI="#business_model"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#has_model_element"/>
-            <ObjectUnionOf>
-                <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#experimenatal_rationale"/>
-                <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#heuristic_rationale"/>
-            </ObjectUnionOf>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#business_plan"/>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#plan"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#plan"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#business_plan_specification"/>
@@ -582,13 +574,6 @@
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000007"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#key_activity_specification"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
-            <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#plan"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#lease_price_model"/>
         <Class IRI="#temporally_recurring_price_model"/>
     </SubClassOf>
@@ -654,7 +639,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#price_model"/>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#descriptive_model"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#predictive_model"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#product"/>
@@ -905,10 +890,6 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#replaces"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#has_model_element"/>
-        <Class IRI="http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#model"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#eliminates"/>
@@ -1575,11 +1556,6 @@ equivalent to TBox axiom: &apos;realized in&apos; only (affects some &lt;entity&
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#has_model_element</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has model artifact</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tomhagdorn/ontologies/2017/3/model#plan</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a plan is a disposition of some agenty to intend to participate in some process.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
