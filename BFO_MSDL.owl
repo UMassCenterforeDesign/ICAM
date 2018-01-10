@@ -129,9 +129,6 @@
         <Class IRI="#infrared_energy_delivery_artifact"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#reservoir_volume"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#layer"/>
     </Declaration>
     <Declaration>
@@ -139,6 +136,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#uses_tool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reservoir_volume"/>
     </Declaration>
     <Declaration>
         <Class IRI="#projector"/>
@@ -258,6 +258,10 @@
         <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#manufacturing_plan"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/info.owl#plan"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#manufacturing_plan_specification"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000104"/>
     </SubClassOf>
@@ -340,6 +344,10 @@
     <SubClassOf>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#assembly"/>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/EngMechanics.owl#loading_plan"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/info.owl#plan"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#assumption"/>
