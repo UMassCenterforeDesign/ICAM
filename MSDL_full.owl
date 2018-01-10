@@ -3165,7 +3165,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#AllOtherGeneralPurposeMachineryManufacturing"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#isMadeOf"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#isMadeOf"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DiodesAndSemiConductorDevices"/>
@@ -3363,7 +3363,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#ElectricLampBulbAndPartManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#geometry"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#geometry"/>
     </Declaration>
     <Declaration>
         <Class IRI="#RadioAndTelevisionBroadcastingAndWirelessCommunicationsEquipmentManufacturing"/>
@@ -5261,7 +5261,7 @@ Engineering Informatics Lab - Texas State University</Literal>
                 <ObjectIntersectionOf>
                     <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
                     <ObjectSomeValuesFrom>
-                        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#isMadeOf"/>
+                        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#isMadeOf"/>
                         <Class IRI="#Metal"/>
                     </ObjectSomeValuesFrom>
                 </ObjectIntersectionOf>
@@ -6733,7 +6733,7 @@ Engineering Informatics Lab - Texas State University</Literal>
                 <ObjectIntersectionOf>
                     <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
                     <ObjectSomeValuesFrom>
-                        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#isMadeOf"/>
+                        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#isMadeOf"/>
                         <Class IRI="#Polymer"/>
                     </ObjectSomeValuesFrom>
                 </ObjectIntersectionOf>
@@ -7667,7 +7667,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </EquivalentClasses>
     <SubClassOf>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#geometry"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#geometry"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#commercial_role"/>
@@ -11442,7 +11442,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <ObjectProperty IRI="#manufacturingProperty"/>
     </SubObjectPropertyOf>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#isMadeOf"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#isMadeOf"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#hasAxis"/>
@@ -11699,7 +11699,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#RepairService"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#isMadeOf"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#isMadeOf"/>
         <Class IRI="#Material"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>

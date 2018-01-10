@@ -291,7 +291,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#morphology"/>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#geometry"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#geometry"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#nozzle"/>
@@ -582,7 +582,7 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasStockType"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#isMadeOf"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#isMadeOf"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasSubstrate"/>
