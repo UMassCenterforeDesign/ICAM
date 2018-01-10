@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/tom/ontologies/2017/8/regulation"
+     xml:base="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/tom/ontologies/2017/8/regulation">
+     ontologyIRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl">
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -44,7 +44,7 @@
         <ObjectProperty IRI="#is_classification_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design#has_consequence"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl_design#has_consequence"/>
     </Declaration>
     <Declaration>
         <Class IRI="#classification_system"/>
@@ -166,7 +166,7 @@
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_about"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design#has_consequence"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl_design#has_consequence"/>
         <ObjectProperty IRI="#is_consequence_of"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
@@ -205,7 +205,7 @@
     <SubObjectPropertyOf>
         <ObjectPropertyChain>
             <ObjectProperty IRI="#&apos;is_subject_to&apos;"/>
-            <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design#has_consequence"/>
+            <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl_design#has_consequence"/>
         </ObjectPropertyChain>
         <ObjectProperty IRI="#&apos;is_subject_to&apos;"/>
     </SubObjectPropertyOf>
@@ -239,12 +239,12 @@
     </SubObjectPropertyOf>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design#has_consequence</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl_design#has_consequence</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">denotes a relation in which being affected by (and thus subject to) some information content entity imposes a set of consequences upon the entity in question</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/tom/ontologies/2017/8/ergo_design#has_consequence</IRI>
+        <IRI>https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl_design#has_consequence</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has consequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
