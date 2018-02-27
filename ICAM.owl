@@ -25,58 +25,31 @@
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#structured_three_dimensional_closed_cellular_form"/>
+        <Class IRI="#prototype_role"/>
     </Declaration>
     <Declaration>
         <Class IRI="#atomic_diffusion_additive_manufacturing_process"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#prototype_role"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#un-stacked_three_dimensional_closed_cellular_form"/>
+        <Class IRI="#manufacturing_machine"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ThreeDimensionalShape"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#three_dimensional_open__cellular_form"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#structured_three_dimensional_open__cellular_form"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#two_dimensional_closed_cellular_form"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#interwoven_three_dimensional_closed_cellular_form"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#capability"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#concave_curved_form"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#angled_overhang"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#capability"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/EngMechanics.owl#loading_orientation_plan"/>
     </Declaration>
     <Declaration>
         <Class IRI="#working_volume"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#internal_channel"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#structured_two_dimensional_closed_cellular_form"/>
     </Declaration>
     <Declaration>
         <Class IRI="#optomec_LENS_oa_hybrid"/>
@@ -115,13 +88,7 @@
         <Class IRI="#scale_model"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#unstructured_two_dimensional_open__cellular_form"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#eos_p110_machine"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#three_dimensional_closed_cellular_form"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
@@ -142,9 +109,6 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#open_foam_open__cellular_form"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/FunctionalModel2.0.owl#flow"/>
     </Declaration>
     <Declaration>
@@ -154,28 +118,19 @@
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#rounded_overhang"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#surface_channel"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#eos_P-series_machine"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#convex_curve"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#&apos;hybrid_manufacturing_machine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eos_P-series_machine"/>
     </Declaration>
     <Declaration>
         <Class IRI="#quality_control_process"/>
@@ -187,76 +142,37 @@
         <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Mid/InformationEntityOntology#is_subject_of"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#open_cellular_form"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/4/EngMechanics#longitudinal_loading_plan"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#unstructured_three_dimensional_closed_cellular_form"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.owl-ontologies.com/Ontology1236208666.owl#RapidPrototyping"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#non-interwoven_three_dimensional_closed_cellular_form"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#is_capability_of"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#eosp396Machine"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#channel"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#wall"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#overhang"/>
+        <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/6/min_feature#eosp396Machine"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#closed_cellular_form"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#unstructured_two_dimensional_closed_cellular_form"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#sacrificial_thermal_dissipation_feature"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#cylindrical_form"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#unstructured_three_dimensional_open__cellular_form"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#profile"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#product_development_process"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#eos_p800_machine"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#is_performed_by"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#complex_curved_form"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#cellular_form"/>
+        <Class IRI="#eos_p800_machine"/>
     </Declaration>
     <Declaration>
         <Class IRI="#sacrificial_feature"/>
@@ -265,22 +181,13 @@
         <Class IRI="#eos_p770_machine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#stacked_three_dimensional_closed_cellular_form"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#structured_two_dimensional_open__cellular_form"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#sacrificial_support"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#two_dimensional_open__cellular_form"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_function"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
@@ -310,44 +217,12 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#angled_overhang"/>
-        <Class IRI="#overhang"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#assembly_process"/>
         <Class IRI="#manufacturing_support_process"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#atomic_diffusion_additive_manufacturing_process"/>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#DirectedEnergyDeposition"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#cellular_form"/>
-        <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#channel"/>
-        <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#closed_cellular_form"/>
-        <Class IRI="#cellular_form"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#complex_curved_form"/>
-        <Class IRI="#profile"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#concave_curved_form"/>
-        <Class IRI="#profile"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#convex_curve"/>
-        <Class IRI="#profile"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#cylindrical_form"/>
-        <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#design_for_additive_manufacturing_process"/>
@@ -366,30 +241,14 @@
         <Class IRI="#eos_P-series_machine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#internal_channel"/>
-        <Class IRI="#channel"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#interwoven_three_dimensional_closed_cellular_form"/>
-        <Class IRI="#stacked_three_dimensional_closed_cellular_form"/>
+        <Class IRI="#manufacturing_machine"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Machine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#manufacturing_support_process"/>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#MfgProcess"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#non-interwoven_three_dimensional_closed_cellular_form"/>
-        <Class IRI="#stacked_three_dimensional_closed_cellular_form"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#open_cellular_form"/>
-        <Class IRI="#cellular_form"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#open_foam_open__cellular_form"/>
-        <Class IRI="#unstructured_three_dimensional_open__cellular_form"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#optomec_LENS_oa_hybrid"/>
         <Class IRI="#&apos;hybrid_manufacturing_machine"/>
     </SubClassOf>
@@ -424,22 +283,10 @@
             <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/3/BEM2.0#has_capability"/>
             <Class IRI="#hybrid_manufacturing_capability"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#overhang"/>
-        <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#profile"/>
-        <Class IRI="http://www.owl-ontologies.com/design.owl#Form"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#quality_control_process"/>
         <Class IRI="#manufacturing_support_process"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#rounded_overhang"/>
-        <Class IRI="#overhang"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#sacrificial_feature"/>
@@ -458,72 +305,8 @@
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/model.owl#physical_model"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#stacked_three_dimensional_closed_cellular_form"/>
-        <Class IRI="#structured_three_dimensional_closed_cellular_form"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#structured_three_dimensional_closed_cellular_form"/>
-        <Class IRI="#three_dimensional_closed_cellular_form"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#structured_three_dimensional_open__cellular_form"/>
-        <Class IRI="#three_dimensional_open__cellular_form"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#structured_two_dimensional_closed_cellular_form"/>
-        <Class IRI="#two_dimensional_closed_cellular_form"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#structured_two_dimensional_open__cellular_form"/>
-        <Class IRI="#two_dimensional_open__cellular_form"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#surface_channel"/>
-        <Class IRI="#channel"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#three_dimensional_closed_cellular_form"/>
-        <Class IRI="#closed_cellular_form"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#three_dimensional_open__cellular_form"/>
-        <Class IRI="#open_cellular_form"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#tooling_process"/>
         <Class IRI="#manufacturing_support_process"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#two_dimensional_closed_cellular_form"/>
-        <Class IRI="#closed_cellular_form"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#two_dimensional_open__cellular_form"/>
-        <Class IRI="#open_cellular_form"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#un-stacked_three_dimensional_closed_cellular_form"/>
-        <Class IRI="#structured_three_dimensional_closed_cellular_form"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#unstructured_three_dimensional_closed_cellular_form"/>
-        <Class IRI="#three_dimensional_closed_cellular_form"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#unstructured_three_dimensional_open__cellular_form"/>
-        <Class IRI="#three_dimensional_open__cellular_form"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#unstructured_two_dimensional_closed_cellular_form"/>
-        <Class IRI="#two_dimensional_closed_cellular_form"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#unstructured_two_dimensional_open__cellular_form"/>
-        <Class IRI="#two_dimensional_open__cellular_form"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#wall"/>
-        <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#working_volume"/>
@@ -531,40 +314,8 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#&apos;hybrid_manufacturing_machine"/>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Machine"/>
+        <Class IRI="#manufacturing_machine"/>
     </SubClassOf>
-    <DisjointClasses>
-        <Class IRI="#interwoven_three_dimensional_closed_cellular_form"/>
-        <Class IRI="#non-interwoven_three_dimensional_closed_cellular_form"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#stacked_three_dimensional_closed_cellular_form"/>
-        <Class IRI="#un-stacked_three_dimensional_closed_cellular_form"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#structured_three_dimensional_closed_cellular_form"/>
-        <Class IRI="#unstructured_three_dimensional_closed_cellular_form"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#structured_three_dimensional_open__cellular_form"/>
-        <Class IRI="#unstructured_three_dimensional_open__cellular_form"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#structured_two_dimensional_closed_cellular_form"/>
-        <Class IRI="#unstructured_two_dimensional_closed_cellular_form"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#structured_two_dimensional_open__cellular_form"/>
-        <Class IRI="#unstructured_two_dimensional_open__cellular_form"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#three_dimensional_closed_cellular_form"/>
-        <Class IRI="#two_dimensional_closed_cellular_form"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#three_dimensional_open__cellular_form"/>
-        <Class IRI="#two_dimensional_open__cellular_form"/>
-    </DisjointClasses>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#has_related_service"/>
         <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#has_related_process"/>
@@ -641,11 +392,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#angled_overhang</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">angled overhang</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#assembly_process</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">assembly process</Literal>
     </AnnotationAssertion>
@@ -653,26 +399,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#atomic_diffusion_additive_manufacturing_process</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">atomic diffusion additive manufacturing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#cellular_form</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cellular form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#closed_cellular_form</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">closed cellular form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#convex_curve</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">convex curved form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#cylindrical_form</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cylindrical form</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -716,16 +442,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#internal_channel</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">internal channel</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#interwoven_three_dimensional_closed_cellular_form</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">interwoeven three dimensional closed cellular form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#is_capability_of</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is capability of</Literal>
     </AnnotationAssertion>
@@ -735,24 +451,19 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is performed by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#definition"/>
+        <IRI>#manufacturing_machine</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">a manufacturing machine is a machine that is designed to participate in some manufacturing process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#manufacturing_machine</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">manufacturing machine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#manufacturing_support_process</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">manufacturing support process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#non-interwoven_three_dimensional_closed_cellular_form</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">inter-woven three dimensional closed cellular form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#open_cellular_form</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">open cellular form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#open_foam_open__cellular_form</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">open foam open cellular form</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -766,18 +477,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#profile</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">profiled form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#quality_control_process</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">quality control process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#rounded_overhang</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rounded overhang</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -816,78 +517,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#stacked_three_dimensional_closed_cellular_form</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stacked three dimensional closed cellular form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#structured_three_dimensional_closed_cellular_form</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">structured three dimensional closed cellular form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#structured_three_dimensional_open__cellular_form</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">structured three dimensional open cellular form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#structured_two_dimensional_closed_cellular_form</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">structured two dimensional closed cellular form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#structured_two_dimensional_open__cellular_form</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">structured two dimensional open cellular form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#surface_channel</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">surface channel</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#three_dimensional_closed_cellular_form</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">three dimensional closed cellular form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#three_dimensional_open__cellular_form</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">three dimensional open cellular form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#tooling_process</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tooling process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#two_dimensional_closed_cellular_form</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">two dimensional closed cellular form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#un-stacked_three_dimensional_closed_cellular_form</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">unstacked three dimensional closed cellular form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#unstructured_three_dimensional_closed_cellular_form</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">unstructured three dimensional closed cellular form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#unstructured_three_dimensional_open__cellular_form</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">unstructured three dimensional open cellular form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#unstructured_two_dimensional_closed_cellular_form</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">unstructured two dimensional closed cellular form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#unstructured_two_dimensional_open__cellular_form</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">unstructured two dimensional open cellular form</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

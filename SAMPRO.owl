@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/SAMPRO.owl">
-    <Prefix name="" IRI="http://www.semanticweb.org/presentation/ontologies/2017/3/SAMPRO"/>
+    <Prefix name="" IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/SAMPRO.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -49,10 +49,10 @@
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Melting"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#hasDielectricConstantQuantitative"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasMaterial"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#hasMaterial"/>
+        <DataProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#hasDielectricConstantQuantitative"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LayerlessAccumulation"/>
@@ -68,9 +68,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaminatedObjectManufacturing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#PlasterBased"/>
@@ -136,6 +133,9 @@
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#PaperLamination"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#ObsoleteClass"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/tom/ontologies/2017/4/design#isMadeOf"/>
     </Declaration>
     <Declaration>
@@ -184,10 +184,10 @@
         <DataProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#hasReflectivityQuantitative"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#hasToughnessQuantitative"/>
+        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#has_role"/>
+        <DataProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#hasToughnessQuantitative"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#SelectingHeatSintering"/>
@@ -223,10 +223,10 @@
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#FusedDepositionModeling"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#hasStiffnessToWeightRatioQuantitative"/>
+        <DataProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#hasHotYieldStrengthQuantitative"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#hasHotYieldStrengthQuantitative"/>
+        <DataProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#hasStiffnessToWeightRatioQuantitative"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Thermoplastic"/>
@@ -235,19 +235,19 @@
         <DataProperty IRI="http://www.owl-ontologies.com/Ontology1236208666.owl#ChangesPhase"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Sintering"/>
+        <DataProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#hasPowderDiameterQuantitative"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#hasPowderDiameterQuantitative"/>
+        <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#Sintering"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#LaserEngineeredNetShaping"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#hasOxidationRateQuantitative"/>
+        <DataProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#hasStrengthQuantitative"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#hasStrengthQuantitative"/>
+        <DataProperty IRI="http://edesign.ecs.umass.edu/ontologies/Framework2.0/AM.owl#hasOxidationRateQuantitative"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl#Metal"/>
@@ -603,7 +603,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.owl-ontologies.com/Ontology1236208666.owl#LaserBasedPrototyping"/>
-        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.owl-ontologies.com/Ontology1236208666.owl#RapidPrototyping"/>

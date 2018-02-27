@@ -45,6 +45,9 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#HouseholdCookingApplianceManufacturing"/>
     </Declaration>
     <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#product"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#NoBakeSandCasting"/>
     </Declaration>
     <Declaration>
@@ -66,13 +69,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#OrnamentalAndArchitecturalMetalProductsManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#mathemathical_representation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#MachineryForPreparingHides"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#manufacturing_tool"/>
     </Declaration>
     <Declaration>
         <Class IRI="#IronAndSteelForging"/>
@@ -114,10 +111,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#InstrumentManufacturingForMeasuringAndTestingElectricityAndElectricalSignals"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AutomobileAndLightDutyMotorVehicleManufacturing"/>
+        <Class IRI="#NonferrousDieCastingFoundries"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NonferrousDieCastingFoundries"/>
+        <Class IRI="#AutomobileAndLightDutyMotorVehicleManufacturing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PackagingService"/>
@@ -129,6 +126,12 @@ Engineering Informatics Lab - Texas State University</Literal>
         <DataProperty IRI="#hasAutomaticToolChanger"/>
     </Declaration>
     <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#commercial_role"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#uses_tool"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#PartsforGoodsOfClassesEngineAndTurbines"/>
     </Declaration>
     <Declaration>
@@ -136,9 +139,6 @@ Engineering Informatics Lab - Texas State University</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#BaseMetalsWithSilver"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Chamfer"/>
     </Declaration>
     <Declaration>
         <Class IRI="#HouseholdRefrigeratorAndHomeFreezerManufacturing"/>
@@ -174,19 +174,16 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#OtherRolledProducts"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl_design#has_sub-process"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#hasCO2Content"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasHardness"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CuttingToolAndMachineToolAccessoryManufacturing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Insert"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHardness"/>
     </Declaration>
     <Declaration>
         <Class IRI="#BasicPreciousMetals"/>
@@ -264,10 +261,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <ObjectProperty IRI="#hasOxidationRate"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasSurfaceFinish"/>
+        <Class IRI="#SoilPreparationOrCultivation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SoilPreparationOrCultivation"/>
+        <DataProperty IRI="#hasSurfaceFinish"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Aluminum2014A"/>
@@ -279,10 +276,13 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#VehicularLightingEquipmentManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MachineryParts"/>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#is_enabled_by"/>
     </Declaration>
     <Declaration>
         <Class IRI="#AbrasiveMachining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MachineryParts"/>
     </Declaration>
     <Declaration>
         <Class IRI="#BalloonsAndDirigibles"/>
@@ -321,7 +321,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#MilitaryArmoredVehicleTankAndTankComponentManufacturing"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasAccuracyLower"/>
+        <DataProperty IRI="#hasRating"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SteamGenerators"/>
@@ -330,19 +330,19 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#TurnedProductAndScrewNutAndBoltManufacturing"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasRating"/>
+        <DataProperty IRI="#hasAccuracyLower"/>
     </Declaration>
     <Declaration>
         <Class IRI="#BatteryManufacturing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FluidPowerValveAndHoseFittingManufacturing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#NonExpendableMold"/>
     </Declaration>
     <Declaration>
         <Class IRI="#MedicalInstrumentsAndAppliances"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FluidPowerValveAndHoseFittingManufacturing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OtherTypewriters"/>
@@ -366,10 +366,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#OtherMotorVehiclePartsManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OpticalInstrumentAndLensManufacturing"/>
+        <Class IRI="#ProcessAnealing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ProcessAnealing"/>
+        <Class IRI="#OpticalInstrumentAndLensManufacturing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#LaserBeamWelding"/>
@@ -414,10 +414,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#IntegratedCircuits"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PaperIndustryMachineryManufacturing"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000401"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000401"/>
+        <Class IRI="#PaperIndustryMachineryManufacturing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Coining"/>
@@ -483,9 +483,6 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#OtherGuidedMissleAndSpaceVehiclePartsAndAuxiliaryEquipmentManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#NonferrousMetalSmeltingAndRefining"/>
     </Declaration>
     <Declaration>
@@ -519,6 +516,9 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#CommunicationsEquipmentManufacturing"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#isMadeOf"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#BridgesBridgeSectionsTowersAndLatticeMasts"/>
     </Declaration>
     <Declaration>
@@ -540,10 +540,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#Polyester"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SandDeliveryMachine"/>
+        <Class IRI="#HardenedStock"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#HardenedStock"/>
+        <Class IRI="#SandDeliveryMachine"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasPolishability"/>
@@ -579,13 +579,13 @@ Engineering Informatics Lab - Texas State University</Literal>
         <DataProperty IRI="#hasContentPercentage"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Foundries"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#MachineryForTextile"/>
     </Declaration>
     <Declaration>
         <Datatype abbreviatedIRI="xsd:date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foundries"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ElectricSignallingApparatus"/>
@@ -606,10 +606,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#ToolDesignService"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#InDirectExtrusion"/>
+        <Class IRI="#Anodizing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Anodizing"/>
+        <Class IRI="#InDirectExtrusion"/>
     </Declaration>
     <Declaration>
         <Class IRI="#GeneralPurposeMachinery"/>
@@ -618,10 +618,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#VehiclesNotMechanicallyPropelled"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasRecyclability"/>
+        <Class IRI="#MedicalEquipmentAndSuppliesManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MedicalEquipmentAndSuppliesManufacturing"/>
+        <ObjectProperty IRI="#hasRecyclability"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ToolSteel"/>
@@ -651,13 +651,13 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#SubtractionProcess"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NonferrousMetalRollingAlloyingEtc"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#ScrewsandNutsandBolts"/>
     </Declaration>
     <Declaration>
         <Class IRI="#NavigationalMeasuringElectromedicalAndControlInstrumentsManufacturing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonferrousMetalRollingAlloyingEtc"/>
     </Declaration>
     <Declaration>
         <Class IRI="#NoncurrentCarryingWiringDeviceManufacturing"/>
@@ -738,6 +738,9 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#IronAndSteelMills"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#ObsoleteClass"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#BodiesForMotorVehicles"/>
     </Declaration>
     <Declaration>
@@ -769,9 +772,6 @@ Engineering Informatics Lab - Texas State University</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#VerticalBoring"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ThroughSlot"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DieCasting"/>
@@ -840,10 +840,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#LaserBeamCutting"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Non-TraditionalMachiningService"/>
+        <Class IRI="#PhotographicAndPhotocopyingEquipmentManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PhotographicAndPhotocopyingEquipmentManufacturing"/>
+        <Class IRI="#Non-TraditionalMachiningService"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OtherComputerPeripheralEquipmentManufacturing"/>
@@ -867,19 +867,19 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#ToolAssembly"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ManualTurningService"/>
+        <Class IRI="#RailLocomotives"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#RailLocomotives"/>
+        <Class IRI="#ManualTurningService"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ElectricalMeasuringInstrumentsAndApparatus"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasBusinessType"/>
+        <Class IRI="#Aluminum2011"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Aluminum2011"/>
+        <ObjectProperty IRI="#hasBusinessType"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Polymer"/>
@@ -903,10 +903,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#SelfLoadingTrailers"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MedicalFurniture"/>
+        <Class IRI="#ElectricalLightingEquipmentManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ElectricalLightingEquipmentManufacturing"/>
+        <Class IRI="#MedicalFurniture"/>
     </Declaration>
     <Declaration>
         <Class IRI="#WroughtAluminumAlloy"/>
@@ -972,16 +972,16 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#AirAndGasCompressorManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OtherOfficeMachines"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PartsForMotorVehicleBodies"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#InsulatedWindingWire"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OtherOfficeMachines"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#WeldingAndSolderingEquipmentManufacturing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PartsForMotorVehicleBodies"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DieCastMachine"/>
@@ -1026,7 +1026,7 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#RolledSteelShapeManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#portion_of_steel"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#material_working_process"/>
     </Declaration>
     <Declaration>
         <Class IRI="#NonferrousForging"/>
@@ -1089,13 +1089,16 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#Service"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AirQuenchHardening"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#hasServiceProvider"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#AirQuenchHardening"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasHeatTreatability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/ergo-design.owl_design#has_sub-process"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Aluminum5005"/>
@@ -1110,13 +1113,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#RailroadRollingStockManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Disk"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#BlindStep"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#DirectExtrusion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disk"/>
     </Declaration>
     <Declaration>
         <Class IRI="#IndustrialPatternManufacturing"/>
@@ -1134,10 +1134,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#Reaming"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ElectromedicalAndElectrotherapeuticApparatusManufacturing"/>
+        <Class IRI="#ThermoForming"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ThermoForming"/>
+        <Class IRI="#ElectromedicalAndElectrotherapeuticApparatusManufacturing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ResistanceSoldering"/>
@@ -1152,16 +1152,16 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#Forming"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TextileMachineryParts"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#IndustrialProcessFurnaceAndOvenManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PolymerMolding"/>
+        <Class IRI="#TextileMachineryParts"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OtherSpecialPurposeMachineryProducts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PolymerMolding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#StudWelding"/>
@@ -1212,13 +1212,13 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#WaterJetCutting"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#FormPrototype"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Soldering"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FormPrototype"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ResidentialElectricLightingFixtureManufacturing"/>
@@ -1257,10 +1257,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#MatterState"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PressureWelding"/>
+        <Class IRI="#DipBrazing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DipBrazing"/>
+        <Class IRI="#PressureWelding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#HydrometersAndFloatingInstruments"/>
@@ -1269,10 +1269,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#FlatEndMill"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SpringLightGaugeManufacturing"/>
+        <Class IRI="#Grooving"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Grooving"/>
+        <Class IRI="#SpringLightGaugeManufacturing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#EngineTurbineAndPowerTransmissionEquipmentManufacturing"/>
@@ -1312,6 +1312,9 @@ Engineering Informatics Lab - Texas State University</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Brazing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#geometry"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PhotographicPlatesAndFilm"/>
@@ -1365,19 +1368,19 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#ElectricalEquipmentManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#InspectionMachine"/>
+        <Class IRI="#ThreadForming"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ThreadForming"/>
+        <Class IRI="#InspectionMachine"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PrecisionTurnedProductManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Inconel"/>
+        <Class IRI="#SteelFoundries"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SteelFoundries"/>
+        <Class IRI="#Inconel"/>
     </Declaration>
     <Declaration>
         <Class IRI="#MultiPointCutting"/>
@@ -1419,10 +1422,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#IrradiationApparatusManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#aAxis"/>
+        <Class IRI="#AllOtherMiscellaneousElectricalEquipmentAndComponentManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AllOtherMiscellaneousElectricalEquipmentAndComponentManufacturing"/>
+        <Class IRI="#aAxis"/>
     </Declaration>
     <Declaration>
         <Class IRI="#HoleMaking"/>
@@ -1467,10 +1470,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#ManufacturingAndReproducingMagneticAndOpticalMedia"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Parts"/>
+        <Class IRI="#ElectricalApparatusForTelephony"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ElectricalApparatusForTelephony"/>
+        <Class IRI="#Parts"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ElectricalResistanceWelding"/>
@@ -1494,10 +1497,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <ObjectProperty IRI="#hasElectronBeamWeldability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#FEAService"/>
+        <Class IRI="#ColdHeading"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ColdHeading"/>
+        <Class IRI="#FEAService"/>
     </Declaration>
     <Declaration>
         <Class IRI="#InductionHardening"/>
@@ -1545,10 +1548,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <ObjectProperty IRI="#mentions_object"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#GearShaperMachine"/>
+        <Class IRI="#TorchSoldering"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TorchSoldering"/>
+        <Class IRI="#GearShaperMachine"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CounterBoring"/>
@@ -1587,10 +1590,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <ObjectProperty IRI="#hasReflectivity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ThermalSubtraction"/>
+        <Class IRI="#Line"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Line"/>
+        <Class IRI="#ThermalSubtraction"/>
     </Declaration>
     <Declaration>
         <Class IRI="#MotorAndGeneratorManufacturing"/>
@@ -1620,10 +1623,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#ElectronicConnectorManufacturing"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasMotionType"/>
+        <Class IRI="#OtherFabricatedWireProductManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OtherFabricatedWireProductManufacturing"/>
+        <DataProperty IRI="#hasMotionType"/>
     </Declaration>
     <Declaration>
         <Class IRI="#MotorHomeManufacturing"/>
@@ -1647,10 +1650,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#InfraredBrazing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SemiFinishedProducts"/>
+        <Class IRI="#Reamer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Reamer"/>
+        <Class IRI="#SemiFinishedProducts"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Chromizing"/>
@@ -1668,13 +1671,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#CuttingTool"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Slot"/>
+        <Class IRI="#RailwayLocomotivesAndRollingStock"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PartsForOtherElecEquipment"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#RailwayLocomotivesAndRollingStock"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OtherMajorHouseholdApplianceManufacturing"/>
@@ -1683,10 +1683,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#Planing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TrailersAndSemiTrailers"/>
+        <DataProperty IRI="#hasSurfaceFinishLower"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasSurfaceFinishLower"/>
+        <Class IRI="#TrailersAndSemiTrailers"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ColdTreatment"/>
@@ -1755,10 +1755,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#MotorVehiclePartsManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#High"/>
+        <Class IRI="#AerospaceProductandPartsManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AerospaceProductandPartsManufacturing"/>
+        <Class IRI="#High"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CeramicMolding"/>
@@ -1836,9 +1836,6 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#OtherNonferrousMetals"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Fillet"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#FunctionalPrototype"/>
     </Declaration>
     <Declaration>
@@ -1852,9 +1849,6 @@ Engineering Informatics Lab - Texas State University</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Aluminum5052"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#is_enabled_by"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#isMechanical"/>
@@ -1902,13 +1896,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#Honing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#RoundSaw"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#MotorVehicleSeatingAndInteriorTrimManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ThroughStep"/>
+        <Class IRI="#RoundSaw"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasWorkHolder"/>
@@ -1992,10 +1983,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#Shaping"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#InstrumentsAndRelatedProductsManufacturingForMeasuringDisplayingAndControllingIndustrialProcessVaraibles"/>
+        <Class IRI="#WorkingArea"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#WorkingArea"/>
+        <Class IRI="#InstrumentsAndRelatedProductsManufacturingForMeasuringDisplayingAndControllingIndustrialProcessVaraibles"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Metal"/>
@@ -2005,6 +1996,12 @@ Engineering Informatics Lab - Texas State University</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#BaseMetalsOrSilver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#mathemathical_representation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#manufacturing_tool"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Axis"/>
@@ -2160,10 +2157,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <DataProperty IRI="#hasMaxPartLength"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ApparatusForSoundAndVideoRecording"/>
+        <Class IRI="#Bronze"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Bronze"/>
+        <Class IRI="#ApparatusForSoundAndVideoRecording"/>
     </Declaration>
     <Declaration>
         <Class IRI="#EndMilling"/>
@@ -2211,10 +2208,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#PhotoChemicalMachining"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Lapping"/>
+        <Class IRI="#OvensAndFurnaceBurners"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OvensAndFurnaceBurners"/>
+        <Class IRI="#Lapping"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Thermoplastic"/>
@@ -2229,10 +2226,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#Aluminum2007"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Material"/>
+        <Class IRI="#GrindingMachine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#GrindingMachine"/>
+        <Class IRI="#Material"/>
     </Declaration>
     <Declaration>
         <Class IRI="#TelephoneApparatusManufacturing"/>
@@ -2247,10 +2244,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#Surface"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SemiconductorAndOtherElectronicComponentManufacturing"/>
+        <Class IRI="#MetalHeatTreating"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MetalHeatTreating"/>
+        <Class IRI="#SemiconductorAndOtherElectronicComponentManufacturing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DieSteel"/>
@@ -2271,10 +2268,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#ElectricalTransformers"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PrimaryBatteryManufacturing"/>
+        <Class IRI="#OpticalInstruments"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OpticalInstruments"/>
+        <Class IRI="#PrimaryBatteryManufacturing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Box"/>
@@ -2346,19 +2343,19 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#NonferrousMetalRollingDrawingAndExtruding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#FluidPowerCylinderAndActuatorManufacturing"/>
+        <ObjectProperty IRI="#hasCastability"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasCastability"/>
+        <Class IRI="#FluidPowerCylinderAndActuatorManufacturing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OtherNonferrousFoundries"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Turbines"/>
+        <Class IRI="#AllOtherIndustrialMachineryManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AllOtherIndustrialMachineryManufacturing"/>
+        <Class IRI="#Turbines"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CutOff"/>
@@ -2388,19 +2385,16 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#MotorVehicles"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ElectricFilamentOrDischargeLamps"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#AudioAndVideoRecordsAndTapes"/>
     </Declaration>
     <Declaration>
         <Class IRI="#FoodManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cone"/>
+        <Class IRI="#ElectricFilamentOrDischargeLamps"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OtherMetalContainerManufacturing"/>
+        <Class IRI="#Cone"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#maxToolWeight"/>
@@ -2409,10 +2403,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <ObjectProperty IRI="#hasFatigueStrength"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#RowingBoatsAndCanoes"/>
+        <Class IRI="#OtherMetalContainerManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#product"/>
+        <Class IRI="#RowingBoatsAndCanoes"/>
     </Declaration>
     <Declaration>
         <Class IRI="#IronAndSteelMillsManufacturing"/>
@@ -2439,10 +2433,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#DiffusionBonding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PartsOfAircraftAndSpacecraft"/>
+        <Class IRI="#Deburring"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Deburring"/>
+        <Class IRI="#PartsOfAircraftAndSpacecraft"/>
     </Declaration>
     <Declaration>
         <Class IRI="#AnglesShapesAndSections"/>
@@ -2466,10 +2460,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#Blanking"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
+        <ObjectProperty IRI="#hasFeedDrive"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasFeedDrive"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/ArtifactOntology#Artifact"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasWorkingArea"/>
@@ -2481,16 +2475,16 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#OtherFabricatedMetalProducts"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasSpecificCuttingPower"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#MetalCanBoxAndOtherContainerLightGaugeManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Industry"/>
+        <DataProperty IRI="#hasSpecificCuttingPower"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Vise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Industry"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OtherMachineryForTextileProduction"/>
@@ -2508,10 +2502,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#Aluminium"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PreparedUnrecordedMedia"/>
+        <Class IRI="#TimeOfDayRecordingApparatus"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TimeOfDayRecordingApparatus"/>
+        <Class IRI="#PreparedUnrecordedMedia"/>
     </Declaration>
     <Declaration>
         <Class IRI="#LiftingAndHandlingEquipment"/>
@@ -2550,13 +2544,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#Aluminum3004"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ShellMoldCasting"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#BlindSlot"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Aluminum2024"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShellMoldCasting"/>
     </Declaration>
     <Declaration>
         <Class IRI="#StorageBatteryManufacturing"/>
@@ -2601,19 +2592,19 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#SheetMetalWorkManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#WireDrawing"/>
+        <Class IRI="#ReservoirsTanksVatsAndSimilarContainers"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ReservoirsTanksVatsAndSimilarContainers"/>
+        <Class IRI="#WireDrawing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CoAxialCable"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
+        <DataProperty IRI="#hasDepthofCut"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasDepthofCut"/>
+        <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasDepthToDiameterRatio"/>
@@ -2625,10 +2616,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#PlumbingFixtureFittingAndTrimManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#FullMoldCasting"/>
+        <Class IRI="#assembly"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#assembly"/>
+        <Class IRI="#FullMoldCasting"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#manufacturingProperty"/>
@@ -2658,22 +2649,22 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#OtherPartsOfMotorVehicles"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CounterBoreTool"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#AircraftAndSpacecraft"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#CounterBoreTool"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#ThermalJoining"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCoating"/>
     </Declaration>
     <Declaration>
         <Class IRI="#IndustrialValveManufacturing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Drilling"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasCoating"/>
     </Declaration>
     <Declaration>
         <Class IRI="#EnginesAndTurbines"/>
@@ -2694,10 +2685,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#SqueezCasting"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DishwashingMachines"/>
+        <Class IRI="#HeatTreating"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#HeatTreating"/>
+        <Class IRI="#DishwashingMachines"/>
     </Declaration>
     <Declaration>
         <Class IRI="#LightTruckAndUtilityVehicleManufacturing"/>
@@ -2722,9 +2713,6 @@ Engineering Informatics Lab - Texas State University</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#OtherWatchOrClockParts"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#commercial_role"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SandCastingMachine"/>
@@ -2778,10 +2766,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#Stellite"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MachineryForMetallurgy"/>
+        <Class IRI="#Cylinder"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cylinder"/>
+        <Class IRI="#MachineryForMetallurgy"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ConvertersLadlesAndCastingMachines"/>
@@ -2859,10 +2847,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#ThinWalled"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MechanicalSubtraction"/>
+        <DataProperty IRI="#hasMaxLoadingCapacity"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasMaxLoadingCapacity"/>
+        <Class IRI="#MechanicalSubtraction"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#ReducesVolume"/>
@@ -2871,10 +2859,13 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#xAxis"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Silver"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Turning"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Silver"/>
+        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#portion_of_steel"/>
     </Declaration>
     <Declaration>
         <Class IRI="#TorchBrazing"/>
@@ -2928,10 +2919,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#GrindingService"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SecondarySmeltingOfCopper"/>
+        <Class IRI="#SecondarySmeltingOfNonferrousMetal"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SecondarySmeltingOfNonferrousMetal"/>
+        <Class IRI="#SecondarySmeltingOfCopper"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stamping"/>
@@ -3030,9 +3021,6 @@ Engineering Informatics Lab - Texas State University</Literal>
         <ObjectProperty IRI="#hasShape"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#material_working_process"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#hasAccuracy"/>
     </Declaration>
     <Declaration>
@@ -3111,19 +3099,16 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#CathodeTubes"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Pocket"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#AllOtherFabricatedMetalProductManufacturing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ProductsOfAluminium"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PumpsAndCompressors"/>
+        <Class IRI="#ElectricityDistributionAndControlApparatus"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ElectricityDistributionAndControlApparatus"/>
+        <Class IRI="#PumpsAndCompressors"/>
     </Declaration>
     <Declaration>
         <Class IRI="#AllOtherMotorVehiclePartsManufacturing"/>
@@ -3135,10 +3120,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <ObjectProperty IRI="#hasTable"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#isComputerControlled"/>
+        <Class IRI="#LightingFixtureManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#LightingFixtureManufacturing"/>
+        <DataProperty IRI="#isComputerControlled"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Martempering"/>
@@ -3165,13 +3150,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#AllOtherGeneralPurposeMachineryManufacturing"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#isMadeOf"/>
+        <Class IRI="#SemiCone"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DiodesAndSemiConductorDevices"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#SemiCone"/>
     </Declaration>
     <Declaration>
         <Class IRI="#VerticalMachiningCenter"/>
@@ -3231,10 +3213,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#ProductsOfNickel"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ElectricMotorsAndGenerators"/>
+        <Class IRI="#Gold"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Gold"/>
+        <Class IRI="#ElectricMotorsAndGenerators"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasProcessInput"/>
@@ -3243,10 +3225,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <ObjectProperty IRI="#hasEnergyContent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ToolHolders"/>
+        <Class IRI="#TransportationEquipmentManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TransportationEquipmentManufacturing"/>
+        <Class IRI="#ToolHolders"/>
     </Declaration>
     <Declaration>
         <Class IRI="#InternalCombustionPistonEngines"/>
@@ -3315,10 +3297,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#MachineryForMining"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AgricultureConstructionAndMiningMachineryManufacturing"/>
+        <ObjectProperty IRI="#mentions_service"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#mentions_service"/>
+        <Class IRI="#AgricultureConstructionAndMiningMachineryManufacturing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ElectricalDischargeMachining"/>
@@ -3336,10 +3318,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#AllOtherMiscellaneousGeneralPurposeMachineryManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#InvestmentCasting"/>
+        <Class IRI="#SandBlasting"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SandBlasting"/>
+        <Class IRI="#InvestmentCasting"/>
     </Declaration>
     <Declaration>
         <Class IRI="#MicrophonesAndLoudSpeakers"/>
@@ -3361,9 +3343,6 @@ Engineering Informatics Lab - Texas State University</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#ElectricLampBulbAndPartManufacturing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#geometry"/>
     </Declaration>
     <Declaration>
         <Class IRI="#RadioAndTelevisionBroadcastingAndWirelessCommunicationsEquipmentManufacturing"/>
@@ -3396,9 +3375,6 @@ Engineering Informatics Lab - Texas State University</Literal>
         <ObjectProperty IRI="#hasStrength"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Counterbore"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Chuck"/>
     </Declaration>
     <Declaration>
@@ -3418,9 +3394,6 @@ Engineering Informatics Lab - Texas State University</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#ScaleAndBalanceManufacturing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Step"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CommunicationAndEnergyWireAndCableManufacturing"/>
@@ -3489,10 +3462,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <DataProperty IRI="#ChangesProperty"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#EDMDrillingMachine"/>
+        <Class IRI="#Cogging"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cogging"/>
+        <Class IRI="#EDMDrillingMachine"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ElectricalResistors"/>
@@ -3540,16 +3513,13 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#AluminumFoundries"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Countersink"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#IgnitionWiringSets"/>
+        <Class IRI="#MetalStamping"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OtherMowers"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MetalStamping"/>
+        <Class IRI="#IgnitionWiringSets"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PowderMetallurgyPartManufacturing"/>
@@ -3585,10 +3555,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#Grinding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Composite"/>
+        <Class IRI="#Recrystalization"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Recrystalization"/>
+        <Class IRI="#Composite"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ElectronicResistorManufacturing"/>
@@ -3630,9 +3600,6 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#WorkPieceType"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl#uses_tool"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#ScrewMachine"/>
     </Declaration>
     <Declaration>
@@ -3666,10 +3633,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#MachinedStock"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#IndustrialAndCommercialFanAndBlowerManufacturing"/>
+        <Class IRI="#TurbineAndTurbineGeneratorSetUnitsManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TurbineAndTurbineGeneratorSetUnitsManufacturing"/>
+        <Class IRI="#IndustrialAndCommercialFanAndBlowerManufacturing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OtherTractors"/>
@@ -3684,10 +3651,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <ObjectProperty IRI="#chemicalProperty"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MiningAndOilAndGasFieldMachineryManufacturing"/>
+        <Class IRI="#cAxis"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#cAxis"/>
+        <Class IRI="#MiningAndOilAndGasFieldMachineryManufacturing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#GunDrill"/>
@@ -3708,10 +3675,10 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#PhotographicEquipment"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Factory"/>
+        <Class IRI="#OilAndGasFieldMachineryAndEquipmentManufacturing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OilAndGasFieldMachineryAndEquipmentManufacturing"/>
+        <Class IRI="#Factory"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="#AlloySteel"/>
@@ -7970,14 +7937,6 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#ShearingStamping"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#BlindSlot"/>
-        <Class IRI="#Slot"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#BlindStep"/>
-        <Class IRI="#Step"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#BlowMolding"/>
         <Class IRI="#PolymerMolding"/>
     </SubClassOf>
@@ -8140,10 +8099,6 @@ Engineering Informatics Lab - Texas State University</Literal>
     <SubClassOf>
         <Class IRI="#Chains"/>
         <Class IRI="#OtherMetalGoods"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Chamfer"/>
-        <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ChassisFittedWithEngines"/>
@@ -8350,14 +8305,6 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#CopperRollingAlloyingEtc"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Counterbore"/>
-        <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Countersink"/>
-        <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#CrownAndClosureManufacturing"/>
         <Class IRI="#ForgingAndStamping"/>
     </SubClassOf>
@@ -8419,7 +8366,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DieCastMachine"/>
-        <Class IRI="#Machine"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DieCasting"/>
@@ -8531,7 +8478,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EDMMachine"/>
-        <Class IRI="#Machine"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Elastomer"/>
@@ -8812,10 +8759,6 @@ Engineering Informatics Lab - Texas State University</Literal>
     <SubClassOf>
         <Class IRI="#FiberOpticCableManufacturing"/>
         <Class IRI="#CommunicationAndEnergyWireAndCableManufacturing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Fillet"/>
-        <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FinishedPart"/>
@@ -9359,7 +9302,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MachineTool"/>
-        <Class IRI="#Machine"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MachineToolForMaterialRemoval"/>
@@ -9451,7 +9394,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Manufacturing"/>
-        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ManufacturingAndReproducingMagneticAndOpticalMedia"/>
@@ -9571,7 +9514,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MetalProductsMachineriesAndEquipment"/>
-        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MetalStamping"/>
@@ -10103,7 +10046,7 @@ Engineering Informatics Lab - Texas State University</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Part"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <Class IRI="http://www.ontologylibrary.mil/CommonCore/Upper/ExtendedRelationOntology#ObsoleteClass"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Parts"/>
@@ -10272,10 +10215,6 @@ Engineering Informatics Lab - Texas State University</Literal>
     <SubClassOf>
         <Class IRI="#PlumbingFixtureFittingAndTrimManufacturing"/>
         <Class IRI="#MetalValveManufacturing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Pocket"/>
-        <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Point"/>
@@ -10742,10 +10681,6 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#CuttingTool"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Slot"/>
-        <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#SmallArmsAmmunitionManufacturing"/>
         <Class IRI="#AllOtherFabricatedMetalProductManufacturing"/>
     </SubClassOf>
@@ -10880,10 +10815,6 @@ Engineering Informatics Lab - Texas State University</Literal>
     <SubClassOf>
         <Class IRI="#SteelWireDrawing"/>
         <Class IRI="#RollingAndDrawingOfPurchasedSteel"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Step"/>
-        <Class IRI="http://www.owl-ontologies.com/design.owl#Feature"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#StockType"/>
@@ -11036,14 +10967,6 @@ Engineering Informatics Lab - Texas State University</Literal>
     <SubClassOf>
         <Class IRI="#ThroughHardening"/>
         <Class IRI="#Hardening"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ThroughSlot"/>
-        <Class IRI="#Slot"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ThroughStep"/>
-        <Class IRI="#Step"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TimeOfDayRecordingApparatus"/>
@@ -11442,9 +11365,6 @@ Engineering Informatics Lab - Texas State University</Literal>
         <ObjectProperty IRI="#manufacturingProperty"/>
     </SubObjectPropertyOf>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#isMadeOf"/>
-    </FunctionalObjectProperty>
-    <FunctionalObjectProperty>
         <ObjectProperty IRI="#hasAxis"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
@@ -11479,6 +11399,9 @@ Engineering Informatics Lab - Texas State University</Literal>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#mentions_object"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#isMadeOf"/>
     </FunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
         <ObjectProperty IRI="#hasMachineMotion"/>
@@ -11699,10 +11622,6 @@ Engineering Informatics Lab - Texas State University</Literal>
         <Class IRI="#RepairService"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#isMadeOf"/>
-        <Class IRI="#Material"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasApplication"/>
         <Class IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl#product"/>
     </ObjectPropertyRange>
@@ -11878,6 +11797,10 @@ Engineering Informatics Lab - Texas State University</Literal>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#producesGeometry"/>
         <Class IRI="http://www.ontologylibrary.mil/CommonCore/Mid/QualityOntology#ShapeQuality"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/design.owl#isMadeOf"/>
+        <Class IRI="#Material"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty IRI="#hasDepthofCut"/>

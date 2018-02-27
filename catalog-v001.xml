@@ -4,16 +4,16 @@
     <uri id="User Entered Import Resolution" name="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/functional%20model%202.0.owl" uri="file:/C:/Users/Tom/Desktop/Github%20upload/core/functional%20model%202.0.owl"/>
     <uri id="User Entered Import Resolution" name="http://www.semanticweb.org/tom/ontologies/2017/7/AM_machines2" uri="am_machines.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1516389462136" name="http://purl.obolibrary.org/obo/bfo.owl" uri="bfo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1516389462136" name="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology" uri="UnitsOfMeasureOntology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1516389462136" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl" uri="BEM2.0.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1516389462136" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl" uri="BFO_MSDL.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1516389462136" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl" uri="ICAM.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1516389462136" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl" uri="MSDL_full.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1516389462136" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/SAMPRO.owl" uri="SAMPRO.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1516389462136" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl" uri="additive%20materials.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1516389462136" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/am_machines.owl" uri="am_machines.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1516389462136" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/voids.owl" uri="voids.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1516389462136" name="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl" uri="regulation.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1519753903354" name="http://purl.obolibrary.org/obo/bfo.owl" uri="bfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1519753903354" name="http://www.ontologylibrary.mil/CommonCore/Mid/UnitsOfMeasureOntology" uri="UnitsOfMeasureOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1519753903354" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BEM2.0.owl" uri="BEM2.0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1519753903354" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/BFO_MSDL.owl" uri="BFO_MSDL.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1519753903354" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/ICAM.owl" uri="ICAM.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1519753903354" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/MSDL_full.owl" uri="MSDL_full.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1519753903354" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/SAMPRO.owl" uri="SAMPRO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1519753903354" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/additive%20materials.owl" uri="additive%20materials.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1519753903354" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/am_machines.owl" uri="am_machines.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1519753903354" name="https://raw.githubusercontent.com/UMassCenterforeDesign/ICAM/master/voids.owl" uri="voids.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1519753903354" name="https://raw.githubusercontent.com/UMassCenterforeDesign/core/master/regulation.owl" uri="regulation.owl"/>
     </group>
 </catalog>
